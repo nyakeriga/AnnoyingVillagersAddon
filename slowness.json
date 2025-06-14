@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.effect_slowness": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"on_entry": [
+						"/effect @s slowness 1 255 true"
+					],
+					"transitions": [{
+						"attack": "1"
+					}]
+				},
+
+				"attack": {
+					"transitions": [{
+						"default": "1"
+					}]
+				}
+			}
+		}
+	}
+}

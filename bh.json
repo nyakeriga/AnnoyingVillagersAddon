@@ -1,0 +1,88 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.yanhua": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"sneaking":"query.mark_variant ==9"
+						}
+					]
+				},
+				"sneaking": {
+					"on_entry": [
+						"/summon fireworks_rocket ~ ~4 ~",
+						"/playsound cmsw @a",
+						"/particle dbrtyh:yanhua ~ ~20 ~",
+						"/particle dbrtyh:yanhua ~ ~20 ~",
+						"/particle dbrtyh:yanhua ~ ~20 ~",
+						"/particle dbrtyh:yanhua ~ ~20 ~",
+						"/particle dbrtyh:yanhua ~ ~20 ~",
+						"/particle dbrtyh:yanhua ~ ~20 ~",
+						"/particle dbrtyh:yanhua ~ ~20 ~",
+						"/execute @s ~ ~ ~ playsound firework.blast @a  ~ ~ ~",
+						"/execute @s ~ ~ ~ playsound firework.blast @a  ~ ~ ~",
+						"/execute @s ~ ~ ~ playsound firework.blast @a  ~ ~ ~"
+					]
+				}
+			}
+		},
+		"controller.animation.bh": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"sneaking":"query.mark_variant ==5"
+						},
+						{
+							"b":"query.mark_variant ==6"
+						}
+					]
+				},
+				"sneaking": {
+					"transitions": [
+						{
+							"default":"query.mark_variant !=5"
+						}
+					],
+					"on_entry": [
+						"/summon fireworks_rocket ~ ~5 ~",
+						"/summon green:knight2 ~ ~5 ~",
+						"/particle dbrtyh:yanhua ~ ~20 ~",
+						"/particle dbrtyh:yanhua ~ ~20 ~",
+						"/particle dbrtyh:yanhua ~ ~20 ~",
+						"/particle dbrtyh:yanhua ~ ~20 ~",
+						"/particle dbrtyh:yanhua ~ ~20 ~",
+						"/particle dbrtyh:yanhua ~ ~20 ~",
+						"/particle dbrtyh:yanhua ~ ~20 ~",
+						"/execute @s ~ ~ ~ playsound firework.blast @a  ~ ~ ~",
+						"/execute @s ~ ~ ~ playsound firework.blast @a  ~ ~ ~",
+						"/execute @s ~ ~ ~ playsound firework.blast @a  ~ ~ ~"
+					]
+				},
+				"b": {
+					"transitions": [
+						{
+							"default":"query.mark_variant !=6"
+						}
+					],
+					"on_entry": [
+						"/summon fireworks_rocket ~ ~5 ~",
+						"/summon green:knight2 ~ ~5 ~",
+						"/particle dbrtyh:yanhua ~ ~20 ~",
+						"/particle dbrtyh:yanhua ~ ~20 ~",
+						"/particle dbrtyh:yanhua ~ ~20 ~",
+						"/particle dbrtyh:yanhua ~ ~20 ~",
+						"/particle dbrtyh:yanhua ~ ~20 ~",
+						"/particle dbrtyh:yanhua ~ ~20 ~",
+						"/particle dbrtyh:yanhua ~ ~20 ~",
+						"/execute @s ~ ~ ~ playsound firework.blast @a  ~ ~ ~",
+						"/execute @s ~ ~ ~ playsound firework.blast @a  ~ ~ ~",
+						"/execute @s ~ ~ ~ playsound firework.blast @a  ~ ~ ~"
+					]
+				}
+			}
+		}
+	}
+}

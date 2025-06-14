@@ -1,0 +1,25 @@
+{
+  "format_version": "1.8.0",
+  "animation_controllers": {
+    "controller.animation.redbma": {
+      "states": {
+        "default": {
+        "on_entry":[
+          	"/tag @s remove a"
+           ],
+           "transitions":[
+               { "oo":"query.health < 20" }
+              ]
+        },
+        "oo": {
+          "on_entry":[
+          	"/tag @s add 俘虏"
+           ],
+           "transitions":[
+               { "default":"query.health < 20" }
+            ]
+        }
+      }
+    }
+  }
+}

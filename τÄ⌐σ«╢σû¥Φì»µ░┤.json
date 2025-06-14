@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "animation_controllers": {
+    "controller.animation.wjy": {
+      "states": {
+        "default": {
+           "transitions":[
+               { "oo":"query.health > 20 && query.health < 46" }
+              ]
+        },
+        "oo": {
+          "on_entry":[
+          	"/tag @s add whys"
+           ],
+           "transitions":[
+               { "default":"query.health > 20 && query.health < 46" }
+            ]
+        }
+      }
+    }
+  }
+}
