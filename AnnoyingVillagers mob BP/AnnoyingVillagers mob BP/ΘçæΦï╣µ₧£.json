@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "animation_controllers": {
+    "controller.animation.jpg": {
+      "states": {
+        "default": {
+           "transitions":[
+               { "oo":"query.health < 100" }
+              ]
+        },
+        "oo": {
+          "on_entry":[
+          	"/tag @s add jpg"
+           ],
+           "transitions":[
+               { "default":"query.health < 100" }
+            ]
+        }
+      }
+    }
+  }
+}
