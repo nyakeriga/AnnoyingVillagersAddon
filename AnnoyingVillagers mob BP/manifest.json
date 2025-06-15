@@ -1,0 +1,38 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Annoying Villagers mob bp",
+        "description": "1.21.30+",
+        "uuid": "c0766545-f171-4d6a-ba2e-e8b5aff5fd75",
+        "version": [1,0,1],
+        "min_engine_version": [1,20,10]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "328e1eae-13fe-427e-b10b-9bfe31f90ea4",
+            "version": [0,0,1]
+        },
+        { 
+            "type": "script",
+            "language": "javascript",
+            "uuid": "5532e0b8-2c6d-42c7-93df-bf8ee73df5a7",
+            "entry": "scripts/main.js",
+            "version": [0,0,1]
+        }
+    ],
+    "dependencies": [ 
+        { 
+            "module_name": "@minecraft/server",
+            "version": "1.14.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0"
+        },
+        {
+            "uuid": "a8ac7c92-ac83-4641-ad7e-d9222de56168",
+            "version": [0, 2, 0]
+        }
+    ]
+}
