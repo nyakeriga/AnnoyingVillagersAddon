@@ -1,0 +1,35 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:spawn_rules": {
+        "description": {
+            "identifier": "xc:zlw",
+            "population_control": "monster"
+        },
+        "conditions": [
+            {
+                "minecraft:spawns_underground": {},  // 使用地下生成，因為下界沒有標準地表
+                "minecraft:brightness_filter": {
+                    "min": 0,
+                    "max": 15,
+                    "adjust_for_weather": false // 下界無天氣影響
+                },
+                "minecraft:difficulty_filter": {
+                    "min": "easy",
+                    "max": "hard"
+                },
+                "minecraft:weight": {
+                    "default": 1
+                },
+                "minecraft:density_limit": {
+                    "surface": 0,
+                    "underground": 1
+                },
+                "minecraft:biome_filter": {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "nether" // 將生物群系標籤更改為下界
+                }
+            }
+        ]
+    }
+}
