@@ -1,0 +1,17 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.spear": {
+      "loop": true,
+      "animation_length": 1.8,
+      "timeline": {
+		"0.34": [ 
+			"/playanimation @e[tag=!bzx,type=xc:jmfmkl] animation.jmkl.ccdh"
+		],
+		"0.36": [
+			"/tag @e[type=xc:jmfmkl] add bzx"
+		]
+      }
+    }
+  }
+}

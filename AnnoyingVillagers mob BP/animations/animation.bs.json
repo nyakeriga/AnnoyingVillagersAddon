@@ -1,0 +1,17 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.bs": {
+      "loop": true,
+      "animation_length": 1.0,
+      "timeline": {
+       "0.14": [ 
+			"/replaceitem entity @s[tag=bs,tag=!s] slot.weapon.offhand 1 totem"
+		],
+       "0.18": [ 
+			"/tag @s[tag=bs,tag=!s] add s"
+		]
+      }
+    }
+  }
+}

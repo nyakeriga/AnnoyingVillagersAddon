@@ -1,0 +1,31 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.stevehys": {
+      "loop": true,
+      "animation_length": 4.8,
+      "timeline": {
+        "0.10": [ 
+			"/tag @s[tag=whys] remove s",
+			"/execute @s[tag=whys,tag=!s] ~ ~ ~ function fj"
+		],
+       "0.14": [ 
+			"/replaceitem entity @s[tag=whys,tag=!s] slot.weapon.offhand 1 xc:yaoshui"
+		],
+      	"0.16": [ 
+			"/execute @e[tag=whys,tag=!s] ~ ~ ~ playsound sound.hys @a[r=20]"
+		],
+      	"0.20": [ 
+			"/effect @s[tag=whys,tag=!s] resistance 200 0",
+			"/execute @s[tag=whys,tag=!s] ~ ~ ~ function gd",
+			"/playanimation @s[tag=whys,tag=!s] animation.player.gd",
+			"/effect @s[tag=whys,tag=!s] instant_health 1 0"
+		],
+		"2.2": [
+			"/tag @s[tag=!s] remove whys",
+			"/tag @s add s"
+		]
+      }
+    }
+  }
+}

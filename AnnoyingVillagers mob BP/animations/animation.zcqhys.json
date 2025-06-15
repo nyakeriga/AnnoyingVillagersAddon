@@ -1,0 +1,33 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.zcqhys": {
+      "loop": true,
+      "animation_length": 4.8,
+      "timeline": {
+        "0.10": [ 
+			"/tag @s[tag=whys] remove s"
+		],
+       "0.14": [ 
+			"/replaceitem entity @s[tag=whys,tag=!s] slot.weapon.offhand 1 xc:yaoshui"
+		],
+      	"0.16": [ 
+			"/execute @e[tag=whys,tag=!s] ~ ~ ~ playsound sound.hys @a[r=20]"
+		],
+      	"0.20": [ 
+			"/effect @s[tag=whys,tag=!s] resistance 200 0",
+			"/effect @s[tag=whys,tag=!s] regeneration 10 0"
+		],
+		"2": [
+			"/replaceitem entity @s[tag=whys,tag=!s] slot.weapon.offhand 1 xc:zscr",
+			"/playanimation @s[tag=whys,tag=!s] animation.player.gd",
+			"/execute @s[tag=whys,tag=!s] ~ ~ ~ function cgd"
+		],
+		"2.2": [
+			"/tag @s[tag=!s] remove whys",
+			"/tag @s add s"
+		]
+      }
+    }
+  }
+}

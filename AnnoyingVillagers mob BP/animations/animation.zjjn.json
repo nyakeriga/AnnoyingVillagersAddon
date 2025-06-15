@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.zjjn": {
+      "loop": true,
+      "animation_length": 14.0,
+      "timeline": {
+       "5.4": [ 
+            "/tag @s add at",
+			"/execute @e[r=5,family=villager] ~ ~ ~ playanimation @e[tag=at] animation.armoredbrine.attack2",
+			"/execute @e[r=5,m=survival,family=player] ~ ~ ~ palyanimation @e[tag=at] animation.armoredbrine.attack2"
+		],
+		"5.9": [
+			"/damage @e[type=!item,r=5,type=!xc:zjhb] 18 anvil entity @s",
+			"/tag @s remove at"
+		]
+      }
+    }
+  }
+}

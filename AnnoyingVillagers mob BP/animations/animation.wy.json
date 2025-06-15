@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.wy": {
+      "loop": true,
+      "animation_length": 10.85,
+      "timeline": {
+       "0.8": [ 
+			"/effect @s speed 1 0 true",
+			"/playanimation @s[tag=whys] animation.player.gd",
+			"/execute @s[tag=whys] ~ ~ ~ function sgd"
+		],
+		"0.9": [
+			"/event entity @s minecraft:tp"
+		],
+		"3.2": [
+		    "/event entity @s minecraft:switch_to_melee"
+		]
+      }
+    }
+  }
+}

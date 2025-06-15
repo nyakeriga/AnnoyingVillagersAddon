@@ -1,0 +1,24 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.jp": {
+      "loop": true,
+      "animation_length": 10.3,
+      "timeline": {
+       "0.8": [ 
+			"/replaceitem entity @s[tag=jpg] slot.weapon.offhand 1 xc:jpg"
+		],
+      	"0.86": [ 
+			"/execute @e[tag=jpg] ~ ~ ~ playsound sound.cjpg @a[r=20]"
+		],
+		"1.9": [
+			"/effect @s[tag=jpg] regeneration 0 0",
+			"/effect @s[tag=jpg] absorption 2 5"
+		],
+		"3.2": [
+		    "/replaceitem entity @s[tag=jpg] slot.weapon.offhand 1 xc:zsdr"
+		]
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.dyg": {
+      "loop": true,
+      "animation_length": 50.8,
+      "timeline": {
+       "0.14": [ 
+			"/execute @a[c=1,r=6] ~ ~ ~ replaceitem entity @e[r=6,c=1,type=xc:blue_villager,tag=!俘虏,tag=!fq] slot.weapon.offhand 1 xc:tzdyg"
+		]
+      }
+    }
+  }
+}

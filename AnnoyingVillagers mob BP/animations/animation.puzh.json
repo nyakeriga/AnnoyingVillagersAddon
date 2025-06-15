@@ -1,0 +1,29 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.puzh": {
+      "loop": true,
+      "animation_length": 1.8,
+      "timeline": {
+       "0.14": [ 
+			"/playanimation @s[tag=!tz,tag=puzh] animation.red.jy",
+			"/replaceitem entity @s[tag=puzh,tag=!tz] slot.weapon.offhand 1 xc:lbs"
+		],
+		"0.15": [ 
+			"/execute @s[tag=puzh,tag=!tz] ~ ~ ~ playsound sound.jy @a[r=20]"
+		],
+      	"0.58": [ 
+			"/execute @s[tag=puzh,tag=!tz] ~ ~ ~ summon xc:zszjtkl",
+			"/execute @s[tag=puzh,tag=!tz] ~ ~ ~ summon xc:zszjtkl",
+			"/execute @s[tag=puzh,tag=!tz] ~ ~ ~ playsound random.glass @a[r=20]"
+		],
+      	"0.65": [ 
+			"/tag @s[tag=puzh] add tz"
+		],
+		"0.73": [ 
+			"/tag @e[type=xc:zszjtkl] add bzx"
+		]
+      }
+    }
+  }
+}

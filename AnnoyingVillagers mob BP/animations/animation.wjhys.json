@@ -1,0 +1,35 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.wjhys": {
+      "loop": true,
+      "animation_length": 2.8,
+      "timeline": {
+        "0.10": [ 
+			"/tag @s[tag=whys] remove s"
+		],
+       "0.14": [ 
+			"/replaceitem entity @s[tag=whys,tag=!s] slot.weapon.offhand 1 xc:yaoshui",
+			"/execute @e[rm=0.3,tag=!s,tag=!whys,r=1.3,type=!item,type=!arrow] ~ ~ ~ fill ^ ^ ^ ^ ^ ^ web 1 keep"
+		],
+      	"0.16": [ 
+			"/execute @e[tag=whys,tag=!s] ~ ~ ~ playsound sound.hys @a[r=20]"
+		],
+      	"0.20": [ 
+			"/effect @s[tag=whys,tag=!s] fire_resistance 100 1",
+			"/effect @s[tag=whys,tag=!s] strength 300 0",
+			"/effect @e[tag=whys,tag=!s] health_boost 10 6"
+		],
+		"2": [
+			"/replaceitem entity @e[tag=whys,tag=!s] slot.weapon.offhand 1 xc:zsdr",
+			"/playanimation @s[tag=whys,tag=!s] animation.player.gd",
+			"/execute @s[tag=whys,tag=!s] ~ ~ ~ function sgd"
+		],
+		"2.2": [
+			"/tag @s[tag=!s] remove whys",
+			"/tag @s add s"
+		]
+      }
+    }
+  }
+}

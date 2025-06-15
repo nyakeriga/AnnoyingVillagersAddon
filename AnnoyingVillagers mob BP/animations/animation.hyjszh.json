@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.hyjszh": {
+      "loop": true,
+      "animation_length": 1.8,
+      "timeline": {
+       "0.14": [ 
+			"/playanimation @s[tag=!tz,tag=jy] animation.red.jy"
+		],
+		"0.15": [ 
+			"/execute @s[tag=jy,tag=!tz] ~ ~ ~ playsound sound.hyjszh @a[r=20]"
+		],
+      	"0.58": [ 
+			"/execute @s[tag=jy,tag=!tz] ~9 5 ~10 summon zombie",
+			"/execute @s[tag=jy,tag=!tz] ~10 ~5 ~-10 summon zombie",
+			"/execute @s[tag=jy,tag=!tz] ~9 ~5 ~-10 summon zombie",
+			"/execute @s[tag=jy,tag=!tz] ~10 ~5 ~10 summon zombie"
+		],
+      	"0.65": [ 
+			"/tag @s[tag=jy] add tz"
+		]
+      }
+    }
+  }
+}

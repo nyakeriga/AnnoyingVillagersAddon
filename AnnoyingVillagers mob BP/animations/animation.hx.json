@@ -1,0 +1,17 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.hx": {
+      "loop": true,
+      "animation_length": 2.8,
+      "timeline": {
+      	"0.18": [ 
+			"/effect @s regeneration 1 1 true"
+		],
+		"1.44": [ 
+			"/execute @s ~ ~ ~ damage @e[type=boat,r=1] 10 anvil entity @s"
+		]
+      }
+    }
+  }
+}

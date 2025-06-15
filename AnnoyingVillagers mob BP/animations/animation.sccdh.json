@@ -1,0 +1,17 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.sccdh": {
+      "loop": true,
+      "animation_length": 0.6,
+      "timeline": {
+		"0.14": [ 
+			"/function sccdh"
+		],
+		"0.44": [ 
+			"/tag @s add wb"
+		]
+      }
+    }
+  }
+}

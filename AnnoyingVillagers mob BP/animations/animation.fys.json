@@ -1,0 +1,25 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.fys": {
+      "loop": true,
+      "animation_length": 4.3,
+      "timeline": {
+       "1.0": [ 
+			"/execute @s[tag=fjz,tag=yj] ~ ~ ~ particle xc:ljf ~ ~ ~"
+		],
+	   "1.1": [ 
+			"/effect @s[tag=fjz,tag=yj] levitation 1 9 true"
+		],
+       "4.1": [ 
+			"/execute @s[tag=fjz,tag=yj] ~ ~ ~ particle xc:hssd ~ ~ ~",
+			"/damage @e[tag=!fjz,r=8.5] 65 lightning entity @s[tag=fjz,tag=yj]"
+		],
+       "4.2": [ 
+			"/tag @s remove fjz",
+			"/tag @s remove yj"
+		]
+      }
+    }
+  }
+}

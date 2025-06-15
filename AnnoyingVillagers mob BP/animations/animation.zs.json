@@ -1,0 +1,14 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.zs": {
+      "loop": true,
+      "animation_length": 2.56,
+      "timeline": {
+       "2.54": [ 
+			"/kill @s"
+		]
+      }
+    }
+  }
+}

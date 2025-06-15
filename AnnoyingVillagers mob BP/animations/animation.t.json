@@ -1,0 +1,17 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.t": {
+      "loop": true,
+      "animation_length": 3.85,
+      "timeline": {
+       "0.8": [ 
+			"/effect @e[type=xc:scout,tag=俘虏,tag=!ps] speed 40 2 true"
+		],
+		"0.8": [
+			"/event entity @s[tag=俘虏,tag=!ps] minecraft:tp"
+		]
+      }
+    }
+  }
+}

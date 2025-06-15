@@ -1,0 +1,23 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.gd": {
+      "loop": true,
+      "animation_length": 5.8,
+      "timeline": {
+        "0.10": [ 
+			"/tag @s[tag=whys] remove s"
+		],
+		"2": [
+			"/replaceitem entity @s[tag=whys,tag=!s] slot.weapon.offhand 1 xc:zscr",
+			"/playanimation @s[tag=whys,tag=!s] animation.player.gd",
+			"/execute @s[tag=whys,tag=!s] ~ ~ ~ function cgd"
+		],
+		"2.2": [
+			"/tag @s[tag=!s] remove whys",
+			"/tag @s add s"
+		]
+      }
+    }
+  }
+}

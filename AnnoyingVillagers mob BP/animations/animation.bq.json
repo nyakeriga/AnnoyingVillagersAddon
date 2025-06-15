@@ -1,0 +1,23 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.bq": {
+      "loop": true,
+      "animation_length": 23.0,
+      "timeline": {
+        "1.4": [ 
+			"/playanimation @s animation.villagerfl.jy"
+		],
+		"8.5": [
+			"/playanimation @s animation.villagerfl.sq"
+		],
+		"15.8": [
+			"/playanimation @s animation.villagerfl.zm"
+		],
+		"20.5": [
+		    "/playanimation @s animation.villagerfl.sz"
+		]
+      }
+    }
+  }
+}

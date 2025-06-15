@@ -1,0 +1,27 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.tp": {
+      "loop": true,
+      "animation_length": 61.0,
+      "timeline": {
+       "0.4": [ 
+			"/effect @e[type=xc:scout,tag=俘虏,tag=!ps] speed 10 2 true"
+		],
+		"0.5": [
+			"/event entity @s[tag=俘虏,tag=!ps] minecraft:tp"
+		],
+		"1.8": [
+		    "/execute @s[tag=俘虏,tag=!ps] ~ ~ ~ particle xc:zsyh ~ ~14 ~",
+			"/replaceitem entity @s[tag=俘虏,tag=!ps] slot.weapon.mainhand 1 xc:zsyh 1"
+		],
+		"59.0": [
+		    "/execute @e[tag=俘虏,tag=!ps,c=1] ~ ~ ~ summon xc:scout1 ~ ~ ~"
+		],
+		"60.1": [
+			"/tag @s[tag=俘虏] add ps"
+		]
+      }
+    }
+  }
+}

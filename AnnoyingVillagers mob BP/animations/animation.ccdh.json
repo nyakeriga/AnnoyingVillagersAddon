@@ -1,0 +1,27 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.ccdh": {
+      "loop": true,
+      "animation_length": 1.8,
+      "timeline": {
+		"0.08": [ 
+			"/playanimation @e[tag=!bzx,type=xc:hszjtkl] animation.zjkl.ccdh",
+			"/effect @e[tag=!bzx,type=xc:tklzs] slowness 3 255 true",
+			"/execute @e[tag=!bzx,type=xc:tklzs] ^ ^ ^ particle xc:mfz ^ ^ ^",
+			"/playanimation @e[tag=!bzx,type=xc:tklzs] animation.tklzs.ccdh"
+		],
+		"0.89": [ 
+			"/playanimation @e[tag=zb,tag=!死亡] animation.zjkl.zb",
+			"/event entity @s[tag=!死亡,tag=zb] minecraft:start_exploding"
+		],
+		"1.36": [
+			"/tag @e[type=xc:hszjtkl] add bzx",
+			"/tag @e[type=xc:hszjtkl,tag=zb] add 死亡",
+			"/tag @e[type=xc:tklzs] add bzx",
+			"/tag @e[type=xc:tklzs,tag=zb] add 死亡"
+		]
+      }
+    }
+  }
+}

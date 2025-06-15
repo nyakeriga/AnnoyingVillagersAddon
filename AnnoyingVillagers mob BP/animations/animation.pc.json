@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.pc": {
+      "loop": true,
+      "animation_length": 1.8,
+      "timeline": {
+		"0.44": [ 
+			"/execute @s ~ ~ ~ damage @e[type=boat,r=1] 5 anvil entity @s[tag=!俘虏,c=1,r=1]",
+			"/damage @s[tag=俘虏] 200 anvil entity @e[family=boat,r=1]"
+		]
+      }
+    }
+  }
+}

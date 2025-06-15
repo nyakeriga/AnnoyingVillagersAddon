@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.hysa": {
+      "loop": true,
+      "animation_length": 0.16,
+      "timeline": {
+      	"0.11": [ 
+			"/playanimation @s[tag=!h] animation.ayhys.yc"
+		],
+		"0.14": [ 
+			"/effect @e[r=1.2] slowness 2 255 true",
+			"/damage @e[tag=!h,r=1.2] 5 fire entity @s"
+		],
+		"0.15": [ 
+			"/tag @s add h",
+			"/tag @e[type=player] remove h"
+		]
+      }
+    }
+  }
+}

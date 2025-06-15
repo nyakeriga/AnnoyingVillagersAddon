@@ -1,0 +1,30 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.hys": {
+      "loop": true,
+      "animation_length": 2.8,
+      "timeline": {
+       "0.14": [ 
+			"/replaceitem entity @e[tag=hys,tag=!fq] slot.weapon.offhand 1 xc:yaoshui"
+		],
+		"0.15": [ 
+			"/effect @e[tag=!fq,tag=hys] slowness 3 4 true"
+		],
+      	"0.16": [ 
+			"/execute @e[tag=hys,tag=!fq] ~ ~ ~ playsound sound.hys @a[r=20]"
+		],
+      	"0.20": [ 
+			"/effect @e[tag=hys,tag=!fq] fire_resistance 100 1",
+			"/effect @e[tag=hys,tag=!fq] instant_health 1 3"
+		],
+      	"0.21": [ 
+			"/tag @e[tag=hys] add fq"
+		],
+		"2": [
+			"/replaceitem entity @e[tag=hys,tag=fq] slot.weapon.offhand 1 xc:lbsj"
+		]
+      }
+    }
+  }
+}
