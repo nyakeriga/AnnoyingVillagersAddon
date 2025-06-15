@@ -1,0 +1,520 @@
+{
+    "pools": [
+    {
+        "rolls": 100,
+      "entries": [
+        {
+          "type": "item",
+          "name": "xc:ahjdrf",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 4,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "xc:zsstq",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 4,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "xc_hjdrv2",
+          "weight": 55,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 4,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "xc:zsjf",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 4,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "xc:zsdd",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 4,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.9
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "xc:zsdrv2",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 5,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "xc:zshj",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.99
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "xc:zscj",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.90
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "xc:zscr",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "xc:zskj",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "xc:zscd",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "xc:qbj",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "pa:zsw",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "xc:tcj2",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "pa:dagger_sword",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "xc:black_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "xc:black_helmet",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "xc:black_boots",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "xc:black_leggings",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        }
+      ]
+    },
+    {
+        "rolls": 100,
+      "entries": [
+        {
+          "type": "item",
+          "name": "xc:zsdp",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:totem",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "xc:zshj",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.99
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "xc:qbj",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "xc:tcj",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "pa:zsr",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "xc:black_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "xc:black_helmet",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "xc:black_boots",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "xc:black_leggings",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]  
+}

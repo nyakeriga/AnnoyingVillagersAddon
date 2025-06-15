@@ -1,0 +1,45 @@
+{
+    "pools": [
+    {
+        "rolls": 100,
+      "entries": [
+                {
+          "type": "item",
+          "name": "xc:sdlbsxj",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "xc:zsn",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]  
+}

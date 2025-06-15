@@ -1,0 +1,207 @@
+{
+    "pools": [
+    {
+        "rolls": 100,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:diamond_sword",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_sword",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "minecraft:diamond_chestplate",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "xc:ghj",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "lz:cztk",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "minecraft:diamond_boots",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "minecraft:diamond_leggings",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "minecraft:golden_chestplate",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "xc:scout_helmet",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "minecraft:golden_boots",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "minecraft:golden_leggings",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        }
+      ]
+    }
+  ]  
+}

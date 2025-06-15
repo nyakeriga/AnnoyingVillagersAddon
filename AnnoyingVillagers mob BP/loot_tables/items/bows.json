@@ -1,0 +1,117 @@
+{
+    "pools": [
+    {
+        "rolls": 100,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:bow",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:crossbow",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "xc:green_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 1.0
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "xc:green_helmet",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 1.0
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "xc:green_boots",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 1.0
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "xc:green_leggings",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]  
+}

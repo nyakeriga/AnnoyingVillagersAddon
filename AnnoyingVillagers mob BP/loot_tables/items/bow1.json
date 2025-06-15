@@ -1,0 +1,118 @@
+{
+    "pools": [
+    {
+      "rolls": 100,
+      "entries": [
+              {
+          "type": "item",
+          "name": "minecraft:bow",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.50
+            }
+          ]
+        },
+              {
+          "type": "item",
+          "name": "xc:scout_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.10
+            }
+          ]
+        },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "pa:scout_helmet",
+          "functions": [
+        {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.10
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "minecraft:golden_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.10
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "minecraft:golden_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.10
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "minecraft:golden_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

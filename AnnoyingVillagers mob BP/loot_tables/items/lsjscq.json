@@ -1,0 +1,153 @@
+{
+    "pools": [
+    {
+        "rolls": 100,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:diamond_sword",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "xc:qbj",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "pa:zsr",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "pa:zsw",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "xc:ps_blue_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 1.0
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "xc:ps_blue_helmet",
+          "weight": 60,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 1.0
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "xc:blue_boots",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 1.0
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "xc:blue_leggings",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]  
+}

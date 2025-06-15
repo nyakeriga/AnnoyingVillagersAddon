@@ -1,0 +1,99 @@
+{
+    "pools": [
+    {
+      "rolls": 100,
+      "entries": [
+              {
+          "type": "item",
+          "name": "minecraft:bow",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.50
+            }
+          ]
+        },
+              {
+          "type": "item",
+          "name": "lz:cztk",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.50
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "minecraft:golden_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.50
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "minecraft:golden_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.50
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "minecraft:golden_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.50
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

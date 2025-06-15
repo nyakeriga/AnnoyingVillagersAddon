@@ -1,0 +1,931 @@
+{
+    "pools": [
+    {
+        "rolls": 100,
+      "entries": [
+        {
+          "type": "item",
+          "name": "xc:alexsword",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:alice",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hzsjd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zskj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:czj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:htj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hshjcj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zsq",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zsjf",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zsdd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zshm",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zswd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zsqq",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zsgr",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zsld",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zscq",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:tsrj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:tld",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hzszj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hbscj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hszsj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:vipsword",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:ygj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "source:nljx",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:fysgfzscj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:fyszskj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:fyszscj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:fysgfzsdrv2",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:lyszsdrv2",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:lysqbj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:lyshjcq",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:lyszbscj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:lcjde",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:lysdcjd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:cnhjwd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:cnzsld",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:cnhzscj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:byslbsxyj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:byszsq",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:fgzsj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hjjd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hjwd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "pa:hjzj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hjcj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hjcq",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hbsqbj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:gfjd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:gfhjwd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:gfpljd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:gfcj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:cxzsq",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:gfzbscj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:gfhbscj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:gfzskr",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:gfzscj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:gfzsdr",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:gfzsdrv2",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:gfzscd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:gfzscr",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:dcjd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zlj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:cnzskr",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:sjj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:qbj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hhjj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:ahjj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:ssf",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hyshjcj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hysgfhjwd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hyszbsj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hyshbscj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "pa:hyszszj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:rgd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:kyjj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:cjde",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:fhzscj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zbsdr",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zbsdrv2",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zbsj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zbsxyj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zbscj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hyzr",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hbsj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hbstd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hbscd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hzscj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hzsqbj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:lbsdr",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:lbsdrv2",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:lbsj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:lbsdcjd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:lbsxyj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:lbscj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:lszsj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:lbswd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:lbscd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:xhkr",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:jwl",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:jjcj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zsdr",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zsdrv2",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "pa:zsr",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "steve:zsj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zsjd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zsjdv2",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:xyzsq",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zskr",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zswd2",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "pa:zsw",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zshj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zssj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zsxyj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "pa:zszj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zscd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zscr",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zscj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:tdd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:twl",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:tcj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:tqbj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:lysgfjd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:lysgfzbscj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:lyshzszj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:lyszsj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:lyszsjd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:lyszskr",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:fyshjwd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:fyszsdrv2",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:fyszsr",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:fyszswd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:fyszsxyj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hkj",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zbsjd",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:dzjzzf",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:dlfzjz",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hscnahjdrf",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:tsf",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:tcsf",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:tcf",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:shdyzf",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:dytf",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:dlbszjzzf",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:fhzjzzf",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:zhf",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hfdzf",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hldzf",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:sdzf",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:dfh",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:af",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hjht",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:shht",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:ztkf",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hht",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:ayf",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:mfzf",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:szhzf",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:tyr",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:lsht",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:sldx",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:azsht",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hqhzf",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:jxsht",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:cdhjht",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:dlht",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hsht",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hcs",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hdt",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:hjht",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:llxtf",
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "xc:jyzf",
+          "weight": 50
+        },
+                {
+          "type": "item",
+          "name": "xc:green_chest",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "xc:green_helmet",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "xc:green_boots",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        },
+                {
+          "type": "item",
+          "name": "xc:green_leggings",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.60
+            }
+          ]
+        }
+      ]
+    }
+  ]  
+}

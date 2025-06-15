@@ -1,0 +1,152 @@
+{
+  "pools": [
+    {
+      "conditions": [
+        {
+          "condition": "random_regional_difficulty_chance",
+          "max_chance": 0.75
+        }
+      ],
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:diamond_sword",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.70
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:axe",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.70
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "xc:lbsf",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.70
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "xc:zsdd",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.99
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "pa:zsw",
+          "weight": 37,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.80
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "loot_tables/entities/zb.json",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "conditions": [
+        {
+          "condition": "random_regional_difficulty_chance",
+          "max_chance": 0.75
+        }
+      ],
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:shield",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 0.70
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
