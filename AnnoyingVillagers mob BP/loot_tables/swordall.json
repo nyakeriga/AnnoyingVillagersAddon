@@ -1,0 +1,674 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "xc:alexsword",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:alice",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:hzsjd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zskj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:czj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:htj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:hshjcj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zsq",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zsjf",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zsdd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zshm",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zswd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zsqq",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zsgr",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zsld",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zscq",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:tsrj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:tld",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:hzszj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:hbscj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:hszsj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:vipsword",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:ygj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "source:nljx",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:fysgfzscj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:fyszskj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:fyszscj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:fysgfzsdrv2",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:lyszsdrv2",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:lysqbj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:lyshjcq",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:lyszbscj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:lcjde",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:lysdcjd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:cnhjwd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:cnzsld",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:cnzscj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:byslbsxyj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:byszsq",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:fgzsj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:hjjd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:hjwd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "pa:hjzj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:hjcj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:hjcq",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:hbsqbj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:gfjd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:gfhjwd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:gfpljd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:gfcj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:cxzsq",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:gfzbscj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:gfhbscj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:gfzskr",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:gfzscj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:gfzsdr",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:gfzsdrv2",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:gfzscd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:gfzscr",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:dcjd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zlj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:cnzskr",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:sjj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:qbj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:hhjj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:ahjj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:ssf",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:hyshjcj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:hysgfhjwd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:hyszbsj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:hyshbscj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "pa:hyszszj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:rgd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:kyjj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:cjde",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:fhzscj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zbsdr",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zbsdrv2",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zbsj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zbsxyj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zbscj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:hyzr",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:hbsj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:hbstd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:hbscd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:hzscj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:hzsqbj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:lbsdr",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:lbsdrv2",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:lbsj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:lbsdcjd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:lbsxyj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:lbscj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:lszsj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:lbswd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:lbscd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:xhkr",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:jwl",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:jjcj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zsdr",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zsdrv2",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "pa:zsr",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "steve:zsj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zsjd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zsjdv2",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:xyzsq",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zskr",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zswd2",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "pa:zsw",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zshj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zssj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zsxyj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "pa:zszj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zscd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zscr",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zscj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:tdd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:twl",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:tcj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:tqbj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:lysgfjd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:lysgfzbscj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:lyshzszj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:lyszsj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:lyszsjd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:lyszskr",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:fyshjwd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:fyszsdrv2",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:fyszsr",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:fyszswd",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:fyszsxyj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:hkj",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "xc:zbsjd",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}
