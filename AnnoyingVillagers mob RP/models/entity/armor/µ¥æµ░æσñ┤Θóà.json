@@ -1,0 +1,32 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.villager_head",
+				"texture_width": 32,
+				"texture_height": 18,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "head",
+					"pivot": [0, 25, 0],
+					"cubes": [
+						{"origin": [-4, 25, -4], "size": [8, 10, 8], "inflate": 0.56, "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "nose",
+					"parent": "head",
+					"pivot": [0, 27, 0],
+					"cubes": [
+						{"origin": [-1, 24, -6.7], "size": [2, 4, 2], "inflate": 0.1, "uv": [24, 0]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,197 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mk",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4,
+				"visible_bounds_offset": [0, 1, 0]
+			},
+			"bones": [
+				{
+					"name": "Body",
+					"pivot": [0, 13, 9],
+					"cubes": [
+						{"origin": [-5, 11, -10], "size": [10, 10, 24], "inflate": 0.01, "uv": [0, 34]}
+					]
+				},
+				{
+					"name": "TailA",
+					"pivot": [0, 21, 14],
+					"rotation": [-65, 0, 0],
+					"cubes": [
+						{"origin": [-1, 20, 14], "size": [2, 2, 2], "inflate": 0.01, "uv": [45, 1]}
+					]
+				},
+				{
+					"name": "Leg1A",
+					"pivot": [4, 15, 11],
+					"cubes": [
+						{"origin": [1.5, 11, 8.5], "size": [4, 6, 5], "inflate": 0.01, "uv": [78, 29]}
+					]
+				},
+				{
+					"name": "Leg2A",
+					"pivot": [-4, 15, 11],
+					"cubes": [
+						{"origin": [-5.5, 11, 8.5], "size": [4, 6, 5], "inflate": 0.01, "uv": [96, 29]}
+					]
+				},
+				{
+					"name": "Leg3A",
+					"pivot": [4, 15, -8],
+					"cubes": [
+						{"origin": [2.1, 11, -10.1], "size": [3, 5, 4], "inflate": 0.01, "uv": [44, 29]}
+					]
+				},
+				{
+					"name": "Leg4A",
+					"pivot": [-4, 15, -8],
+					"cubes": [
+						{"origin": [-5.1, 11, -10.1], "size": [3, 5, 4], "inflate": 0.01, "uv": [60, 29]}
+					]
+				},
+				{
+					"name": "Head",
+					"pivot": [0, 20, -10],
+					"rotation": [30, 0, 0],
+					"cubes": [
+						{"origin": [-2.5, 25, -11.5], "size": [5, 5, 7], "inflate": 0.02, "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "UMouth",
+					"pivot": [0, 20.05, -10],
+					"rotation": [30, 0, 0],
+					"cubes": [
+						{"origin": [-2, 27.05, -17], "size": [4, 3, 6], "inflate": 0.01, "uv": [24, 18]}
+					]
+				},
+				{
+					"name": "LMouth",
+					"pivot": [0, 20, -10],
+					"cubes": [
+						{"origin": [-2, 25, -16.5], "size": [4, 2, 5], "uv": [24, 27]}
+					]
+				},
+				{
+					"name": "Ear1",
+					"pivot": [0, 20, -10],
+					"rotation": [30, 0, 0],
+					"cubes": [
+						{"origin": [0.45, 29, -6], "size": [2, 3, 1], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Ear2",
+					"pivot": [0, 20, -10],
+					"rotation": [30, 0, 0],
+					"cubes": [
+						{"origin": [-2.45, 29, -6], "size": [2, 3, 1], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Neck",
+					"pivot": [0, 20, -10],
+					"rotation": [30, 0, 0],
+					"cubes": [
+						{"origin": [-2.05, 15.8, -12], "size": [4, 14, 8], "inflate": 0.01, "uv": [0, 12]}
+					],
+					"locators": {
+						"lead": [0, 17, -8]
+					}
+				},
+				{
+					"name": "Saddle",
+					"pivot": [0, 22, 2],
+					"cubes": [
+						{"origin": [-5, 21, -1], "size": [10, 1, 8], "uv": [80, 0]}
+					]
+				},
+				{
+					"name": "SaddleB",
+					"pivot": [0, 22, 2],
+					"cubes": [
+						{"origin": [-1.5, 22, -1], "size": [3, 1, 2], "uv": [106, 9]}
+					]
+				},
+				{
+					"name": "SaddleC",
+					"pivot": [0, 22, 2],
+					"cubes": [
+						{"origin": [-4, 22, 5], "size": [8, 1, 2], "uv": [80, 9]}
+					]
+				},
+				{
+					"name": "SaddleL2",
+					"pivot": [5, 21, 2],
+					"cubes": [
+						{"origin": [4.5, 13, 1], "size": [1, 2, 2], "uv": [74, 0]}
+					]
+				},
+				{
+					"name": "SaddleL",
+					"pivot": [5, 21, 2],
+					"cubes": [
+						{"origin": [4.5, 15, 1.5], "size": [1, 6, 1], "uv": [70, 0]}
+					]
+				},
+				{
+					"name": "SaddleR2",
+					"pivot": [-5, 21, 2],
+					"cubes": [
+						{"origin": [-5.5, 13, 1], "size": [1, 2, 2], "uv": [74, 4]}
+					]
+				},
+				{
+					"name": "SaddleR",
+					"pivot": [-5, 21, 2],
+					"cubes": [
+						{"origin": [-5.5, 15, 1.5], "size": [1, 6, 1], "uv": [80, 0]}
+					]
+				},
+				{
+					"name": "SaddleMouthL",
+					"pivot": [0, 20, -10],
+					"rotation": [30, 0, 0],
+					"cubes": [
+						{"origin": [1.5, 26, -14], "size": [1, 2, 2], "uv": [74, 13]}
+					]
+				},
+				{
+					"name": "SaddleMouthR",
+					"pivot": [0, 20, -10],
+					"rotation": [30, 0, 0],
+					"cubes": [
+						{"origin": [-2.5, 26, -14], "size": [1, 2, 2], "uv": [74, 13]}
+					]
+				},
+				{
+					"name": "SaddleMouthLine",
+					"pivot": [0, 20, -10],
+					"cubes": [
+						{"origin": [2.6, 23, -16], "size": [0, 3, 16], "uv": [44, 10]}
+					]
+				},
+				{
+					"name": "SaddleMouthLineR",
+					"pivot": [0, 20, -10],
+					"cubes": [
+						{"origin": [-2.6, 23, -16], "size": [0, 3, 16], "uv": [44, 5]}
+					]
+				},
+				{
+					"name": "Mane",
+					"pivot": [0, 20, -10],
+					"rotation": [30, 0, 0],
+					"cubes": [
+						{"origin": [-1, 15.5, -5], "size": [2, 16, 4], "inflate": 0.01, "uv": [58, 0]}
+					]
+				}
+			]
+		}
+	]
+}
