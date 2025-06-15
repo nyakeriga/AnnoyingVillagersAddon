@@ -1,0 +1,14 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.mdjdh": {
+      "loop": true,
+      "animation_length": 4.0,
+      "timeline": {
+       "0.0": [ 
+			"/playanimation @s animation.min.dj"
+		]
+      }
+    }
+  }
+}
