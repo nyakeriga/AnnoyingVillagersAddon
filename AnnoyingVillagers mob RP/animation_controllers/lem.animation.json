@@ -1,0 +1,25 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"controller.animation.lem.dj": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"animations": ["dj"],
+					"transitions": [
+						{"walking": "q.ground_speed > 1.0"}
+					],
+					"blend_transition": 0.5
+				},
+				"walking": {
+					"animations": ["move"],
+					"transitions": [
+						{"idle": "q.ground_speed < 0.1"}
+					],
+					"blend_transition": 0.5,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

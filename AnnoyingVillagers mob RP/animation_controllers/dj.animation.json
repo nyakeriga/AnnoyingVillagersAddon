@@ -1,0 +1,25 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"controller.animation.lem.move": {
+			"initial_state": "idle",
+			"states": {
+				"move": {
+					"animations": ["move"],
+					"transitions": [
+						{"walking": "query.modified_move_speed > 0.98"}
+					],
+					"blend_transition": 0.5
+				},
+				"walking": {
+					"animations": ["walk"],
+					"transitions": [
+						{"move": "query.modified_move_speed > 0.3 && query.modified_move_speed < 0.9"}
+					],
+					"blend_transition": 0.5,
+					"blend_via_shortest_path": true
+				}
+			}
+		}
+	}
+}

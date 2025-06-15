@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+    "controller.animation.jmkl.move": {
+			"states": {
+				"default": {
+					"animations": [
+						"idle"
+					],
+					"transitions": [
+						{
+							"walking": "query.ground_speed > 0"
+						}
+					],
+					"blend_transition": 0.25
+				},
+				"walking": {
+					"animations": [
+						"walk",
+						"move",
+						"bubbles"
+					],
+					"transitions": [
+						{
+							"default": "query.ground_speed <= 0.4"
+						}
+					],
+					"blend_transition": 0.25
+				}
+			}
+		}
+	}
+}

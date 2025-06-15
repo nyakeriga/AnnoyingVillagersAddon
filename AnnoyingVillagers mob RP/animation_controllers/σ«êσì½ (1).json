@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nm:huweiaa",
+      "materials": { "default": "phantom" },
+      "textures": {
+        "default": "textures/shou"
+      },
+      "geometry": {
+        "default": "geometry.xssw"
+      },
+      "scripts": {
+        "animate": [
+{ "jinb": "query.modified_move_speed" },
+          "attack",
+          "sonic_boom_controller
+        ]
+      },
+      "animations": {
+        "jinb": "animation.xssw.move",
+        "sonic_boom": "animation.warden.sonic_boom",
+        "sonic_boom_controller": "controller.animation.warden.sonic_boom",
+"look_at_target_default": "animation.humanoid.look_at_target.default",
+        "look_at_target_gliding": "animation.humanoid.look_at_target.gliding",
+        "look_at_target_swimming": "animation.humanoid.look_at_target.swimming",
+        "controller_look_at_target": "controller.animation.humanoid.look_at_target",
+        "attack": "controller.animation.jat",
+        "jinbb": "animation.xssw.attack"
+      },
+      "particle_effects": {
+        "a": "nm:chong"
+      },
+      "spawn_egg": {
+        "texture": "egg_xssw"
+      },
+      "enable_attachables": true,
+      "render_controllers": [ "controller.render.zombie" ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nm:huweiaa",
+      "materials": { "default": "phantom" },
+      "textures": {
+        "default": "textures/shou"
+      },
+      "geometry": {
+        "default": "geometry.xssw"
+      },
+      "scripts": {
+        "animate": [
+        { "jinb": "query.modified_move_speed" },
+          "attack"
+        ]
+      },
+      "animations": {
+        "move": "animation.xssw.move",
+        "controller_move": "controller.animation.boss.move",
+        "attack": "controller.animation.jat",
+        "jinbb": "animation.xssw.attack"
+      },
+      "particle_effects": {
+        "a": "nm:chong"
+      },
+      "spawn_egg": {
+        "texture": "egg_xssw"
+      },
+      "enable_attachables": true,
+      "render_controllers": [ "controller.render.zombie" ]
+    }
+  }
+}

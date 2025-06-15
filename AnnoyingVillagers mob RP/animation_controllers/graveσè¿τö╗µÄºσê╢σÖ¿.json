@@ -1,0 +1,20 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"controller.animation.grave.attack": {
+			"states": {
+				"attacking": {
+					"animations": ["attack"],
+					"transitions": [
+						{"default": "!query.is_delayed_attacking"}
+					]
+				},
+				"default": {
+					"transitions": [
+						{"attacking": "query.is_delayed_attacking"}
+					]
+				}
+			}
+		}
+	}
+}

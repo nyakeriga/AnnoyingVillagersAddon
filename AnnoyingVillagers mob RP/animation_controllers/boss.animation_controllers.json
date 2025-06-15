@@ -1,0 +1,720 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.boss.attack" : {
+			"initial_state" : "default",
+			"states" : {
+				"attacking" : {
+					"animations" : [ "attack.rotations" ],
+					
+					"transitions" : [
+						{
+							"default" : "!query.is_delayed_attacking"
+						}
+					]
+				},
+				"default" : {
+				  
+					"transitions" : [
+						{
+							"attacking" : "query.is_delayed_attacking"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.skeleton_king_slash" : {
+			"initial_state" : "default",
+			"states" : {
+				"slash" : {
+					"animations" : [ "slash" ],
+					"blend_transition" : 0.4,
+					
+					"transitions" : [
+						{
+							"default" : "!query.is_charged"
+						}
+					]
+				},
+				"default" : {
+				    "blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"slash" : "query.is_charged"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.skeleton_king_roar" : {
+			"initial_state" : "default",
+			"states" : {
+				"roar" : {
+					"animations" : [ "roar" ],
+					"blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"default" : "!query.is_roaring"
+						}
+					]
+				},
+				"default" : {
+				  "blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"roar" : "query.is_roaring"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.skeleton_king_casting" : {
+			"initial_state" : "default",
+			"states" : {
+				"casting" : {
+					"animations" : [ "casting" ],
+					"blend_transition" : 0.4,
+					
+					"transitions" : [
+						{
+							"default" : "!query.is_casting"
+						}
+					]
+				},
+				"default" : {
+				  "blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"casting" : "query.is_casting"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.holding4": {
+		"states": {
+		  "default": {
+			"transitions": [
+			  {
+				"holding": "query.all_animations_finished"
+			  }
+			],
+			"blend_transition": 0.4
+		  },
+		  "holding": {
+			"animations": [
+			  "holding"
+			],
+			"transitions": [
+			  {
+				"default": "!query.is_roaring && !query.is_delayed_attacking && !query.is_casting"
+			  }
+			],
+			"blend_transition": 0.4
+		  }
+		}
+	  },
+		"controller.animation.boss.drinking" : {
+			"initial_state" : "default",
+			"states" : {
+				"drinking" : {
+					"animations" : [ "drinking" ],
+					"blend_transition" : 0.4,
+					"particle_effects" : [
+						{
+							"effect" : "basic_regeneration",
+							"locator" : "head"
+						}
+					],
+					"transitions" : [
+						{
+							"default" : "!query.is_using_item"
+						}
+					]
+				},
+				"default" : {
+				  "blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"drinking" : "query.is_using_item"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.casting" : {
+			"initial_state" : "default",
+			"states" : {
+				"casting" : {
+					"animations" : [ "casting" ],
+					"blend_transition" : 0.4,
+					"particle_effects" : [
+						{
+							"effect" : "spell",
+							"locator" : "left_hand"
+						},
+						{
+							"effect" : "spell",
+							"locator" : "right_hand"
+						}
+					],
+					"transitions" : [
+						{
+							"default" : "!query.is_casting"
+						}
+					]
+				},
+				"default" : {
+				  "blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"casting" : "query.is_casting"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.fire" : {
+			"initial_state" : "default",
+			"states" : {
+				"fire" : {
+					"animations" : [ "fire" ],
+					"blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"default" : "!query.is_casting"
+						}
+					]
+				},
+				"default" : {
+					"transitions" : [
+						{
+							"fire" : "query.is_casting"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.no_fire" : {
+			"initial_state" : "default",
+			"states" : {
+				"fire" : {
+					"animations" : [ "no_fire" ],
+					
+					
+					"transitions" : [
+						{
+							"default" : "query.is_casting"
+						}
+					]
+				},
+				"default" : {
+				  
+					"transitions" : [
+						{
+							"fire" : "!query.is_casting"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.bare_hand" : {
+			"initial_state" : "default",
+			"states" : {
+				"attacking" : {
+					"animations" : [ "bare_hand" ],
+					"transitions" : [
+						{
+							"default" : "query.is_delayed_attacking"
+						}
+					]
+				},
+				"default" : {
+					"transitions" : [
+						{
+							"attacking" : "!query.is_delayed_attacking"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss2.bob" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+				  "blend_transition" : 0.4,
+				    "particle_effects" : [
+						{
+							"effect" : "bob",
+							"locator" : "head"
+						}
+					],
+					"animations" : [ "bob" ]
+				}
+			}
+		},
+		"controller.animation.boss.range_attack" : {
+			"initial_state" : "default",
+			"states" : {
+				"attacking" : {
+					"animations" : [ "range_attack" ],
+					"blend_transition" : 0.4,
+					"particle_effects" : [
+						{
+							"effect" : "attack",
+							"locator" : "righthand"
+						},
+						{
+							"effect" : "attack",
+							"locator" : "lefthand"
+						}
+					],
+					"transitions" : [
+						{
+							"default" : "!query.is_charged"
+						}
+					]
+				},
+				"default" : {
+				    "blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"attacking" : "query.is_charged"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.missile" : {
+			"initial_state" : "default",
+			"states" : {
+				"attacking" : {
+					"animations" : [ "range_attack" ],
+					"blend_transition" : 0.4,
+					"particle_effects" : [
+						{
+							"effect" : "smoke",
+							"locator" : "gun"
+						},
+						{
+							"effect" : "smoke",
+							"locator" : "gun2"
+						}
+					],
+					"transitions" : [
+						{
+							"default" : "!query.is_charged"
+						}
+					]
+				},
+				"default" : {
+				    "blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"attacking" : "query.is_charged"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.has_target" : {
+			"initial_state" : "default",
+			"states" : {
+				"bow" : {
+					"animations" : [ "has_target" ],
+					
+					"transitions" : [
+						{
+							"default" : "!query.has_target"
+						}
+					]
+				},
+				"default" : {
+				  
+					"transitions" : [
+						{
+							"bow" : "query.has_target"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.no_target" : {
+			"initial_state" : "default",
+			"states" : {
+				"bow" : {
+					"animations" : [ "no_target" ],
+					"blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"default" : "query.has_target"
+						}
+					]
+				},
+				"default" : {
+				  "blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"bow" : "!query.has_target"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.shield" : {
+			"initial_state" : "default",
+			"states" : {
+				"attacking" : {
+					"animations" : [ "shield" ],
+					"blend_transition" : 0.2,
+					"transitions" : [
+						{
+							"default" : "query.is_delayed_attacking"
+						}
+					]
+				},
+				"default" : {
+				  "blend_transition" : 0.2,
+					"transitions" : [
+						{
+							"attacking" : "!query.is_delayed_attacking && query.has_target"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.roar" : {
+			"initial_state" : "default",
+			"states" : {
+				"roar" : {
+					"animations" : [ "roar" ],
+					
+					"transitions" : [
+						{
+							"default" : "!query.is_roaring"
+						}
+					]
+				},
+				"default" : {
+				  
+					"transitions" : [
+						{
+							"roar" : "query.is_roaring"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.stunned" : {
+			"initial_state" : "default",
+			"states" : {
+				"stunned" : {
+					"animations" : [ "stunned" ],
+					"blend_transition" : 0.2,
+					"particle_effects" : [
+						{
+							"effect" : "regeneration",
+							"locator" : "head"
+						}
+					],
+					"transitions" : [
+						{
+							"default" : "!query.is_stunned"
+						}
+					]
+				},
+				"default" : {
+				  "blend_transition" : 0.2,
+					"transitions" : [
+						{
+							"stunned" : "query.is_stunned"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.cast" : {
+			"initial_state" : "default",
+			"states" : {
+				"cast" : {
+					"animations" : [ "cast" ],
+					"transitions" : [
+						{
+							"default" : "!query.is_casting"
+						}
+					]
+				},
+				"default" : {
+					"transitions" : [
+						{
+							"cast" : "query.is_casting"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.holding3" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+				  "blend_transition" : 0.4,
+					"animations" : [
+						"holding",
+						{
+							"holding" : "!query.is_roaring && !query.is_delayed_attacking"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.holding" : {
+			"initial_state" : "default",
+			"states" : {
+				"holding" : {
+					"animations" : [ "holding" ],
+					"blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"default" : "!query.is_roaring && !query.is_delayed_attacking"
+						}
+					]
+				},
+				"default" : {
+				    "blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"holding" : "!query.is_roaring && !query.is_delayed_attacking"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.rest" : {
+			"initial_state" : "default",
+			"states" : {
+				"rest" : {
+					"animations" : [ "rest" ],
+					"blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"default" : "!query.is_sleeping"
+						}
+					]
+				},
+				"default" : {
+				  "blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"rest" : "query.is_sleeping"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.sitting" : {
+			"initial_state" : "default",
+			"states" : {
+				"sitting" : {
+					"animations" : [ "sitting" ],
+					"blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"default" : "!query.is_sitting"
+						}
+					]
+				},
+				"default" : {
+				  "blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"sitting" : "query.is_sitting"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.up" : {
+			"initial_state" : "default",
+			"states" : {
+				"up" : {
+					"animations" : [ "up" ],
+					"transitions" : [
+						{
+							"default" : "query.is_sleeping"
+						}
+					]
+				},
+				"default" : {
+					"transitions" : [
+						{
+							"up" : "!query.is_sleeping"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.bob" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [ "bob" ]
+				}
+			}
+		},
+		"controller.animation.boss.spear" : {
+			"initial_state" : "default",
+			"states" : {
+				"spear" : {
+					"animations" : [ "spear" ],
+					"blend_transition" : 0.4,
+					"particle_effects" : [
+						{
+							"effect" : "regeneration",
+							"locator" : "head"
+						}
+					],
+					"transitions" : [
+						{
+							"default" : "!query.is_powered"
+						}
+					]
+				},
+				"default" : {
+				  "blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"spear" : "query.is_powered"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.powered" : {
+			"initial_state" : "default",
+			"states" : {
+				"powered" : {
+					"animations" : [ "powered" ],
+					"blend_transition" : 0.4,
+					
+					"transitions" : [
+						{
+							"default" : "!query.is_powered"
+						}
+					]
+				},
+				"default" : {
+				  "blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"powered" : "query.is_powered"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.flower" : {
+			"initial_state" : "default",
+			"states" : {
+				"flower" : {
+					"animations" : [ "flower" ],
+					"blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"default" : "!variable.offer_flower_tick"
+						}
+					]
+				},
+				"default" : {
+				  "blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"flower" : "variable.offer_flower_tick"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.bow" : {
+			"initial_state" : "default",
+			"states" : {
+				"bow" : {
+					"animations" : [ "bow" ],
+					"blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"default" : "!query.has_target"
+						}
+					]
+				},
+				"default" : {
+				  "blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"bow" : "query.has_target && query.variant == 2"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.pounce" : {
+			"initial_state" : "default",
+			"states" : {
+			    "pounce" : {
+					"animations" : [ "pounce" ],
+					"blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"default" : "query.is_on_ground"
+						}
+					]
+				},
+				"default" : {
+				    "blend_transition" : 0.4,
+					"transitions" : [
+						{
+							"pounce" : "!query.is_on_ground && query.has_target"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.boss.look_at_target" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [ "look_at_target_default" ],
+					"transitions" : [
+						{
+							"gliding" : "query.is_gliding && !query.is_stunned"
+						},
+						{
+							"swimming" : "query.is_swimming && !query.is_stunned"
+						}
+					]
+				},
+				"gliding" : {
+					"animations" : [ "look_at_target_gliding" ],
+					"transitions" : [
+						{
+							"swimming" : "query.is_swimming && !query.is_stunned"
+						},
+						{
+							"default" : "!query.is_gliding && !query.is_stunned"
+						}
+					]
+				},
+				"swimming" : {
+					"animations" : [ "look_at_target_swimming" ],
+					"transitions" : [
+						{
+							"gliding" : "query.is_gliding && !query.is_stunned"
+						},
+						{
+							"default" : "!query.is_swimming && !query.is_stunned"
+						}
+					]
+				}
+			}
+		}
+	}
+}

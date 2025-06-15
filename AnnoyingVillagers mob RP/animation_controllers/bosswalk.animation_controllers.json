@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "animation_controllers": {
+    "controller.animation.boss.move": {
+      "states": {
+        "default": {
+          "parameters": [ "query.modified_move_speed" ],
+          "animations": [
+            {
+              "move": [
+                {
+                  "0.0": 0.0,
+                  "20": 20
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}
