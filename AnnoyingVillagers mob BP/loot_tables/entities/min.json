@@ -1,0 +1,63 @@
+{
+    "pools": [
+    {
+        "rolls": 100,
+      "entries": [
+                {
+          "type": "item",
+          "name": "xc:zsxyj",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "xc:mfzstk",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 1.0
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "xc:lbsxj",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            },
+            {
+              "function": "enchant_random_gear",
+              "chance": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]  
+}
