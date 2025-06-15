@@ -1,0 +1,53 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xc:tdp",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.shield"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.shield"
+      },
+      "minecraft:enchantable": {
+        "value": 15,
+        "slot": "shield"
+      },
+      "minecraft:allow_off_hand": true,
+      "minecraft:durability": {
+        "max_durability": 700
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "tdp"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "Iron Shield"
+      },
+      "minecraft:cooldown": {
+        "category": "shield",
+        "duration": 5
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:netherite_ingot"
+            ],
+            "repair_amount": 130
+          }
+        ]
+      },
+      "tags": [
+        "minecraft:shield",
+        "is_shield"
+      ]
+    },
+    "events": {}
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xc:gflbstk",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.helmet"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "lbstk"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 100,
+        "slot": "armor_head"
+      },
+      "minecraft:durability": {
+        "max_durability": 4679,
+        "damage_chance": {
+          "min": 10,
+          "max": 50
+        }
+      },
+      "minecraft:knockback_resistance": {
+        "protection": 0.1
+      },
+      "minecraft:mining_speed": 5,
+      "minecraft:foil": false,
+      "minecraft:hand_equipped": true,
+      "minecraft:wearable": {
+        "slot": "slot.armor.head",
+        "protection": 20
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "xc:fgdlbs",
+              "xc:gflbstk"
+            ],
+            "repair_amount": 500
+          },
+          {
+            "items": [
+              "xc:fmlbs",
+              "xc:gflbstk"
+            ],
+            "repair_amount": 1800
+          }
+        ]
+      },
+      "minecraft:display_name": {
+        "value": "§dEnchanted §aEmerald Helmet"
+      }
+    }
+  }
+}

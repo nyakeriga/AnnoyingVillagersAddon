@@ -1,0 +1,26 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xc:mfmg",
+      "menu_category": {
+        "category": "items",
+        "group": "itemGroup.name.sword"
+      }
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 64,
+      "minecraft:foil": true,
+      "minecraft:stack_by_data": true,
+      "minecraft:icon": {
+        "textures": {
+          "default": "xc_mg"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "Enchanted Stick"
+      }
+    }
+  }
+}

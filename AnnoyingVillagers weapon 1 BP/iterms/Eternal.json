@@ -1,0 +1,50 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:qnwt",
+      "menu_category": {
+        "category": "Equipment",
+        "group": "itemGroup.name.chestplate"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "pa_qnwt"
+        }
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.chestplate"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "armor_torso"
+      },
+      "minecraft:durability": {
+        "max_durability": 50000,
+        "damage_chance": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "minecraft:knockback_resistance": {
+        "protection": 2
+      },
+      "minecraft:mining_speed": 5,
+      "minecraft:foil": false,
+      "minecraft:hand_equipped": true,
+      "minecraft:wearable": {
+        "slot": "slot.armor.chest",
+        "protection": 10
+      },
+      "minecraft:repairable": {
+        "repair_items": []
+      },
+      "minecraft:display_name": {
+        "value": "Eternal"
+      }
+    }
+  }
+}

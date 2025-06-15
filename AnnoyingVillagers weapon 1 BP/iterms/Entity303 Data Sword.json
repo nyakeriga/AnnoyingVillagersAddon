@@ -1,0 +1,141 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "xc:303zr",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.sword"
+            }
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "§0303 Data Sword"
+            },
+            "minecraft:cooldown": {
+                "category": "303zr",
+                "duration": 5
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "yes:stab_attack",
+                    "condition": "!query.scoreboard('weakness') == 1",
+                    "target": "self"
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "minecraft:diamond"
+                        ],
+                        "repair_amount": 450
+                    },
+                    {
+                        "items": [
+                            "true:diamond_katana"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+                    }
+                ]
+            },
+            "minecraft:can_destroy_in_creative": false,
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:mining_speed": 20,
+            "minecraft:damage": 40,
+            "minecraft:enchantable": {
+                "value": 10,
+                "slot": "sword"
+            },
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "block": "minecraft:web",
+                        "speed": 15,
+                        "on_dig": {
+                            "event": "minecraft:break"
+                        }
+                    },
+                    {
+                        "block": "minecraft:obsidian",
+                        "speed": 100,
+                        "on_dig": {
+                            "event": "hurt"
+                        }
+                    },
+                    {
+                        "block": "minecraft:bamboo",
+                        "speed": 300,
+                        "on_dig": {
+                            "event": "minecraft:break"
+                        }
+                    }
+                ],
+                "on_dig": {
+                    "event": "minecraft:break",
+                    "target": "self"
+                }
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.sword"
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "xc_303zr"
+                }
+            },
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "yes:damage_event",
+                    "target": "self"
+                }
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_katana",
+                    "minecraft:is_tool"
+                ]
+            }
+        },
+        "events": {
+            "yes:damage_event": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "effect @s resistance 3 0 true",
+                                "playsound sound.attack.big_sweep @a ~ ~ ~ 1 1.2",
+                                "particle xc:sd ^ ^ ^",
+                                "playsound weapon.greatsword_hit_weewee @a ~ ~ ~ 1 1.2",
+                                "effect @s regeneration 3 1 true"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "yes:stab_attack": {
+                "sequence": [
+                    {
+                        "shoot": {
+                            "projectile": "xc:sjzh",
+                            "launch_power": 1,
+                            "angle_offset": "query.cardinal_facing"
+                        },
+                        "run_command": {
+                            "command": [
+                                "tag @s add holder_shielding",
+                                "damage @e[tag=!holder_shielding,r=6] 20 fire entity @p[tag=holder_shielding]",
+                                "damage @e[tag=!holder_shielding,family=mob,r=6] 20 fire entity @p[tag=holder_shielding]",
+                                "effect @s weakness 2 255 true",
+                                "effect @p mining_fatigue 2 8 true",
+                                "tag @s remove holder_shielding"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

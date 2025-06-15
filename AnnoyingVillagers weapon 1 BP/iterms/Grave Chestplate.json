@@ -1,0 +1,52 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xc:glfj",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.chestplate"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "xc_glfj"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 120,
+        "slot": "armor_torso"
+      },
+      "minecraft:durability": {
+        "max_durability": 10946,
+        "damage_chance": {
+          "min": 30,
+          "max": 50
+        }
+      },
+      "minecraft:knockback_resistance": {
+        "protection": 0.2
+      },
+      "minecraft:mining_speed": 5,
+      "minecraft:foil": false,
+      "minecraft:hand_equipped": false,
+      "minecraft:wearable": {
+        "slot": "slot.armor.chest",
+        "protection": 40
+      },
+      "minecraft:display_name": {
+        "value": "§aGrave Chestplate"
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["xc:fmlbs"],
+            "repair_amount": 5000
+          }
+        ]
+      }
+    }
+  }
+}

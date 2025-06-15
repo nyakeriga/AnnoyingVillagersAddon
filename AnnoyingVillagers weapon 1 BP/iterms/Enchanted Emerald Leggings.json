@@ -1,0 +1,62 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xc:gflbsht",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.leggings"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "lbsht"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 100,
+        "slot": "armor_legs"
+      },
+      "minecraft:durability": {
+        "max_durability": 4658,
+        "damage_chance": {
+          "min": 10,
+          "max": 50
+        }
+      },
+      "minecraft:knockback_resistance": {
+        "protection": 0.1
+      },
+      "minecraft:mining_speed": 5,
+      "minecraft:foil": false,
+      "minecraft:hand_equipped": false,
+      "minecraft:wearable": {
+        "slot": "slot.armor.legs",
+        "protection": 20
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "xc:fgdlbs",
+              "xc:gflbsht"
+            ],
+            "repair_amount": 500
+          },
+          {
+            "items": [
+              "xc:fmlbs",
+              "xc:gflbsht"
+            ],
+            "repair_amount": 1800
+          }
+        ]
+      },
+      "minecraft:display_name": {
+        "value": "§dEnchanted §aEmerald Leggings"
+      }
+    }
+  }
+}

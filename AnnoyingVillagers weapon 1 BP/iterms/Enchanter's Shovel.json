@@ -1,0 +1,207 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xc:lbscz",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.sword"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "xc_lbscz"
+        }
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.shovel"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:allow_off_hand": true,
+      "minecraft:foil": false,
+      "minecraft:durability": {
+        "max_durability": 1446,
+        "damage_chance": {
+          "min": 30,
+          "max": 50
+        }
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:emerald"
+            ],
+            "repair_amount": 300
+          },
+          {
+            "items": [
+              "xc:lbscz"
+            ],
+            "repair_amount": "context.other->query.remaining_durability + 0.2 * context.other->query.max_durability"
+          }
+        ]
+      },
+      "minecraft:mining_speed": 1,
+      "minecraft:damage": 7,
+      "minecraft:enchantable": {
+        "value": 15,
+        "slot": "axe"
+      },
+      "minecraft:can_destroy_in_creative": true,
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "block": "minecraft:coal_ore",
+            "speed": 20,
+            "on_dig": {
+              "event": "hurt"
+            }
+          },
+          {
+            "block": "minecraft:concretepowder",
+            "speed": 50,
+            "on_dig": {
+              "event": "hurt"
+            }
+          },
+          {
+            "block": "minecraft:diamond_ore",
+            "speed": 50,
+            "on_dig": {
+              "event": "hurt"
+            }
+          },
+          {
+            "block": "minecraft:dirt",
+            "speed": 50,
+            "on_dig": {
+              "event": "hurt"
+            }
+          },
+          {
+            "block": "minecraft:emerald_ore",
+            "speed": 50,
+            "on_dig": {
+              "event": "hurt"
+            }
+          },
+          {
+            "block": "minecraft:monster_egg",
+            "speed": 50,
+            "on_dig": {
+              "event": "hurt"
+            }
+          },
+          {
+            "block": "minecraft:gold_ore",
+            "speed": 50,
+            "on_dig": {
+              "event": "hurt"
+            }
+          },
+          {
+            "block": "minecraft:grass",
+            "speed": 50,
+            "on_dig": {
+              "event": "hurt"
+            }
+          },
+          {
+            "block": "minecraft:grass_path",
+            "speed": 50,
+            "on_dig": {
+              "event": "hurt"
+            }
+          },
+          {
+            "block": "minecraft:iron_ore",
+            "speed": 50,
+            "on_dig": {
+              "event": "hurt"
+            }
+          },
+          {
+            "block": "minecraft:lapis_ore",
+            "speed": 50,
+            "on_dig": {
+              "event": "hurt"
+            }
+          },
+          {
+            "block": "minecraft:mycelium",
+            "speed": 50,
+            "on_dig": {
+              "event": "hurt"
+            }
+          },
+          {
+            "block": "minecraft:podzol",
+            "speed": 50,
+            "on_dig": {
+              "event": "hurt"
+            }
+          },
+          {
+            "block": "minecraft:red_sandstone",
+            "speed": 50,
+            "on_dig": {
+              "event": "hurt"
+            }
+          },
+          {
+            "block": "minecraft:red_sandstone_stairs",
+            "speed": 50,
+            "on_dig": {
+              "event": "hurt"
+            }
+          },
+          {
+            "block": "minecraft:redstone_ore",
+            "speed": 50,
+            "on_dig": {
+              "event": "hurt"
+            }
+          },
+          {
+            "block": "minecraft:sand",
+            "speed": 50,
+            "on_dig": {
+              "event": "hurt"
+            }
+          },
+          {
+            "block": "minecraft:soul_sand",
+            "speed": 50,
+            "on_dig": {
+              "event": "hurt"
+            }
+          },
+          {
+            "block": "minecraft:soul_soil",
+            "speed": 50,
+            "on_dig": {
+              "event": "hurt"
+            }
+          }
+        ]
+      },
+      "minecraft:weapon": {
+        "on_hurt_entity": {
+          "event": "hurt"
+        },
+        "on_not_hurt_entity": {
+          "event": "hurt"
+        },
+        "on_hit_block": {
+          "event": "hurt"
+        }
+      },
+      "tag:minecraft:is_sword": {},
+      "minecraft:display_name": {}
+    }
+  }
+}

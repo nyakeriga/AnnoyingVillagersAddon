@@ -1,0 +1,86 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "xc:zjfms",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.sword"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "fms"
+                }
+            },
+            "minecraft:creative_category": {
+                "parent": "items"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": false,
+            "minecraft:allow_off_hand": true,
+            "minecraft:foil": true,
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "minecraft:diamond"
+                        ],
+                        "repair_amount": 300
+                    },
+                    {
+                        "items": [
+                            "pa:qbj"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability + 0.2 * context.other->query.max_durability"
+                    }
+                ]
+            },
+            "minecraft:mining_speed": 1,
+            "minecraft:can_destroy_in_creative": true,
+            "minecraft:cooldown": {
+                "category": "equipment",
+                "duration": 1
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "on_use"
+                }
+            },
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "hurt"
+                },
+                "on_not_hurt_entity": {
+                    "event": "hurt"
+                },
+                "on_hit_block": {
+                    "event": "hurt"
+                }
+            },
+            "tag:minecraft:is_sword": {},
+            "minecraft:display_name": {
+                "value": "\u00a7eEnchanted book\nHeavy Attack \u00a73S\u00a7bP"
+            }
+        },
+        "events": {
+            "on_use": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "scoreboard objectives add \u91cd\u51fb\u9644\u9b54 dummy",
+                                "scoreboard players add @s[hasitem={item=xc:hjjd,location=slot.weapon.offhand},scores={\u91cd\u51fb\u9644\u9b54=0..4}] \u91cd\u51fb\u9644\u9b54 1",
+                                "replaceitem entity @s[hasitem={item=xc:hjjd,location=slot.weapon.offhand},scores={\u91cd\u51fb\u9644\u9b54=0..4}] slot.weapon.mainhand 1 air 1 0",
+                                "execute @s[hasitem={item=xc:hjjd,location=slot.weapon.offhand},scores={\u91cd\u51fb\u9644\u9b54=0..4}] ~ ~ ~ playsound portal.trigger @a ~ ~ ~ 100 1 100",
+                                "execute @s[hasitem={item=xc:hjjd,location=slot.weapon.offhand},scores={\u91cd\u51fb\u9644\u9b54=5}] ~ ~ ~ playsound random.anvil_use @a ~ ~ ~ 100 5 100",
+                                "scoreboard players add @s[hasitem={item=xc:hjjd,location=slot.weapon.offhand},scores={\u91cd\u51fb\u9644\u9b54=5..}] \u91cd\u51fb\u9644\u9b54 5"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
