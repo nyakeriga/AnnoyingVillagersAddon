@@ -1,0 +1,18 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "xc:hysq",
+      "materials": {
+        "default": "phantom"
+      },
+      "textures": {
+        "default": "textures/entities/brine"
+      },
+      "geometry": {
+        "default": "geometry.hysq"
+      },
+      "render_controllers": [ "controller.render.herobrine" ]
+    }
+  }
+} 

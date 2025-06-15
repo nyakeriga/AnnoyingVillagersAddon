@@ -1,0 +1,32 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "xc:black_villagerfl",
+      "materials": {
+        "default": "villager"
+      },
+      "textures": {
+        "default": "textures/entities/black_villagerfl"
+      },
+      "geometry": {
+        "default": "geometry.villagerfl"
+      },
+      "scripts": {
+        "scale": "0.9375"
+      },
+      "animations": {
+        "look_at_target": "animation.common.look_at_target",
+        "move": "animation.villager.move"
+      },
+      "animation_controllers": [
+        { "move": "controller.animation.villager.move" }
+      ],
+      "render_controllers": [ "controller.render.default" ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 14
+      }
+    }
+  }
+}

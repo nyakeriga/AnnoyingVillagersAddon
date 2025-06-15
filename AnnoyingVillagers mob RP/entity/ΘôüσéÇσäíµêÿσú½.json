@@ -1,0 +1,38 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "xc:tklzs",
+      "materials": { "default": "parrot" },
+      "textures": { "default": "textures/entities/tklzs" },
+      "geometry": { "default": "geometry.tklzs" },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+        ]
+      },
+      "animations": {
+        "move": "animation.tklzs.move",
+        "roar": "animation.tklzs.attack",
+        "flower": "animation.iron_golem.flower",
+        "attack.rotations": "animation.tklzs.attack"
+      },
+      "animation_controllers": [
+        { "look_at_target": "controller.animation.boss.look_at_target" },
+        { "move": "controller.animation.boss.move" },
+        { "roar": "controller.animation.boss.roar" },
+        { "flower": "controller.animation.boss.flower" },
+        { "powered": "controller.animation.boss.powered" },
+        { "zombie_attack_bare_hand": "controller.animation.boss.attack" }
+      ],
+      "particle_effects": {
+        "regeneration": "mc:regeneration"
+      },
+      "render_controllers": [ "controller.render.default" ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "texture": "egg_lstklzs"
+      }
+    }
+  }
+}

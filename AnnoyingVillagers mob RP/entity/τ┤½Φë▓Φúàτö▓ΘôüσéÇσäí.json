@@ -1,0 +1,38 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "xc:zszjtkl",
+      "materials": { "default": "parrot" },
+      "textures": { "default": "textures/entities/zszjtkl" },
+      "geometry": { "default": "geometry.zszjkl" },
+      "scripts": {
+        "pre_animation": [
+          "variable.moving = query.ground_speed > 0 || query.vertical_speed > 0;"
+        ]
+      },
+      "animations": {
+        "move": "animation.zjkl.move",
+        "roar": "animation.zjkl.smash",
+        "flower": "animation.iron_golem.flower",
+        "attack.rotations": "animation.zszjkl.attack"
+      },
+      "animation_controllers": [
+        { "look_at_target": "controller.animation.boss.look_at_target" },
+        { "move": "controller.animation.boss.move" },
+        { "roar": "controller.animation.boss.roar" },
+        { "flower": "controller.animation.boss.flower" },
+        { "powered": "controller.animation.boss.powered" },
+        { "zombie_attack_bare_hand": "controller.animation.boss.attack" }
+      ],
+      "particle_effects": {
+        "regeneration": "mc:regeneration"
+      },
+      "render_controllers": [ "controller.render.default" ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "texture": "egg_zszjtkl"
+      }
+    }
+  }
+}

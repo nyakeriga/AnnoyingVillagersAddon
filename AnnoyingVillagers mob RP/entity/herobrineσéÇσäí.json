@@ -1,0 +1,44 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "xc:kuilei",
+      "materials": {
+        "default": "phantom"
+      },
+      "textures": { "default": "textures/entities/kuilei" },
+      "geometry": { "default": "geometry.kuilei" },
+            "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+        ]
+      },
+      "animations": {
+        "look_at_target_default": "animation.humanoid.look_at_target.default",
+        "look_at_target_gliding": "animation.humanoid.look_at_target.gliding.v1.0",
+        "look_at_target_swimming": "animation.humanoid.look_at_target.swimming.v1.0",
+        "idle": "animation.kuilei.dj",
+        "roar": "animation.kuilei.attack3",
+        "move": "animation.lem.move",
+        "bob": "animation.humanoid.bob",
+        "powered": "animation.kuilei.attack2",
+        "cast": "animation.bedrock_herobrine.cast",
+        "attack.rotations": "animation.kuilei.attack"
+      },
+      "animation_controllers": [
+        { "look_at_target": "controller.animation.boss.look_at_target" },
+        { "move": "controller.animation.boss.move" },
+        { "roar": "controller.animation.boss.roar" },
+        { "bob": "controller.animation.boss.bob" },
+        { "powered": "controller.animation.boss.powered" },
+        { "cast": "controller.animation.boss.cast" },
+        { "zombie_attack_bare_hand": "controller.animation.boss.attack" }
+      ],
+      "render_controllers": [ "controller.render.herobrine" ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "texture": "egg_kuilei"
+      }
+    }
+  }
+}

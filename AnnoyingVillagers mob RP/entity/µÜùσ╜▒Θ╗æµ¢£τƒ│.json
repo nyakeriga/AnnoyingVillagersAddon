@@ -1,0 +1,18 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "xc:ayhys",
+      "materials": {
+        "default": "armor_stand"
+      },
+      "textures": {
+        "default": "textures/entity/xc_ayhys"
+      },
+      "geometry": {
+        "default": "geometry.ayhys"
+      },
+      "render_controllers": [ "controller.render.armor_stand" ]
+    }
+  }
+} 

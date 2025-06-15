@@ -1,0 +1,39 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "xc:lbx",
+      "materials": { "default": "parrot" },
+      "textures": { "default": "textures/entity/polarbear" },
+      "geometry": { "default": "geometry.polar_bear" },
+      "scripts": {
+        "scale": "1.2"
+      },
+      "animations": {
+        "walk": "animation.quadruped.walk",
+        "move": "animation.polarbear.move",
+        "look_at_target": "animation.common.look_at_target",
+        "attack.rotations": "animation.polarbear.attack"
+      },
+      "animation_controllers": [
+        {
+          "move": "controller.animation.polarbear.move"
+        },
+        {
+          "look_at_target": "controller.animation.boss.look_at_target"
+        },
+        { "powered": "controller.animation.boss.powered"
+        },
+        {
+          "zombie_attack_bare_hand": "controller.animation.boss.attack"
+        }
+      ],
+      "render_controllers": [ "controller.render.default" ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 37
+      }
+    }
+  }
+}
