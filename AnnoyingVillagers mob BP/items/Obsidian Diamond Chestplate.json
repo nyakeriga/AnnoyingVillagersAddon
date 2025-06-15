@@ -1,0 +1,58 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "xc:zsxj",
+            "category": "Equipment",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.chestplate"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "xc_hysxj"
+                }
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.chestplate"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:enchantable": {
+                "value": 100,
+                "slot": "armor_torso"
+            },
+            "minecraft:durability": {
+                "max_durability": 5946,
+                "damage_chance": {
+                    "min": 30,
+                    "max": 50
+                }
+            },
+            "minecraft:knockback_resistance": {
+                "protection": 0.1
+            },
+            "minecraft:mining_speed": 5,
+            "minecraft:foil": false,
+            "minecraft:hand_equipped": true,
+            "minecraft:wearable": {
+                "slot": "slot.armor.chest",
+                "protection": 7
+            },
+            "minecraft:render_offsets": "chestplates",
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "minecraft:emerald",
+                            "xc:hysxj"
+                        ],
+                        "repair_amount": 10
+                    }
+                ]
+            },
+            "minecraft:display_name": {}
+        }
+    }
+}

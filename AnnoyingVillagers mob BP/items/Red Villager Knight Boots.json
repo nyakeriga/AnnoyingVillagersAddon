@@ -1,0 +1,58 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "xc:red_boots",
+            "category": "Equipment",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.boots"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "villager_boots"
+                }
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.boots"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:enchantable": {
+                "value": 100,
+                "slot": "armor_feet"
+            },
+            "minecraft:durability": {
+                "max_durability": 4500,
+                "damage_chance": {
+                    "min": 30,
+                    "max": 50
+                }
+            },
+            "minecraft:knockback_resistance": {
+                "protection": 0.1
+            },
+            "minecraft:mining_speed": 5,
+            "minecraft:foil": false,
+            "minecraft:hand_equipped": false,
+            "minecraft:wearable": {
+                "slot": "slot.armor.feet",
+                "protection": 6
+            },
+            "minecraft:render_offsets": "boots",
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "minecraft:emerald",
+                            "xc:blue_boots"
+                        ],
+                        "repair_amount": 300
+                    }
+                ]
+            },
+            "minecraft:display_name": {}
+        }
+    }
+}
