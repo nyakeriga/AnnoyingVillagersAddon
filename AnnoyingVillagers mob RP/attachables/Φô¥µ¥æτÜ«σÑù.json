@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "xc:lcqsfz",
+      "materials": {
+        "default": "armor",
+        "enchanted": "armor_enchanted",
+        "glint": "phantom"
+      },
+      "textures": {
+        "default": "textures/entity/blue_boots",
+        "enchanted": "textures/misc/enchanted_item_glint",
+        "glint": "textures/entities/blue"
+      },
+      "geometry": {
+        "default": "geometry.bluet",
+        "glint": "geometry.red"
+      },
+      "scripts": {
+        "parent_setup": "variable.boot_layer_visible = 0.0;"
+      },
+      "render_controllers": [ "controller.render.armor","controller.render.glint" ]
+    }
+  }
+}
