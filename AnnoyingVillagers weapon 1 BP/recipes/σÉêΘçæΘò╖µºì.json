@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:hjcq"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BB",
+      "BA",
+      "__B"
+    ],
+    "key": {
+      "A": {
+        "item": "xc:mfmg"
+      },
+      "B": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    "result": {
+      "item": "xc:hjcq",
+      "count": 1
+    }
+  }
+}

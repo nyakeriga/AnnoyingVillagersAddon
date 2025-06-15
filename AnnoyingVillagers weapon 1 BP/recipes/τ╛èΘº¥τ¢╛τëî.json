@@ -1,0 +1,34 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:ytdp"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BCB",
+      "CAC",
+      "BCB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:emerald",
+        "data": 0
+      },
+      "B": {
+        "item": "xc:jt",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:oak_planks",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:ytdp",
+      "count": 1
+    }
+  }
+}

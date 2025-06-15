@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:hjjf"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "xc:zsjf",
+        "data": 0
+      },
+      "B": {
+        "item": "netherite_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:hjjf",
+      "count": 1
+    }
+  }
+}

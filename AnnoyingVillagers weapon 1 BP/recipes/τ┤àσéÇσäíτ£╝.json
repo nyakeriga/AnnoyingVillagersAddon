@@ -1,0 +1,38 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:hsmyzy"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A",
+      "CDC",
+      " B"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:ender_eye",
+        "data": 0
+      },
+      "B": {
+        "item": "xc:hsmyzz",
+        "data": 0
+      },
+      "C": {
+        "item": "xc:lhdrq",
+        "data": 0
+      },
+      "D": {
+        "item": "xc:fmtk",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:hsmyzy",
+      "count": 1
+    }
+  }
+}

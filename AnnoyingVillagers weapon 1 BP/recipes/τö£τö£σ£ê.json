@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:nyttq"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BAB",
+      "A_A",
+      "BAB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:bread",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:milk_bucket",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:nyttq",
+      "count": 1
+    }
+  }
+}

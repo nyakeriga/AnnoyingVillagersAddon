@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:zbsdrv2"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "emerald_block",
+        "data": 0
+      },
+      "B": {
+        "item": "xc:lbsdr",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:lbsdrv2",
+      "count": 1
+    }
+  }
+}

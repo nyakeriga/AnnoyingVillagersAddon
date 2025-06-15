@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:zbsdr"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "xc:zszs",
+        "data": 0
+      },
+      "B": {
+        "item": "xc:zsdr",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:zbsdr",
+      "count": 1
+    }
+  }
+}

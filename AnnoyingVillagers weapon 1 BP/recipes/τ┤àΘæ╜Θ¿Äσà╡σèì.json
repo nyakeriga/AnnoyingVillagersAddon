@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:hbsqbj"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "_A",
+      "ABA",
+      ""
+    ],
+    "key": {
+      "A": {
+        "item": "xc:hszs",
+        "data": 0
+      },
+      "B": {
+        "item": "xc:hbsj",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:hbsqbj",
+      "count": 1
+    }
+  }
+}

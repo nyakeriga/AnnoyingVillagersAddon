@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:lbsdcjd"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "xc:czj",
+        "data": 0
+      },
+      "B": {
+        "item": "xc:fmlbs",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:lbsdcjd",
+      "count": 1
+    }
+  }
+}

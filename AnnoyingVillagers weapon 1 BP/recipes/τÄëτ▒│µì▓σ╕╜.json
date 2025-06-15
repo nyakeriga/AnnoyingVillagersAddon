@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:ymjm"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "",
+      ""
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:leather_helmet"
+      },
+      "B": {
+        "item": "xc:ymj"
+      }
+    },
+    "result": {
+      "item": "xc:ymjm",
+      "count": 1
+    }
+  }
+}

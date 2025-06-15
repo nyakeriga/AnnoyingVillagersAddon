@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:hjwd"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:netherite_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "pa:hjd",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:hjwd",
+      "count": 1
+    }
+  }
+}

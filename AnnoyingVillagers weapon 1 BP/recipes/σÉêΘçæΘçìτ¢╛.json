@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:hjdp"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "_A",
+      "ABA",
+      "_A"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "B": {
+        "item": "xc:xjhjdp"
+      }
+    },
+    "result": {
+      "item": "xc:hjdp",
+      "count": 1
+    }
+  }
+}
