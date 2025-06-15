@@ -1,0 +1,717 @@
+{
+  "format_version": "1.11.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:player",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false,
+     "scripts": {
+        "animate": [
+          { "rest": "query.has_target" },
+          { "up": "!query.is_stunned" },
+          "lbsxj",
+          "jd",
+          "hyszh",
+          "hyszh2",
+          "fys",
+          "zszr",
+          "hjdp"
+        ]
+      },
+      "animations": {
+        "rest": "controller.animation.rest",
+        "up": "controller.animation.up",
+        "hjdp": "controller.animation.hjdp",
+        "hyszh": "controller.animation.hyszh",
+        "hyszh2": "controller.animation.hyszh2",
+        "zszr": "controller.animation.zszr",
+        "lbsxj": "animation.lbsxj",
+        "fys": "animation.fys",
+        "jd": "animation.jd"
+      }
+    },
+    "component_groups": {
+			"xc:villager_head": {
+				"minecraft:type_family": {
+					"family": ["villager", "destiny"]
+				}
+			},
+			"xc:player": {
+				"minecraft:type_family": {
+					"family": [ "player" ]
+				}
+			},
+      "pamobile:respawn": {
+        "minecraft:mark_variant": {
+          "value": 99999
+        },
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:attack": {
+          "damage": 1
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": [
+          ]
+        }
+      },
+      "ammo:1": {
+        "minecraft:mark_variant": {
+          "value": 1
+        }
+      },
+      "pa:legendary_sword": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.2
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": [
+                          "bad_omen",
+            "blindness",
+            "fatal_poison",
+            "hunger",
+            "mining_fatigue",
+            "nausea",
+            "poison",
+            "slowness",
+            "weakness",
+            "wither"
+              ]
+        }
+      },
+      "pa:sharp_sword": {
+          "minecraft:health": {
+              "value": 20,
+              "max": 20
+          },
+          "minecraft:movement": {
+              "value": 0.1
+          },
+          "minecraft:spell_effects": {
+              "add_effects": []
+          }
+      },
+      "pa:hooked_swoed": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "pa:dagger_sword": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "pa:red_axe": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "pa:vil_sword": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "pa:berserker_axe": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": []
+        }
+      },
+      "pa:scout_helmet_event_play": {
+        "minecraft:health": {
+          "value": 22,
+          "max": 22
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "resistance",
+              "duration": 1,
+              "amplifier": 1,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:vil_helmet_event_play": {
+        "minecraft:health": {
+          "value": 22,
+          "max": 22
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "resistance",
+              "duration": 1,
+              "amplifier": 1,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      },
+      "pa:vil_helmet2_event_play": {
+        "minecraft:health": {
+          "value": 22,
+          "max": 22
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "resistance",
+              "duration": 1,
+              "amplifier": 1,
+              "display_on_screen_animation": false
+            }
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "player"
+        ]
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:can_climb": {},
+      "minecraft:movement": {
+        "value": 0.1
+      },
+
+      "minecraft:environment_sensor": [
+        {
+          "on_environment": {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "pamobile:refresh_player"
+          }
+        },
+		{
+			"on_environment": {
+				"filters": {
+					"all_of": [
+					{
+						"test": "has_equipment",
+						"subject": "self",
+						"domain": "head",
+						"value": "xc:villager_head"
+						}
+					]
+				},
+				"event": "xc:villager_head_event"
+			}
+		},
+		{
+			"on_environment": {
+				"filters": {
+					"all_of": [
+					{
+						"test": "has_equipment",
+						"subject": "self",
+						"domain": "head",
+						"value": "minecraft:air"
+						}
+					]
+				},
+				"event": "xc:player_event"
+			}
+		},
+        {
+            "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:red_axe"
+                }
+              ]
+            },
+            "event": "pa:red_axe_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                    "test": "has_equipment",
+                    "subject": "self",
+                    "domain": "hand",
+                    "value": "pa:sharp_sword"
+                }
+              ]
+            },
+            "event": "pa:sharp_sword"
+          }
+        },
+        {
+            "on_environment": {
+                "filters": {
+                    "all_of": [
+                        {
+                    
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:legendary_sword"
+                }
+              ]
+            },
+            "event": "pa:legendary_sword_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:hooked_swoed"
+                }
+              ]
+            },
+            "event": "pa:hooked_swoed_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:dagger_sword"
+                }
+              ]
+            },
+            "event": "pa:dagger_sword_event"
+          }
+        },
+        {
+        "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:berserker_axe"
+                }
+              ]
+            },
+            "event": "pa:berserker_axe_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:vil_sword"
+                }
+              ]
+            },
+            "event": "pa:vil_sword_event"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:scout_helmet"
+                }
+              ]
+            },
+            "event": "pa:scout_helmet_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:scout_helmet"
+                }
+              ]
+            },
+            "event": "pa:scout_helmet_event_play"
+          }
+        },
+        {
+                      "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:vil_boots"
+                }
+              ]
+            },
+            "event": "pa:vil_boots_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:vil_boots"
+                }
+              ]
+            },
+            "event": "pa:vil_boots_event_play"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "hand",
+                  "value": "pa:vil_helmet"
+                }
+              ]
+            },
+            "event": "pa:vil_helmet_event_hold"
+          }
+        },
+        {
+          "on_environment": {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "domain": "head",
+                  "value": "pa:vil_helmet"
+                }
+              ]
+            },
+            "event": "pa:vil_helmet_event_play"
+          }
+        }
+      ],
+      "minecraft:player.saturation": {
+        "value": 20
+      },
+      "minecraft:player.exhaustion": {
+        "value": 0,
+        "max": 4
+      },
+      "minecraft:player.level": {
+        "value": 0,
+        "max": 24791
+      },
+      "minecraft:player.experience": {
+        "value": 0,
+        "max": 1
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": -1,
+        "inhaleTime": 3.75,
+        "generatesBubbles": false
+      },
+      "minecraft:nameable": {
+        "alwaysShow": true,
+        "allowNameTagRenaming": false
+      },
+      "minecraft:physics": {},
+      "minecraft:insomnia": {
+        "days_until_insomnia": 3
+      },
+      "minecraft:rideable": {
+        "seat_count": 2,
+        "family_types": [
+          "parrot_tame"
+        ],
+        "pull_in_entities": true,
+        "seats": [
+          {
+            "position": [
+              0.4,
+              -0.15,
+              0.04
+            ],
+            "min_rider_count": 0,
+            "max_rider_count": 0,
+            "lock_rider_rotation": 0
+          },
+          {
+            "position": [
+              -0.4,
+              -0.15,
+              0.04
+            ],
+            "min_rider_count": 1,
+            "max_rider_count": 2,
+            "lock_rider_rotation": 0
+          }
+        ]
+      },
+      "minecraft:scaffolding_climber": {}
+    },
+    "events": {
+      "pamobile:refresh_player": {
+        "add": {
+          "component_groups": [
+            "pamobile:respawn"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "pa:sharp_sword",
+            "pa:berserker_axe",
+            "pa:legendary_sword",
+            "pa:hooked_swoed",
+            "pa:dagger_sword",
+            "pa:vil_sword",
+            "pa:red_axe",
+            "pa:scout_helmet_event_hold",
+            "pa:scout_helmet_event_play",
+            "pa:vil_leggings_event_hold",
+            "pa:vil_leggings_event_play",
+            "pa:vil_boots_event_hold",
+            "pa:vil_boots_event_play",
+            "pa:vil_helmet_event_hold",
+            "pa:vil_helmet_event_play"
+          ]
+        }
+      },
+		"xc:villager_head_event": {
+			"add": {
+				"component_groups": ["xc:villager_head"]
+			},
+			"remove": {}
+		},
+		"xc:player_event": {
+			"add": {
+				"component_groups": ["xc:player"]
+			},
+			"remove": {
+          "component_groups": [
+            "xc:villager_head"
+                ]
+		    }
+		},
+			"xc:b": {
+				"run_command": {
+					"command": [
+						"function mdb"
+					]
+				}
+			},
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "pamobile:respawn"
+          ]
+        },
+        "remove": {}
+      },
+      "ammo:1": {
+        "remove": {
+          "component_groups": [
+            "ammo:1"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "ammo:1"
+          ]
+        }
+      },
+      "ammo:2": {
+        "remove": {
+          "component_groups": [
+            "ammo:2"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "ammo:2"
+          ]
+        }
+      },
+      "pa:legendary_sword_event": {
+        "add": {
+          "component_groups": [
+            "pa:legendary_sword"
+          ]
+        }
+      },
+      "pa:hooked_swoed_event": {
+        "add": {
+          "component_groups": [
+            "pa:hooked_swoed"
+          ]
+        }
+      },
+      "pa:sharp_event": {
+        "add": {
+          "component_groups": [
+            "pa:sharp_swoed"
+          ]
+        }
+      },
+      "pa:dagger_sword_event": {
+        "add": {
+          "component_groups": [
+            "pa:dagger_sword"
+          ]
+        }
+      },
+      "pa:vil_sword_event": {
+        "add": {
+          "component_groups": [
+            "pa:vil_sword"
+          ]
+        }
+      },
+      "pa:scout_helmet_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:scout_helmet_event_hold"
+          ]
+        }
+      },
+      "pa:scout_helmet_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:scout_helmet_event_play"
+          ]
+        }
+      },
+            "pa:vil_boots_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:vil_boots_event_hold"
+          ]
+        }
+      },
+      "pa:vil_boots_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:vil_boots_event_play"
+          ]
+        }
+      },
+            "pa:vil_leggings_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:vil_leggings_event_hold"
+          ]
+        }
+      },
+      "pa:pa:vil_leggings_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:vil_leggings_event_play"
+          ]
+        }
+      },
+      "pa:vil_helmet_event_hold": {
+        "add": {
+          "component_groups": [
+            "pa:vil_helmet_event_hold"
+          ]
+        }
+      },
+      "pa:vil_helmet_event_play": {
+        "add": {
+          "component_groups": [
+            "pa:vil_helmet_event_play"
+          ]
+        }
+      }
+    }
+  }
+}

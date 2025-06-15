@@ -1,0 +1,513 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "xc:fmhszjtkl",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [
+          { "effect": "query.is_roaring" },
+          { "up": "!query.is_stunned" },
+          { "effect_clear": "!query.is_roaring" },
+          "health",
+          "spawn",
+          "spear",
+          "ccdh",
+          "zb",
+          "bz",
+          "climb"
+        ]
+      },
+      "animations": {
+        "effect": "controller.animation.effect_slowness",
+        "up": "controller.animation.up",
+        "effect_clear": "controller.animation.effect_clear",
+        "health": "controller.animation.seenoevil.health",
+        "spawn": "controller.animation.seenoevil.spawn",
+        "ccdh": "animation.ccdh",
+        "zb": "controller.animation.zb",
+        "bz": "animation.bz",
+        "climb": "controller.animation.climb"
+      }
+    },
+
+    "component_groups": {    
+      "minecraft:exploding": {
+        "minecraft:explode": {
+          "fuse_length": 0.8,
+          "fuse_lit": true,
+          "power": 6,
+          "causes_fire": true,
+          "destroy_affected_by_griefing": true
+        }
+      },
+      "minecraft:charged_creeper": {
+        "minecraft:is_charged": {}
+      },
+      "minecraft:charged_exploding": {
+        "minecraft:explode": {
+          "fuse_length": 0.8,
+          "fuse_lit": true,
+          "power": 6,
+          "causes_fire": true,
+          "destroy_affected_by_griefing": true
+        }
+      },
+      "stunned": {
+        "minecraft:is_stunned": {},
+        "minecraft:timer": {
+          "looping": false,
+          "time": 5,
+          "time_down_event": {
+            "event": "roaring_stunned"
+          }
+        }
+      },
+      "rest": {
+        "minecraft:movement": {
+          "value": 0.0
+        },
+        "minecraft:damage_sensor": {
+          "triggers": {
+            "cause": "all",
+            "deals_damage": false
+          }
+        },
+        "minecraft:attack": {
+          "damage": {
+            "range_min": 0,
+            "range_max": 0
+          }
+        },
+        "minecraft:pushable": {
+          "is_pushable": false,
+          "is_pushable_by_piston": false
+        }
+      },
+      "up": {
+        "minecraft:movement": {
+          "value": 0.35
+        },
+        "minecraft:damage_sensor": {
+          "triggers": {
+            "cause": "fall",
+            "deals_damage": false
+          }
+        },
+        "minecraft:attack": {
+          "damage": {
+            "range_min": 44,
+            "range_max": 66
+          }
+        },
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        }
+      },
+      "melee": {
+        "minecraft:behavior.delayed_attack": {
+          "priority": 1,
+          "reach_multiplier": 3.0,
+          "speed_multiplier": 1.4,
+          "attack_duration": 1,
+          "hit_delay_pct": 0.5,
+          "track_target": true,
+          "sound_event": "attack.strong"
+        }
+      },
+      "roaring": {
+        "minecraft:behavior.knockback_roar": {
+          "priority": 1,
+          "duration": 1.6,
+          "attack_time": 0.6,
+          "knockback_damage": 42,
+          "knockback_strength": 5,
+          "knockback_range": 4,
+          "knockback_filters": {
+            "any_of": [
+              { "test": "is_family", "subject": "other", "value": "monster" },
+              { "test": "is_family", "subject": "other", "value": "player" }
+            ]
+          },
+          "damage_filters": {
+            "any_of": [
+              { "test": "is_family", "subject": "other", "value": "monster" },
+              { "test": "is_family", "subject": "other", "value": "player" }
+            ]
+          },
+          "on_roar_end": {
+            "event": "minecraft:end_roar"
+          },
+          "cooldown_time": 0.1
+        }
+      },
+      "start_roar": {
+        "minecraft:timer": {
+          "looping": false,
+          "time": 5.0,
+          "time_down_event": {
+            "event": "start_look_roar"
+          }
+        }
+      },
+      "start_look_roar": {
+        "minecraft:target_nearby_sensor": {
+          "inside_range": 3.0,
+          "outside_range": 3.0,
+          "on_inside_range": {
+            "event": "roaring",
+            "target": "self"
+          },
+          "on_outside_range": {
+            "event": "xroaring",
+            "target": "self"
+          }
+        }
+      }
+    },
+
+    "components": {
+      "minecraft:type_family": {
+        "family": [ "irongolem", "mob" ]
+      },
+      "minecraft:nameable": {},
+      "minecraft:collision_box": {
+        "width": 1.4,
+        "height": 2.9
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/all.json"
+      },
+      "minecraft:equipment": {
+        "table": "loot_tables/items/hkl.json"
+      },
+      "minecraft:health": {
+        "value": 800,
+        "max": 800
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "cause": "lava",
+            "damage_per_tick": 2
+          }
+        ]
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": false,
+        "avoid_water": true,
+        "avoid_damage_blocks": true
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:become_charged": {},
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:leashable": {
+        "soft_distance": 4.0,
+        "hard_distance": 6.0,
+        "max_distance": 10.0
+      },
+      "minecraft:balloonable": {
+        "mass": 2.0
+      },
+      "minecraft:preferred_path": {
+        "max_fall_blocks": 1,
+        "jump_cost": 5,
+        "default_block_cost": 1.5,
+        "preferred_path_blocks": [
+          { 
+            "cost": 0,
+            "blocks": [ "grass_path" ]
+          },
+          { 
+            "cost": 1,
+            "blocks": [ 
+              "cobblestone", "stone", "stonebrick", "sandstone", "mossy_cobblestone",
+              "stone_slab", "stone_slab2", "stone_slab3", "stone_slab4", "double_stone_slab",
+              "double_stone_slab2", "double_stone_slab3", "double_stone_slab4", "wooden_slab",
+              "double_wooden_slab", "planks", "brick_block", "nether_brick", "red_nether_brick",
+              "end_bricks", "red_sandstone", "stained_glass", "glass", "glowstone", "prismarine",
+              "emerald_block", "diamond_block", "lapis_block", "gold_block", "redstone_block",
+              "purple_glazed_terracotta", "white_glazed_terracotta", "orange_glazed_terracotta",
+              "magenta_glazed_terracotta", "light_blue_glazed_terracotta", "yellow_glazed_terracotta",
+              "lime_glazed_terracotta", "pink_glazed_terracotta", "gray_glazed_terracotta",
+              "silver_glazed_terracotta", "cyan_glazed_terracotta", "blue_glazed_terracotta",
+              "brown_glazed_terracotta", "green_glazed_terracotta", "red_glazed_terracotta",
+              "black_glazed_terracotta"
+            ]
+          },
+          { 
+            "cost": 50,
+            "blocks": [ 
+              "bed", "lectern", "composter", "grindstone", "blast_furnace", "smoker",
+              "fletching_table", "cartography_table", "brewing_stand", "smithing_table",
+              "cauldron", "barrel", "loom", "stonecutter"
+            ]
+          }
+        ]
+      },
+      "minecraft:behavior.target_when_pushed": {
+        "priority": 1,
+        "percent_chance": 45.0,
+        "entity_types": [
+          {
+            "filters": { 
+              "all_of": [
+                { "test": "is_family", "subject": "other", "value": "monster" },
+                { "test": "is_family", "subject": "other", "operator": "!=", "value": "creeper" }
+              ] 
+            }
+          }
+        ]
+      },
+      "minecraft:behavior.move_towards_target": {
+        "priority": 2,
+        "speed_multiplier": 0.5,
+        "within_radius": 32
+      },
+      "minecraft:behavior.move_through_village": {
+        "priority": 3,
+        "speed_multiplier": 0.6,
+        "only_at_night": true
+      },
+      "minecraft:behavior.move_towards_dwelling_restriction": {
+        "priority": 4,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.offer_flower": {
+        "priority": 5
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 0.5,
+        "xz_dist": 16
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 6.0,
+        "probability": 0.02
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 8
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 3,
+        "percent_chance": 45.0,
+        "must_reach": true,
+        "must_see": true,
+        "entity_types": [
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_family", "subject": "other", "value": "monster" },
+                { "test": "is_family", "subject": "other", "operator": "!=", "value": "creeper" }
+              ]
+            },
+            "within_default": 40
+          },
+          {
+            "filters": { "test": "is_family", "subject": "other", "value": "player" },
+            "max_dist": 40
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_family", "subject": "other", "value": "hoglin" },
+                { "test": "is_difficulty", "operator": "!=", "value": "peaceful" }
+              ]
+            },
+            "max_dist": 45
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_family", "subject": "other", "value": "zoglin" },
+                { "test": "is_difficulty", "operator": "!=", "value": "peaceful" }
+              ]
+            },
+            "max_dist": 45
+          }
+        ]
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 2,
+        "entity_types": {
+          "filters": { 
+            "all_of": [
+              { "test": "is_family", "subject": "other", "operator": "!=", "value": "villager" },
+              { "test": "is_family", "subject": "other", "operator": "!=", "value": "creeper" }
+            ]
+          }
+        }
+      },
+      "minecraft:persistent": {},
+      "minecraft:physics": {},
+      "minecraft:follow_range": {
+        "value": 64
+      },
+      "minecraft:conditional_bandwidth_optimization": {}
+    },
+
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "start_roar",
+            "minecraft:charged_creeper",
+            "melee"
+          ]
+        }
+      },
+      "low_health": {
+        "remove": {
+          "component_groups": [
+            "high_health"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "low_health"
+          ]
+        }
+      }, 
+      "high_health": {
+        "remove": {
+          "component_groups": [
+            "low_health"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "high_health"
+          ]
+        }
+      }, 
+      "minecraft:from_player": {
+        "add": {
+          "component_groups": [
+            "minecraft:player_created"
+          ]
+        }
+      },
+      "roaring": {
+        "randomize": [
+          {
+            "weight": 90,
+            "add": {
+              "component_groups": [
+                "roaring"
+              ]
+            },
+            "remove": {
+              "component_groups": [
+                "start_look_roar",
+                "melee"
+              ]
+            }
+          },
+          {
+            "weight": 20,
+            "add": {
+              "component_groups": [
+                "melee"
+              ]
+            },
+            "remove": {
+              "component_groups": [
+                "start_look_roar"
+              ]
+            }
+          }
+        ]
+      },
+      "roaring_stunned": {
+        "add": {
+          "component_groups": [
+            "roaring"
+          ]
+        }
+      },
+      "start_look_roar": {
+        "add": {
+          "component_groups": [
+            "start_look_roar"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "start_roar"
+          ]
+        }
+      },
+      "minecraft:end_roar": {
+        "remove": {
+          "component_groups": [
+            "roaring"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "start_roar",
+            "melee"
+          ]
+        }
+      },
+      "minecraft:start_exploding": {
+        "sequence": [
+          {
+            "add": {
+              "component_groups": [
+                "minecraft:exploding"
+              ]
+            }
+          },
+          {
+            "add": {
+              "component_groups": [
+                "minecraft:charged_exploding"
+              ]
+            }
+          }
+        ]
+      },
+      "rest": {
+        "add": {
+          "component_groups": [
+            "rest"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "up"
+          ]
+        }
+      },
+      "up": {
+        "add": {
+          "component_groups": [
+            "up"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "rest"
+          ]
+        }
+      },
+      "minecraft:from_village": {
+        "add": {
+          "component_groups": [
+            "minecraft:village_created"
+          ]
+        }
+      }
+    }
+  }
+}
