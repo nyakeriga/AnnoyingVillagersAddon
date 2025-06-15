@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:zsdp"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "_A"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "result": {
+      "item": "xc:zsdp",
+      "count": 1
+    }
+  }
+}

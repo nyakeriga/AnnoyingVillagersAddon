@@ -1,0 +1,34 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:zsjf"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B_B",
+      "BAB",
+      "BCB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:diamond_block",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:diamond",
+        "data": 0
+      },
+      "C": {
+        "item": "xc:mfmg",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:zsjf",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:nochtyf"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "ACA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "xc:cnlbs"
+      },
+      "B": {
+        "item": "xc:booptt"
+      },
+      "C": {
+        "item": "xc:wzboopyf"
+      }
+    },
+    "result": {
+      "item": "xc:nochtyf",
+      "count": 1
+    }
+  }
+}
+

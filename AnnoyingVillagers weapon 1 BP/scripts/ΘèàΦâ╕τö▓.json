@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:txj"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft_copper_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:txj",
+      "count": 1
+    }
+  }
+}

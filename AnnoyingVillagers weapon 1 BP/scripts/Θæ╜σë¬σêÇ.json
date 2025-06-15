@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:zsjd"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AA",
+      "",
+      ""
+    ],
+    "key": {
+      "A": {
+        "item": "xc:cdzs",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:zsjd",
+      "count": 1
+    }
+  }
+}

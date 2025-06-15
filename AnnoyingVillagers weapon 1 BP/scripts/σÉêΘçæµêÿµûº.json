@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:hjzf"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:netherite_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "pa:zszf",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:hjzf",
+      "count": 1
+    }
+  }
+}

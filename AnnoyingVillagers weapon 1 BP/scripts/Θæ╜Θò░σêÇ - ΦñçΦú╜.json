@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:twl"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "_AA",
+      " A ",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "xc:jt",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:twl",
+      "count": 1
+    }
+  }
+}

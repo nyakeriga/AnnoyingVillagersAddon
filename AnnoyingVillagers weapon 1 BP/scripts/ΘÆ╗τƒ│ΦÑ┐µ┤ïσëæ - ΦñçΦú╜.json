@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:zsxyj"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:diamond",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:diamond_sword",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:zsxyj",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:fyszswd"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "xc:fysnl",
+        "data": 0
+      },
+      "B": {
+        "item": "xc:zswd",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:fyszswd",
+      "count": 1
+    }
+  }
+}

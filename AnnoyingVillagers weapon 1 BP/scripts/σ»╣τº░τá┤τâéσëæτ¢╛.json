@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:dccjde"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": "xc:dcjd",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:lava_bucket",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:cjde",
+      "count": 1
+    }
+  }
+}

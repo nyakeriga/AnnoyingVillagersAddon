@@ -1,0 +1,50 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:gzj"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AGB",
+      "DCE",
+      "HFI"
+    ],
+    "key": {
+      "A": {
+        "item": "xc:cdzs"
+      },
+      "B": {
+        "item": "xc:lszs"
+      },
+      "C": {
+        "item": "xc:mfmg"
+      },
+      "D": {
+        "item": "xc:fhzs"
+      },
+      "E": {
+        "item": "xc:lvszs"
+      },
+      "F": {
+        "item": "xc:zszs"
+      },
+      "G": {
+        "item": "xc:hszs"
+      },
+      "H": {
+        "item": "minecraft:diamond"
+      },
+      "I": {
+        "item": "xc:dcdmfzs"
+      }
+    },
+    "result": {
+      "item": "xc:gzj",
+      "count": 1
+    }
+  }
+}
+

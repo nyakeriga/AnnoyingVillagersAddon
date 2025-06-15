@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:zshm"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "_BB",
+      "_AB",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "xc:zscq"
+      },
+      "B": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "result": {
+      "item": "xc:zshm",
+      "count": 1
+    }
+  }
+}

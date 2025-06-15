@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:tklsb"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "xc:fmtk"
+      },
+      "B": {
+        "item": "xc:hsmyzy"
+      }
+    },
+    "result": {
+      "item": "xc:tklsb",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:fj"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "xc:dcdmfzs",
+        "data": 0
+      },
+      "B": {
+        "item": "xc:dlfj",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:fj",
+      "count": 1
+    }
+  }
+}

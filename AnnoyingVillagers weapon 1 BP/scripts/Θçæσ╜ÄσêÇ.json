@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:jwl"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "_AA",
+      "_A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:gold_ingot"
+      },
+      "B": {
+        "item": "xc:mfmg"
+      }
+    },
+    "result": {
+      "item": "xc:jwl",
+      "count": 1
+    }
+  }
+}

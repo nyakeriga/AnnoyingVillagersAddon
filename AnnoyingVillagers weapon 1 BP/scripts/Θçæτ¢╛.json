@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:jdp"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "_A"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "result": {
+      "item": "xc:jdp",
+      "count": 1
+    }
+  }
+}

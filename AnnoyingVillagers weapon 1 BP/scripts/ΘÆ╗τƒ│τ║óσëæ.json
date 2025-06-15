@@ -1,0 +1,38 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pa:zshj"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "DBD",
+      " C "
+    ],
+    "key": {
+      "A": {
+        "item": "xc:zscj",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:redstone",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:diamond",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:zshj",
+      "count": 1
+    }
+  }
+}

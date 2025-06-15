@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:jjcj"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "__A",
+      "_A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:gold_ingot"
+      },
+      "B": {
+        "item": "minecraft:golden_sword"
+      }
+    },
+    "result": {
+      "item": "xc:jjcj",
+      "count": 1
+    }
+  }
+}

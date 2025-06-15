@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "source:nljx"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B",
+      ""
+    ],
+    "key": {
+      "A": {
+        "item": "xc:hszs",
+        "data": 0
+      },
+      "B": {
+        "item": "xc:mfmg",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "source:nljx",
+      "count": 1
+    }
+  }
+}

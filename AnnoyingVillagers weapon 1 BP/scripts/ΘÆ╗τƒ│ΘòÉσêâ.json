@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:zsgr"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:diamond",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:diamond_pickaxe",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:zsgr",
+      "count": 1
+    }
+  }
+}

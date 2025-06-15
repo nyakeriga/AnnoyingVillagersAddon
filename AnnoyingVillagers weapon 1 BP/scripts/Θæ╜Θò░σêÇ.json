@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:zsld"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      " B ",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:diamond",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:zsld",
+      "count": 1
+    }
+  }
+}

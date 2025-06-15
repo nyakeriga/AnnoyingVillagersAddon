@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:tysahjskf"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "xc:tysnl",
+        "data": 0
+      },
+      "B": {
+        "item": "xc:ahjskf",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:tysahjskf",
+      "count": 1
+    }
+  }
+}

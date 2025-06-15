@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:fgzstk"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      " B ",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "xc:dcdmfzs",
+        "data": 0
+      },
+      "B": {
+        "item": "xc:mfzstk",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:fgzstk",
+      "count": 1
+    }
+  }
+}
