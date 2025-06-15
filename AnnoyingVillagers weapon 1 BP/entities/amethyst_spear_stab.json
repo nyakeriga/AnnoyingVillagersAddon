@@ -1,0 +1,80 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "yes:amethyst_spear_stab",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "yes:despawn": {
+        "minecraft:instant_despawn": {}
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "despawn",
+			 "weeweejuice"
+        ]
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:fire_immune": {
+      },
+"minecraft:behavior.ram_attack": {
+    "priority": 0,
+    "run_speed": 0.7,
+    "ram_speed": 1.8,
+    "min_ram_distance": 4,
+    "ram_distance": 7,
+    "knockback_force": 2.5,
+    "knockback_height": 0.04,
+    "pre_ram_sound": "pre_ram",
+    "ram_impact_sound": "ram_impact",
+    "cooldown_range": [
+        0,
+        0
+    ]
+},
+            "minecraft:custom_hit_test": {
+                "hitboxes": [
+                    {
+                        "pivot": [ 0, 100, 0 ],
+                        "width": 0,
+                        "height": 0
+                    }
+                ]
+            },
+            "minecraft:damage_sensor": {
+                "triggers": {
+                    "deals_damage": false
+                }
+            },
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:collision_box": {
+                "width": 0.0001,
+                "height": 0.0001
+            }
+	 },
+    "events": {
+      "yes:despawn": {
+        "add": {
+          "component_groups": [
+            "yes:despawn"
+          ]
+        }
+      }
+    }
+  }
+}

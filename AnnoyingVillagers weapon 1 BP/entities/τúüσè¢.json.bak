@@ -1,0 +1,89 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "xc:clnl",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:egg"
+		},
+		"component_groups": {
+
+			"despawning": {
+				"minecraft:despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.1,
+				"height": 0.1
+			},
+			"minecraft:timer": {
+				"time": 0.08,
+				"looping": true,
+				"time_down_event": {
+					"event": "minecraft:start_despawn"
+				}
+			},
+			"minecraft:explode": {
+				"fuseLength": 0.2,
+				"fuseLit": false,
+				"power": 2,
+				"causesFire": true,
+				"fire_affected_by_griefing": true,
+				"destroy_affected_by_griefing": true
+			},
+			"minecraft:projectile": {
+				"on_hit": {
+					"impact_damage": {
+						"damage": [
+							6,
+							10
+						],
+						"knockback": true
+					},
+					"definition_event": {
+						"affectProjectile": true,
+						"eventTrigger": {}
+					},
+					"catch_fire": {
+						"fireAffectedByGriefing": false
+					},
+					"remove_on_hit": {}
+				},
+				"power": 1.5,
+				"gravity": 0,
+				"inertia": 1,
+				"uncertaintyBase": 12,
+				"uncertaintyMultiplier": 5,
+				"anchor": 1,
+				"offset": [-0.12,
+					0.2,
+					0
+				],
+				"reflectOnHurt": false,
+				"catch_fire": true
+			},
+			"minecraft:physics": {}
+		},
+		"events": {
+			"fire": {
+				"run_command": {
+					"command": [
+						"tag @e[r=2,tag=!item] add 吸引",
+						"tag @e[r=2,tag=!item] add 吸引",
+						"particle minecraft:endro ~ ~ ~",
+						"particle minecraft:endro ~ ~ ~",
+						"particle minecraft:endro ~ ~ ~"
+					]
+				}
+		},
+		"add": {
+			"component_groups": [
+			"from_explosion"
+			]
+		}
+	}
+  }
+ }

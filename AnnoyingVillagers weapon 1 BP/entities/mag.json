@@ -1,0 +1,97 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "xc:clnl",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:egg"
+		},
+		"component_groups": {
+
+			"despawning": {
+				"minecraft:despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.3,
+				"height": 0.3
+			},
+				"minecraft:timer": {
+				"time": 0,
+				"looping": true,
+				"time_down_event": {
+					"event": "minecraft:start_despawn"
+				}
+			},
+			"minecraft:explode": {
+				"fuseLength": 0,
+				"fuseLit": false,
+				"power": 1,
+				"causesFire": false,
+				"fire_affected_by_griefing": false,
+				"destroy_affected_by_griefing": false
+			},
+				"minecraft:start_despawn": {
+				"fuseLength": 0,
+				"fuseLit": false,
+				"power": 1,
+				"causesFire": false,
+				"fire_affected_by_griefing": false,
+				"destroy_affected_by_griefing": false
+			},
+			"minecraft:projectile": {
+				"on_hit": {
+					"definition_event": {
+						"affect_projectile": false,
+						"event_trigger": {
+							"event": "minecraft:explode",
+							"target": "self"
+						}
+					}
+				},
+				"power": 1.6,
+				"gravity": 0,
+				"inertia": 1,
+				"uncertaintyBase": 1,
+				"uncertaintyMultiplier": 1,
+				"anchor": 1,
+				"offset": [-0.12,
+					0.2,
+					0
+				],
+				"reflectOnHurt": false,
+				"catch_fire": false
+			},
+			"minecraft:physics": {}
+		},
+		"events": {
+			"minecraft:start_despawn": {
+				"run_command": {
+					"command": [
+						"particle xc:mag ~~~"
+					],
+					"target": "self"
+				}
+			},
+			"minecraft:explode": {
+				"add": {
+					"component_groups": [
+						"minecraft:exploding"
+					]
+				},
+				"run_command": {
+					"command": [
+						"tag @e[r=2,tag=!item] add 吸引",
+						"kill @s"
+					]
+				}
+			}
+		},
+		"add": {
+			"component_groups": ["despawning"]
+		}
+	}
+}

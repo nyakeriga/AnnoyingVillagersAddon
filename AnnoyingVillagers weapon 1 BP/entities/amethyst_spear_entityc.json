@@ -1,0 +1,75 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "yes:amethyst_spear_entityc",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+   },
+    "component_groups": {
+      "yes:despawn": {
+        "minecraft:instant_despawn": {}
+      }
+	 },
+        "components": {
+	  "minecraft:type_family": {
+	    "family": [ "despawn", "weeweejuice" ]
+	  },
+        "minecraft:timer": {
+          "looping": false,
+          "time": 0.64,
+          "time_down_event": {
+            "event": "yes:amethyst_spear_attack"
+          }
+        },
+            "minecraft:custom_hit_test": {
+                "hitboxes": [
+                    {
+                        "pivot": [ 0, 100, 0 ],
+                        "width": 0,
+                        "height": 0
+                    }
+                ]
+            },
+            "minecraft:damage_sensor": {
+                "triggers": {
+                    "deals_damage": false
+                }
+            },
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:collision_box": {
+                "width": 0.0001,
+                "height": 0.0001
+            }
+        },
+    "events": {
+    	  "yes:amethyst_spear_attack": {
+				  "run_command": {
+   				 "command": [
+						   "execute @e[c=1,type=!player,scores={mobspear=69..},tag=!mob_spear_attacking] ~ ~ ~ tag @s add mob_spear_attacking",
+						   "execute @e[c=1,type=!player,scores={mobspear=69..}] ~ ~ ~ summon yes:stab_projectilec ^^1^0.5",
+						   "execute @e[c=1,type=!player,scores={mobspear=69..}] ~ ~ ~ particle yes:spear_particle ^^0.7^2",
+						   "execute @e[type=husk,c=1,r=4.5,scores={mobspear=69..},tag=mob_spear_attacking] ~~~ scoreboard players set @s mobspear 0",
+						   "execute @e[type=zombie,c=1,r=4.5,scores={mobspear=69..},tag=mob_spear_attacking] ~~~ scoreboard players set @s mobspear 0",
+						   "execute @e[type=skeleton,c=1,r=4.5,scores={mobspear=69..},tag=mob_spear_attacking] ~~~ scoreboard players set @s mobspear 0",
+						   "execute @e[type=zombie_villager,c=1,r=4.5,scores={mobspear=69..},tag=mob_spear_attacking] ~~~ scoreboard players set @s mobspear 0",
+						   "execute @e[type=stray,c=1,r=4.5,scores={mobspear=69..},tag=mob_spear_attacking] ~~~ scoreboard players set @s mobspear 0",
+						   "execute @e[type=drowned,c=1,r=4.5,scores={mobspear=69..},tag=mob_spear_attacking] ~~~ scoreboard players set @s mobspear 0",
+						   "event entity @s yes:despawn"
+  						  ]
+ 					 }
+				},
+    	  "yes:despawn": {
+        "add": {
+          "component_groups": [
+            "yes:despawn"
+        		 	  ]
+       	 	  }
+		     }
+	     }
+    }
+}

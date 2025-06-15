@@ -1,0 +1,62 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "xc:fire",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "arrow"
+		},
+		"components": {
+			"minecraft:projectile": {
+				"on_hit": {
+					"impact_damage": {
+			"damage": 15,
+			"knockback": true,
+			"semi_random_diff_damage": true 
+		},
+		"definition_event": {
+      "affect_projectile": true,
+      "event_trigger": {
+            "event": "fire",
+            "target": "self"
+      }
+
+     },
+     "catch_fire": {
+        "fire_affected_by_griefing": true
+      },
+					"remove_on_hit": { }
+				},
+				"power": 1.6,
+				"gravity": 0.005,
+				"inertia": 1,
+				"anchor": 2,
+				"offset": [
+					0,
+					0,
+					0
+				],
+				"semi_random_diff_damage": false,
+				"reflect_on_hurt": false,
+				"hit_sound": "mob.blaze.shoot",
+				"liquid_inertia": 0.1,
+				"catch_fire": true,
+				"multiple_targets": false
+			},
+			"minecraft:physics": {
+				"has_collision": true
+			}
+		},
+		"events": {
+			"fire": {
+				"run_command": {
+	"command": [
+		 "particle xc:hq ^ ^ ^"
+		]
+	}
+   }
+  }
+ }
+}

@@ -1,0 +1,62 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "yes:amethyst_spear_entity",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+	  "scripts": {
+	    "animate": [ 
+			"teleport", 
+			"spear"
+		]
+	  },
+	  "animations": {
+		"teleport": "controller.animation.amethyst_spear_teleport",
+		"spear": "animation.spear"
+	  }
+   },
+    "component_groups": {
+      "yes:despawn": {
+        "minecraft:instant_despawn": {}
+      }
+	 },
+        "components": {
+	  "minecraft:type_family": {
+	    "family": [ "weeweejuice" ]
+	  },
+            "minecraft:custom_hit_test": {
+                "hitboxes": [
+                    {
+                        "pivot": [ 0, 100, 0 ],
+                        "width": 0,
+                        "height": 0
+                    }
+                ]
+            },
+            "minecraft:damage_sensor": {
+                "triggers": {
+                    "deals_damage": false
+                }
+            },
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:collision_box": {
+                "width": 0.0001,
+                "height": 0.0001
+            }
+        },
+    "events": {
+    	  "yes:despawn": {
+        "add": {
+          "component_groups": [
+            "yes:despawn"
+        		 	  ]
+       	 	  }
+		     }
+	     }
+    }
+}

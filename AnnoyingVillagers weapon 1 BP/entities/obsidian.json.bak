@@ -1,0 +1,40 @@
+{
+    "format_version": "1.14.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "mc:obsidian",
+            "register_to_creative_menu": true,
+            "is_experimental": true
+        },
+        "components": {
+            "minecraft:ticking": {
+                "on_tick": {
+                    "event": "web"
+                },
+                "looping": false,
+                "range": [
+                    3,
+                    3
+                ]
+            },
+            "minecraft:loot": "obsidian",
+            "minecraft:destroy_time": 30,
+            "minecraft:material_instances": {
+				"*": {
+				  "texture": "stone",
+				  "render_method": "blend"
+				}
+			},
+            "minecraft:explosion_resistance": 20
+        },
+        "events": {
+            "web": {
+                "run_command": {
+                    "command": [
+                        "setblock ~~~ air 0 destroy"
+                    ]
+                }
+            }
+        }
+    }
+}

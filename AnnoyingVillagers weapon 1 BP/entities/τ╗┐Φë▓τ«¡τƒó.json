@@ -1,0 +1,71 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "xc:greenarrow",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "arrow"
+		},
+		"components": {
+            "minecraft:collision_box": {
+                "width": 0.25,
+                "height": 0.25
+            },
+			"minecraft:projectile": {
+				"on_hit": {
+					"impact_damage": {
+			"damage": 16,
+			"knockback": true,
+			"semi_random_diff_damage": true 
+		},
+		"definition_event": {
+      "affect_projectile": true,
+      "event_trigger": {
+            "event": "fire",
+            "target": "self"
+      }
+
+     },
+					"remove_on_hit": { }
+				},
+				"power": 1.6,
+				"gravity": 0.05,
+				"inertia": 1,
+				"anchor": 2,
+				"offset": [
+					0,
+					0,
+					0
+				],
+				"semi_random_diff_damage": false,
+				"reflect_on_hurt": false,
+				"hit_sound": "mob.blaze.shoot",
+				"liquid_inertia": 0.1,
+				"multiple_targets": false
+			},
+			"minecraft:physics": {
+				"has_collision": true
+			}
+		},
+		"events": {
+			"fire": {
+				"run_command": {
+	"command": [
+		 "damage @e[tag=!byswq,r=3] 5 block_explosion entity @s",
+							 "playsound random.explode @a ^ ^ ^1 100 1 100",
+							 "particle minecraft:camera_shoot_explosion ~ ~ ~"
+		]
+	}
+   },
+    "from_explosion": {
+      "add": {
+        "component_groups": [
+          "from_explosion"
+        ]
+      }
+    }
+  }
+ }
+}
