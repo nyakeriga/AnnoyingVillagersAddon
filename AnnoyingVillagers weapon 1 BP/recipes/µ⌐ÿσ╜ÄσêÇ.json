@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:rgd"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "__A",
+      "_AA",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "xc:cbs"
+      },
+      "B": {
+        "item": "xc:mfmg"
+      }
+    },
+    "result": {
+      "item": "xc:rgd",
+      "count": 1
+    }
+  }
+}

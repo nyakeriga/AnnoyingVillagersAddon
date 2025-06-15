@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:ahjxz"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "_B",
+      "BAB",
+      "_B"
+    ],
+    "key": {
+      "B": {
+        "item": "xc:ahjd",
+        "data": 0
+      },
+      "A": {
+        "item": "xc:mfzsxz",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:ahjxz",
+      "count": 1
+    }
+  }
+}

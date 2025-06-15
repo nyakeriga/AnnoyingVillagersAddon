@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:cbs"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:glowstone_dust",
+        "data": 0
+      },
+      "B": {
+        "item": "xc:hbs",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:cbs",
+      "count": 1
+    }
+  }
+}

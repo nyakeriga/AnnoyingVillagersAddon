@@ -1,0 +1,34 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "av:enderslayer_scythe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "DBD",
+      "ACA",
+      "DBD"
+    ],
+    "key": {
+      "A": {
+        "item": "xc:zjxkqdhys"
+      },
+      "B": {
+        "item": "xc:qtxkqdhys"
+      },
+      "C": {
+        "item": "minecraft:netherite_axe"
+      },
+      "D": {
+        "item": "minecraft:crying_obsidian"
+      }
+    },
+    "result": {
+      "item": "av:enderslayer_scythe",
+      "count": 1
+    }
+  }
+}

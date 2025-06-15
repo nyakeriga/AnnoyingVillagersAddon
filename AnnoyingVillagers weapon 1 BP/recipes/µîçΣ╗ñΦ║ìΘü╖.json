@@ -1,0 +1,38 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:zlj"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "__A",
+      "BAD",
+      "CD"
+    ],
+    "key": {
+      "A": {
+        "item": "xc:cdzs",
+        "data": 0
+      },
+      "B": {
+        "item": "xc:jt",
+        "data": 0
+      },
+      "C": {
+        "item": "xc:mfmg",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:gold_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:zlj",
+      "count": 1
+    }
+  }
+}

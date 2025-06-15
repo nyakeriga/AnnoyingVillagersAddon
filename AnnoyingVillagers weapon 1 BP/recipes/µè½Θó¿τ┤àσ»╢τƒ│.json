@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:pfhbsxj"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AB",
+      "",
+      ""
+    ],
+    "key": {
+      "A": {
+        "item": "xc:hbsxj"
+      },
+      "B": {
+        "item": "minecraft:leather"
+      }
+    },
+    "result": {
+      "item": "xc:pfhbsxj",
+      "count": 1
+    }
+  }
+}
