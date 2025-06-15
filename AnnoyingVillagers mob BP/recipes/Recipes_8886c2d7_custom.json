@@ -1,0 +1,50 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_c292d4c1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:rail",
+        "data": 0
+      },
+      {
+        "item": "minecraft:rail",
+        "data": 0
+      },
+      {
+        "item": "minecraft:rail",
+        "data": 0
+      },
+      {
+        "item": "minecraft:rail",
+        "data": 0
+      },
+      {
+        "item": "minecraft:rail",
+        "data": 0
+      },
+      {
+        "item": "minecraft:rail",
+        "data": 0
+      },
+      {
+        "item": "minecraft:rail",
+        "data": 0
+      },
+      {
+        "item": "minecraft:rail",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "minecraft:iron_ingot",
+      "count": 3,
+      "data": 0
+    }
+  }
+}

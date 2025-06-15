@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_f7b32369"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:glow_item_frame",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "minecraft:frame",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

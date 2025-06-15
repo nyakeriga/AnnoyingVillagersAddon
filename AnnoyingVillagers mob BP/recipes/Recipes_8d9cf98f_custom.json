@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_12769388"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:sealantern",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "minecraft:prismarine_crystals",
+      "count": 5,
+      "data": 0
+    }
+  }
+}

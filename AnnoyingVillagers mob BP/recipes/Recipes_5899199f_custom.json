@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_2b8f4792"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:clock",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "minecraft:gold_ingot",
+      "count": 4,
+      "data": 0
+    }
+  }
+}

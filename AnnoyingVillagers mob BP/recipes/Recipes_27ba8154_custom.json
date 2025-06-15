@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_b19bac61"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:iron_trapdoor",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "minecraft:iron_ingot",
+      "count": 4,
+      "data": 0
+    }
+  }
+}

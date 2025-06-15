@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_0d8c3156"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:grindstone",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "minecraft:planks",
+      "count": 3,
+      "data": 0
+    }
+  }
+}

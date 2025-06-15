@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_2054fe36"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:smithing_table",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "minecraft:iron_ingot",
+      "count": 2,
+      "data": 0
+    }
+  }
+}

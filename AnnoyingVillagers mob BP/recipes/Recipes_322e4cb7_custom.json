@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "tags": [
+      "blast_furnace"
+    ],
+    "output": {
+      "item": "minecraft:coal",
+      "data": 1
+    },
+    "input": {
+      "item": "minecraft:oak_log",
+      "data": 0
+    },
+    "description": {
+      "identifier": "recipes_65f35df0"
+    }
+  }
+}

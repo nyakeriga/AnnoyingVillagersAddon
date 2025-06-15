@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_7aa7b568"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:soul_lantern",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "minecraft:iron_nugget",
+      "count": 8,
+      "data": 0
+    }
+  }
+}

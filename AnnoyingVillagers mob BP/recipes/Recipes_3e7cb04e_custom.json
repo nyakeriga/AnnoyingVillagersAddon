@@ -1,0 +1,34 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_77e9a113"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:stick",
+        "data": 0
+      },
+      {
+        "item": "minecraft:stick",
+        "data": 0
+      },
+      {
+        "item": "minecraft:stick",
+        "data": 0
+      },
+      {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "minecraft:planks",
+      "count": 2,
+      "data": 0
+    }
+  }
+}

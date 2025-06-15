@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_f1055306"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B",
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:dripstone_block",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:pointed_dripstone",
+      "count": 4,
+      "data": 0
+    }
+  }
+}

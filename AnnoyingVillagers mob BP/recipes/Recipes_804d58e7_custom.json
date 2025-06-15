@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_84c0dc73"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:observer",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "minecraft:cobblestone",
+      "count": 6,
+      "data": 0
+    }
+  }
+}

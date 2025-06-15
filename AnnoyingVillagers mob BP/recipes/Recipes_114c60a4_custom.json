@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_b557e96e"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "AAA",
+      " B "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:leaves",
+        "data": 3
+      },
+      "B": {
+        "item": "minecraft:deadbush",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:sapling",
+      "count": 1,
+      "data": 3
+    }
+  }
+}

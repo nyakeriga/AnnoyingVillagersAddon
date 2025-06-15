@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "xc:cdzs4"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A",
+      "",
+      ""
+    ],
+    "key": {
+      "A": {
+        "item": "pa:zszj",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "xc:cdzs",
+      "count": 1
+    }
+  }
+}

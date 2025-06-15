@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_3b34f78e"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:wood",
+        "data": 0
+      },
+      {
+        "item": "minecraft:wood",
+        "data": 0
+      },
+      {
+        "item": "minecraft:wood",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "minecraft:log",
+      "count": 4,
+      "data": 0
+    }
+  }
+}

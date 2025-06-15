@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_04022040"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:prismarine",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "minecraft:prismarine_shard",
+      "count": 4,
+      "data": 0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "recipes_738c5591"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "  A",
+      "ABA",
+      "C C"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:gold_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:horsearmorleather",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:gold_ingot",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "minecraft:horsearmorgold",
+      "count": 1,
+      "data": 0
+    }
+  }
+}

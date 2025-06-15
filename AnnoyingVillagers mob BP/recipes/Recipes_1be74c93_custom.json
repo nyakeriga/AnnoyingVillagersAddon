@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_cd8f0465"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:chain",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "minecraft:iron_nugget",
+      "count": 11,
+      "data": 0
+    }
+  }
+}

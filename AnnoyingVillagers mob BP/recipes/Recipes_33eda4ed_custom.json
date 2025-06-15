@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_088f8f26"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:spyglass",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "minecraft:copper_ingot",
+      "count": 2,
+      "data": 0
+    }
+  }
+}

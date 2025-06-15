@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "recipes_8dd72ff4"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:ladder",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "minecraft:stick",
+      "count": 2,
+      "data": 0
+    }
+  }
+}
