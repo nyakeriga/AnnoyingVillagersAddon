@@ -1,0 +1,445 @@
+{
+    "tiers": [
+        {
+            "groups": [
+                {
+                    "num_to_select": 10,
+                    "trades": [
+                        {
+                            "max_uses": 1,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 8
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "xc:cbs"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 1,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 4
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "xc:ps_blue_helmet"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 1,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 10
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "xc:blue_leggings"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 1,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 8
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "xc:blue_boots"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 1,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 8
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "xc:blue_helmet"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 1,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 5
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "xc:ps_blue_chest"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 1,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 12
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "xc:blue_chest"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 15,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 44
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "xc:lszs"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 15,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 56
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "xc:cdzs"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 15,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 8
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "xc:ymj"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 10,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 4
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "xc:nyttq"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 1,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 43
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "xc:gflbsdp"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 1,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 22
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "xc:zfzs"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 1,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 12
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "xc:ymjdyg"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 1,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 14
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "xc:xmhdm"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 1,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 24
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "xc:tdp"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 1,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 32
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "xc:zsdp"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 1,
+                            "wants": [
+                                {
+                                    "item": "minecraft:diamond",
+                                    "quantity": 64
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "xc:ysfms"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 1,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 15
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "xc:tkltk"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 1,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 10
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "xc:cbzsf"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 1,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 17
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "xc:lbscd"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 3,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 23
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:golden_apple"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 5,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 35
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:golden_apple"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 10,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 47
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:golden_apple"
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 6,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 24
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:enchanted_book",
+                                    "functions": [
+                                        {
+                                            "function": "enchant_with_levels",
+                                            "treasure": false,
+                                            "levels": {
+                                                "min": 1,
+                                                "max": 30
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 6,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 36
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:enchanted_book",
+                                    "functions": [
+                                        {
+                                            "function": "enchant_with_levels",
+                                            "treasure": false,
+                                            "levels": {
+                                                "min": 1,
+                                                "max": 30
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 6,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 48
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:enchanted_book",
+                                    "functions": [
+                                        {
+                                            "function": "enchant_with_levels",
+                                            "treasure": false,
+                                            "levels": {
+                                                "min": 1,
+                                                "max": 30
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "max_uses": 6,
+                            "wants": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 64
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:enchanted_book",
+                                    "functions": [
+                                        {
+                                            "function": "enchant_with_levels",
+                                            "treasure": false,
+                                            "levels": {
+                                                "min": 1,
+                                                "max": 30
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
