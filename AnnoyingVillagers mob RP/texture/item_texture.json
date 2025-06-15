@@ -1,0 +1,186 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "egg_panda": {
+      "textures": "textures/egg/egg_panda"
+    },
+    "egg_steve": {
+      "textures": "textures/egg/egg_steve"
+    },
+    "egg_min": {
+      "textures": "textures/egg/egg_min"
+    },
+    "egg_kuilei": {
+      "textures": "textures/egg/egg_kuilei"
+    },
+    "egg_hbzj": {
+      "textures": "textures/egg/egg_hbzj"
+    },
+    "egg_wan": {
+      "textures": "textures/egg/egg_wan"
+    },
+    "egg_colder": {
+      "textures": "textures/egg/egg_colder"
+    },
+    "egg_kls": {
+      "textures": "textures/egg/egg_kls"
+    },
+    "egg_blue": {
+      "textures": "textures/egg/egg_blue"
+    },
+    "egg_jszl": {
+      "textures": "textures/egg/egg_jszl"
+    },
+    "egg_xssw": {
+      "textures": "textures/egg/egg_xssw"
+    },
+    "egg_zl": {
+      "textures": "textures/egg/egg_zl"
+    },
+    "egg_dongfang": {
+      "textures": "textures/egg/egg_dongfang"
+    },
+    "egg_kuilei2": {
+      "textures": "textures/egg/egg_kuilei2"
+    },
+    "egg_lem": {
+      "textures": "textures/egg/egg_lem"
+    },
+    "egg_grave": {
+      "textures": "textures/egg/egg_grave"
+    },
+    "blue_helmet": {
+      "textures": "textures/items/blue_helmet"
+    },
+    "green_helmet": {
+      "textures": "textures/items/green_helmet"
+    },
+    "ps_blue_helmet": {
+      "textures": "textures/items/ps_blue_helmet"
+    },
+"ps_blue_chest": {
+      "textures": "textures/items/ps_blue_chest"
+    },
+    "red_helmet": {
+      "textures": "textures/items/red_helmet"
+    },
+    "egg_zhjs": {
+      "textures": "textures/egg/egg_zhjs"
+    },
+    "pjys": {
+      "textures": "textures/items/pjys"
+    },
+    "egg_scout": {
+      "textures": "textures/egg/egg_scout"
+    },
+    "egg_lstklzs": {
+      "textures": "textures/egg/egg_lstklzs"
+    },
+    "egg_herobrine7": {
+      "textures": "textures/egg/egg_herobrine7"
+    },
+    "egg_shawn": {
+      "textures": "textures/egg/egg_shawn"
+    },
+    "egg_zombie_blue": {
+      "textures": "textures/egg/egg_zombie_blue"
+    },
+    "egg_red_zombie": {
+      "textures": "textures/egg/egg_red_zombie"
+    },
+    "egg_y": {
+      "textures": "textures/egg/egg_y"
+    },
+    "Wvillager_head": {
+      "textures": "textures/items/Wvillager_head"
+    },
+    "egg_zjhb": {
+      "textures": "textures/egg/egg_zjhb"
+    },
+    "xc_hysxj": {
+      "textures": "textures/items/xc_hysxj"
+    },
+    "xc_hystk": {
+      "textures": "textures/items/xc_hystk"
+    },
+    "egg_zszjtkl": {
+      "textures": "textures/egg/egg_zszjtkl"
+    },
+    "scout_helmet": {
+      "textures": "textures/items/scout_helmet"
+    },
+    "purple_helmet": {
+      "textures": "textures/items/purple_helmet"
+    },
+    "egg_hsmyzy": {
+      "textures": "textures/egg/egg_hsmyzy"
+    },
+    "villager_boots": {
+      "textures": "textures/items/villager_boots"
+    },
+    "villager_leggings": {
+      "textures": "textures/items/villager_leggings"
+    },
+    "blue_chest": {
+      "textures": "textures/items/blue_chest"
+    },
+    "red_chest": {
+      "textures": "textures/items/red_chest"
+    },
+    "purple_chest": {
+      "textures": "textures/items/purple_chest"
+    },
+    "black_chest": {
+      "textures": "textures/items/black_chest"
+    },
+    "black_chestq": {
+      "textures": "textures/items/black_chest"
+    },
+    "black_helmet": {
+      "textures": "textures/items/black_helmet"
+    },
+    "green_chest": {
+      "textures": "textures/items/green_chest"
+    },
+    "egg_cmw": {
+      "textures": "textures/egg/egg_cmw"
+    },
+    "egg_red_villager": {
+      "textures": "textures/egg/egg_red_villager"
+    },
+    "egg_purple_villager": {
+      "textures": "textures/egg/egg_purple_villager"
+    },
+    "egg_black_villager": {
+      "textures": "textures/egg/egg_black_villager"
+    },
+    "egg_ayherobrine": {
+      "textures": "textures/egg/egg_ayherobrine"
+    },
+    "egg_green_villager": {
+      "textures": "textures/egg/egg_green_villager"
+    },
+    "egg_hszjtkl": {
+      "textures": "textures/egg/egg_hszjtkl"
+    },
+    "xc:lcqsfz": {
+      "textures": "textures/egg/egg_blue_villager"
+    },
+    "xc:lvcqsfz": {
+      "textures": "textures/egg/egg_green_villager"
+    },
+    "xc:zcqsfz": {
+      "textures": "textures/egg/egg_purple_villager"
+    },
+    "xc:hcqsfz": {
+      "textures": "textures/egg/egg_red_villager"
+    },
+    "xc:zcbsfz": {
+      "textures": "textures/egg/egg_scout"
+    },
+    "egg_blue_villager": {
+      "textures": "textures/egg/egg_blue_villager"
+    }
+  }
+}
