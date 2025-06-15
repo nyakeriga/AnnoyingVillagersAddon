@@ -1,0 +1,152 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "xc:cnzsld",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.sword"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "xc_cnzsld"
+                }
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:allow_off_hand": true,
+            "minecraft:foil": false,
+            "minecraft:durability": {
+                "max_durability": 1656,
+                "damage_chance": {
+                    "min": 30,
+                    "max": 50
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "minecraft:diamond"
+                        ],
+                        "repair_amount": 300
+                    },
+                    {
+                        "items": [
+                            "xc:zscd"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability + 0.2 * context.other->query.max_durability"
+                    }
+                ]
+            },
+            "minecraft:mining_speed": 0.4,
+            "minecraft:damage": 16.5,
+            "minecraft:enchantable": {
+                "value": 50,
+                "slot": "sword"
+            },
+            "minecraft:cooldown": {
+                "category": "cnzsld",
+                "duration": 13
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "yes:stab_attack",
+                    "condition": "!query.scoreboard('weakness') == 1",
+                    "target": "self"
+                }
+            },
+            "minecraft:can_destroy_in_creative": true,
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "sweep_special"
+                }
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_scythe",
+                    "minecraft:is_tool"
+                ]
+            },
+            "minecraft:display_name": {
+                "value": "Liberate Diamond Sickle"
+            }
+        },
+        "events": {
+            "sweep_special": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "tag @s add ldhs",
+                                "scoreboard players add @s 挥砍 1",
+                                "execute @s[scores={挥砍=0..3}] ~ ~ ~ particle heavy:fan ^ ^1 ^1.6",
+                                "function hs",
+                                "playsound weapon.greatsword_hit_weewee @a ~ ~ ~ 1 1.2",
+                                "particle xc:dg ^ ^1 ^0.2",
+                                "effect @s resistance 3 0 true",
+                                "scoreboard objectives add 挥砍 dummy",
+                                "execute @s[scores={挥砍=4..}] ~ ~ ~ particle heavy:horizontal_sweep ~ ~1 ~",
+                                "execute @s[scores={挥砍=4..}] ~ ~ ~ particle heavy:horizontal_sweep ~ ~1.5 ~",
+                                "execute @s[scores={挥砍=4..}] ~ ~ ~ particle heavy:horizontal_sweep ~ ~1.2 ~",
+                                "execute @s[scores={挥砍=4..}] ~ ~ ~ tp @s ^ ^0.5 ^1.3 true",
+                                "execute @s[scores={挥砍=4..}] ~ ~ ~ particle heavy:horizontal_sweep ~ ~1 ~",
+                                "execute @s[scores={挥砍=4..}] ~ ~ ~ particle heavy:horizontal_sweep ~ ~1.5 ~",
+                                "execute @s[scores={挥砍=4..}] ~ ~ ~ particle heavy:horizontal_sweep ~ ~2 ~",
+                                "execute @s[scores={挥砍=4..}] ~ ~ ~ playsound sound.attack.hs @a ~ ~ ~ 100 1",
+                                "execute @s[scores={挥砍=4..}] ~ ~ ~ particle heavy:sweep ^ ^1.2 ^1.5",
+                                "execute @s[scores={挥砍=4..}] ~ ~ ~ damage @e[tag=!ldhs,r=3.5,type=!item] 2 suicide entity @s",
+                                "execute @s[scores={挥砍=4..}] ~ ~ ~ damage @e[type=!player,tag=!ldhs,r=3.5,type=!item] 18 suicide entity @s",
+                                "scoreboard players set @s[scores={挥砍=4..}] 挥砍 0",
+                                "scoreboard players remove @s §9★ 8",
+                                "tag @s remove ldhs"
+                            ]
+                        },
+                        "damage": {
+                            "type": "durability",
+                            "amount": 1
+                        }
+                    }
+                ]
+            },
+            "minecraft:break": {
+                "damage": {
+                    "type": "durability",
+                    "amount": 1
+                }
+            },
+            "yes:stab_attack": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "scoreboard objectives add 紫光 dummy",
+                                "scoreboard players set @s 紫光 45",
+                                "playsound sound.lys2 @a[r=20]",
+                                "particle heavy:horizontal_sweep ~ ~1 ~",
+                                "particle heavy:horizontal_sweep ~ ~1.5 ~",
+                                "particle heavy:horizontal_sweep ~ ~2 ~",
+                                "summon xc:jt ~ ~ ~",
+                                "effect @s speed 5 2 true",
+                                "particle heavy:horizontal_sweep ~ ~1 ~",
+                                "particle heavy:horizontal_sweep ~ ~1.5 ~",
+                                "particle heavy:horizontal_sweep ~ ~2 ~",
+                                "playsound sound.lys @a[r=20]",
+                                "playsound sound.lys2 @a[r=20]",
+                                "scoreboard players set @s 挥砍 3",
+                                "tag @s add 显示",
+                                "title @s actionbar §c§lyou element ability is on cooldown"
+                            ]
+                        },
+                        "damage": {
+                            "type": "durability",
+                            "amount": 10
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "xc:lysgfzbscj",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.sword"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "xc_gfczzbscj"
+                }
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.sword"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:allow_off_hand": true,
+            "minecraft:foil": false,
+            "minecraft:durability": {
+                "max_durability": 3646,
+                "damage_chance": {
+                    "min": 30,
+                    "max": 50
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "minecraft:diamond"
+                        ],
+                        "repair_amount": 300
+                    },
+                    {
+                        "items": [
+                            "xc:zscr"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability + 0.2 * context.other->query.max_durability"
+                    }
+                ]
+            },
+            "minecraft:mining_speed": 0.63,
+            "minecraft:damage": 18,
+            "minecraft:enchantable": {
+                "value": 150,
+                "slot": "sword"
+            },
+            "minecraft:cooldown": {
+                "category": "lysgfzbscj",
+                "duration": 30
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "yes:stab_attack",
+                    "condition": "!query.scoreboard('weakness') == 1",
+                    "target": "self"
+                }
+            },
+            "minecraft:can_destroy_in_creative": true,
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "sweep_special"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "Pink Diamond Long Sword"
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_katana",
+                    "minecraft:is_tool"
+                ]
+            }
+        },
+        "events": {
+            "sweep_special": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "playsound sound.attack.hs @a ~ ~ ~ 1 1.2",
+                                "playanimation @s[type=xc:grave] animation.grave.attack",
+                                "playsound weapon.greatsword_hit_weewee @a ~ ~ ~ 1 1.2",
+                                "function hs",
+                                "effect @s resistance 3 1 true",
+                                "particle xc:dg ^ ^1 ^0.2",
+                                "particle heavy:sweep ^ ^1.2 ^2.3",
+                                "effect @s speed 4 0 true",
+                                "execute @s[scores={Thunder=1..}] ~ ~ ~  function ThunderAttack",
+                                "execute @s[scores={Thunder=1..20}] ~ ~ ~  function ThunderAttack"
+                            ]
+                        },
+                        "damage": {
+                            "type": "durability",
+                            "amount": 1
+                        }
+                    }
+                ]
+            },
+            "minecraft:break": {
+                "damage": {
+                    "type": "durability",
+                    "amount": 1
+                }
+            },
+            "yes:stab_attack": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "tag @s add 显示",
+                                "scoreboard players set @s Thunder 105",
+                                "title @s actionbar §c§lyou element ability is on cooldown",
+                                "playsound sound.lys @a[r=20]",
+                                "particle xc:bslyslz ~ ~0.3 ~"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

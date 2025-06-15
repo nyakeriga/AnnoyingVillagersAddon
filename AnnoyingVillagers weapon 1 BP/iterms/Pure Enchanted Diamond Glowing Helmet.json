@@ -1,0 +1,58 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xc:fgzstk",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.helmet"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "xc_fgzstk"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 15,
+        "slot": "armor_head"
+      },
+      "minecraft:durability": {
+        "max_durability": 4079
+      },
+      "minecraft:mining_speed": 5,
+      "minecraft:foil": false,
+      "minecraft:wearable": {
+        "slot": "slot.armor.head",
+        "protection": 30
+      },
+      "minecraft:display_name": {
+        "value": "§bPure §dEnchanted §bDiamond §lGlowing §r§bHelmet"
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "xc:cdzs"
+            ],
+            "repair_amount": 500
+          },
+          {
+            "items": [
+              "xc:dcdmfzs"
+            ],
+            "repair_amount": 1800
+          }
+        ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:trimmable_armors",
+          "minecraft:is_armor"
+        ]
+      }
+    }
+  }
+}

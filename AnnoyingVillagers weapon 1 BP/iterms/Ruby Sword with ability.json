@@ -1,0 +1,140 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "xc:hbsj",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.sword"
+            }
+        },
+        "components": {
+            "minecraft:use_duration": 32,
+            "minecraft:animates_in_toolbar": true,
+            "minecraft:icon": {
+                "textures": {
+                    "default": "xc_hbsj"
+                }
+            },
+            "minecraft:cooldown": {
+                "category": "hbsj",
+                "duration": 30
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "yes:stab_attack",
+                    "condition": "!query.scoreboard('weakness') == 1",
+                    "target": "self"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§cRuby Sword \n\n§6A single spark can start a prairie fire: \n§e§9+15 harm§e\n§e§90.64 Forward shake§e\n§e§93.0 After shaking§e"
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.sword"
+            },
+            "minecraft:hand_equipped": true,
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false,
+            "minecraft:render_offsets": "tools",
+            "minecraft:enchantable": {
+                "value": 100,
+                "slot": "sword"
+            },
+            "minecraft:durability": {
+                "max_durability": 4000,
+                "damage_chance": {
+                    "min": 90,
+                    "max": 100
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "xc:hbsj",
+                            "minecraft:amethyst_shard"
+                        ],
+                        "repair_amount": 500
+                    }
+                ]
+            },
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "yes:damage_event",
+                    "target": "self"
+                }
+            },
+            "minecraft:mining_speed": 1,
+            "minecraft:damage": 15,
+            "minecraft:can_destroy_in_creative": false,
+            "minecraft:digger": {
+                "on_dig": {
+                    "event": "yes:damage_event",
+                    "target": "self"
+                },
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "block": "minecraft:web",
+                        "speed": 20,
+                        "on_dig": {
+                            "event": "yes:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:bamboo",
+                        "speed": 20,
+                        "on_dig": {
+                            "event": "yes:damage_event",
+                            "target": "self"
+                        }
+                    }
+                ]
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_katana",
+                    "minecraft:is_tool"
+                ]
+            }
+        },
+        "events": {
+            "yes:damage_event": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "playanimation @s animation.ftc.new",
+                                "effect @s resistance 3 0 true",
+                                "playsound xhly @a ~ ~ ~ 1 1.2",
+                                "particle hshs ^ ^1.2 ^0.9"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "yes:stab_attack": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "playsound sound.attack.xhly @a ~ ~ ~ 1",
+                                "playsound weapon.greatsword_hit_weewee @a ~ ~ ~ 1 1.2",
+                                "tag @s add holder_shielding",
+                                "damage @a[tag=!holder_shielding,r=6] 20 fire entity @p[tag=holder_shielding]",
+                                "damage @e[tag=!holder_shielding,family=mob,r=6] 20 fire entity @p[tag=holder_shielding]",
+                                "damage @a[tag=!holder_shielding,r=6] 20 fire entity @p[tag=holder_shielding]",
+                                "effect @s absorption 5 4 true",
+                                "effect @s fire_resistance 5 2 true",
+                                "particle snowstorm:fire ^ ^ ^",
+                                "effect @p mining_fatigue 2 8 true"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xc:mfzstk",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.helmet"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "xc_cdzst"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 130,
+        "slot": "armor_head"
+      },
+      "minecraft:durability": {
+        "max_durability": 4079,
+        "damage_chance": {
+          "min": 20,
+          "max": 50
+        }
+      },
+      "minecraft:mining_speed": 5,
+      "minecraft:foil": false,
+      "minecraft:wearable": {
+        "slot": "slot.armor.head",
+        "protection": 25
+      },
+      "minecraft:display_name": {
+        "value": "§bPure Diamond Helmet"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:trimmable_armors",
+          "minecraft:is_armor"
+        ]
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["minecraft:diamond"],
+            "repair_amount": 50
+          },
+          {
+            "items": ["xc:cdzs"],
+            "repair_amount": 180
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "xc:fmhj",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.sword"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "fmhj"
+                }
+            },
+            "minecraft:creative_category": {
+                "parent": "equipment"
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:hand_equipped": false,
+            "minecraft:allow_off_hand": true,
+            "minecraft:foil": true,
+            "minecraft:durability": {
+                "max_durability": 0,
+                "damage_chance": {
+                    "min": 30,
+                    "max": 50
+                }
+            },
+            "minecraft:mining_speed": 1,
+            "minecraft:can_destroy_in_creative": true,
+            "minecraft:cooldown": {
+                "category": "equipment",
+                "duration": 30
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "on_use"
+                }
+            },
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "hurt"
+                },
+                "on_not_hurt_entity": {
+                    "event": "hurt"
+                },
+                "on_hit_block": {
+                    "event": "hurt"
+                }
+            },
+            "tag:minecraft:is_sword": {},
+            "minecraft:display_name": {}
+        },
+        "events": {
+            "on_use": {
+                "run_command": {
+                    "command": [
+                        "playsound portal.portal @a[r=30] ~ ~ ~ 100 1 100",
+                        "execute @s ~ ~ ~ summon illager:king ~6 ~7 ~9",
+                        "me \u00a7cbugle in the process of CD"
+                    ]
+                },
+                "damage": {
+                    "type": "magic",
+                    "amount": 1,
+                    "target": "self"
+                }
+            }
+        }
+    }
+}

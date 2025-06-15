@@ -1,0 +1,124 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "xc:hjjd",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.sword"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "xc_hjjd"
+                }
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:allow_off_hand": true,
+            "minecraft:foil": false,
+            "minecraft:durability": {
+                "max_durability": 2646,
+                "damage_chance": {
+                    "min": 30,
+                    "max": 50
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "minecraft:diamond"
+                        ],
+                        "repair_amount": 300
+                    },
+                    {
+                        "items": [
+                            "xc:zscr"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability + 0.2 * context.other->query.max_durability"
+                    }
+                ]
+            },
+            "minecraft:mining_speed": 1.43,
+            "minecraft:damage": 19,
+            "minecraft:enchantable": {
+                "value": 150,
+                "slot": "sword"
+            },
+            "minecraft:cooldown": {
+                "category": "hjjd",
+                "duration": 30
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "yes:stab_attack",
+                    "condition": "!query.scoreboard('weakness') == 1",
+                    "target": "self"
+                }
+            },
+            "minecraft:can_destroy_in_creative": true,
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "sweep_special"
+                }
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_greatsword",
+                    "minecraft:is_tool"
+                ]
+            },
+            "minecraft:display_name": {
+                "value": "Netherite Great Sword"
+            }
+        },
+        "events": {
+            "sweep_special": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "playsound sound.attack.hs @a ~ ~ ~ 1 1.2",
+                                "playsound weapon.greatsword_hit_weewee @a ~ ~ ~ 1 1.2",
+                                "effect @s resistance 3 1 true",
+                                "particle xc:dg ^ ^1 ^0.5",
+                                "function gjlq",
+                                "particle hsdhs ^ ^1.2 ^2.3",
+                                "effect @s speed 4 0 true",
+                                "execute @s[scores={重击附魔=1}] ~ ~ ~ function hjjdzj",
+                                "execute @s[scores={重击附魔=2}] ~ ~ ~ function hjjdzj",
+                                "execute @s[scores={重击附魔=3}] ~ ~ ~ function hjjdzj",
+                                "execute @s[scores={重击附魔=4}] ~ ~ ~ function hjjdzj",
+                                "execute @s[scores={重击附魔=5}] ~ ~ ~ function hjjdzj"
+                            ]
+                        },
+                        "damage": {
+                            "type": "durability",
+                            "amount": 1
+                        }
+                    }
+                ]
+            },
+            "minecraft:break": {
+                "damage": {
+                    "type": "durability",
+                    "amount": 1
+                }
+            },
+            "yes:stab_attack": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "function xyzj",
+                                "playanimation @s animation.player.gd"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
