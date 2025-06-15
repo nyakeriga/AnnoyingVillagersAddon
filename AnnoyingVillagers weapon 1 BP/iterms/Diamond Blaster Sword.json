@@ -1,0 +1,122 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "xc:zskr",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.sword"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "xc_zskr"
+                }
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.sword"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:allow_off_hand": true,
+            "minecraft:foil": false,
+            "minecraft:durability": {
+                "max_durability": 1656,
+                "damage_chance": {
+                    "min": 30,
+                    "max": 50
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "minecraft:diamond"
+                        ],
+                        "repair_amount": 300
+                    },
+                    {
+                        "items": [
+                            "xc:zskr"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability + 0.2 * context.other->query.max_durability"
+                    }
+                ]
+            },
+            "minecraft:mining_speed": 1,
+            "minecraft:damage": 15,
+            "minecraft:enchantable": {
+                "value": 50,
+                "slot": "sword"
+            },
+            "minecraft:cooldown": {
+                "category": "zskr",
+                "duration": 3
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "yes:stab_attack",
+                    "condition": "!query.scoreboard('weakness') == 1",
+                    "target": "self"
+                }
+            },
+            "minecraft:can_destroy_in_creative": true,
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "sweep_special"
+                }
+            },
+            "minecraft:display_name": {},
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_katana",
+                    "minecraft:is_tool"
+                ]
+            }
+        },
+        "events": {
+            "sweep_special": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "playsound sound.attack.hs @a ~ ~ ~ 1 1.2",
+                                "function hs",
+                                "playsound weapon.greatsword_hit_weewee @a ~ ~ ~ 1 1.2",
+                                "particle xc:dg ^ ^1 ^0.2",
+                                "effect @s resistance 3 0 true"
+                            ]
+                        },
+                        "damage": {
+                            "type": "durability",
+                            "amount": 1
+                        }
+                    }
+                ]
+            },
+            "minecraft:break": {
+                "damage": {
+                    "type": "durability",
+                    "amount": 1
+                }
+            },
+            "yes:stab_attack": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "function gd",
+                                "playanimation @s animation.player.gd"
+                            ]
+                        },
+                        "damage": {
+                            "type": "durability",
+                            "amount": 10
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

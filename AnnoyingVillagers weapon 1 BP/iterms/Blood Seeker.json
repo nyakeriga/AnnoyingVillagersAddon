@@ -1,0 +1,138 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "source:nljx",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.sword"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "source_nljx"
+                }
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.sword"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:allow_off_hand": true,
+            "minecraft:foil": false,
+            "minecraft:durability": {
+                "max_durability": 6500,
+                "damage_chance": {
+                    "min": 60,
+                    "max": 100
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "source:nljx"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability + 0.2 * context.other->query.max_durability"
+                    }
+                ]
+            },
+            "minecraft:mining_speed": 1,
+            "minecraft:damage": 25,
+            "minecraft:enchantable": {
+                "value": 15,
+                "slot": "sword"
+            },
+            "minecraft:can_destroy_in_creative": true,
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "sweep_run_dead"
+                },
+                "on_not_hurt_entity": {
+                    "event": "hurt"
+                },
+                "on_hit_block": {
+                    "event": "hurt"
+                }
+            },
+            "minecraft:render_offsets": {
+                "main_hand": {
+                    "third_person": {
+                        "scale": [
+                            0.1,
+                            0.1,
+                            0.1
+                        ]
+                    },
+                    "first_person": {
+                        "scale": [
+                            0.037999999999977205,
+                            0.037999999999977205,
+                            0.037999999999977205
+                        ]
+                    }
+                },
+                "off_hand": {
+                    "third_person": {
+                        "scale": [
+                            0.1,
+                            0.1,
+                            0.1
+                        ]
+                    },
+                    "first_person": {
+                        "scale": [
+                            0.037999999999977205,
+                            0.037999999999977205,
+                            0.037999999999977205
+                        ]
+                    }
+                }
+            },
+            "minecraft:display_name": {
+                "value": "§4Blood Seeker"
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_dagger",
+                    "minecraft:is_tool"
+                ]
+            }
+        },
+        "events": {
+            "sweep_run_dead": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "playsound sound.attack.big_sweep @a ~ ~ ~ 1 1.2",
+                                "playsound sound.attack.kj @a ~ ~ ~ 1 1.2",
+                                "effect @s resistance 10 1 true",
+                                "effect @s night_vision 4 4 true",
+                                "effect @s speed 5 1 true",
+                                "effect @s jump_boost 5 1 true",
+                                "particle source:death_sweep ^ ^1.2 ^2.3"
+                            ]
+                        },
+                        "shoot": {
+                            "projectile": "source:death_sweep",
+                            "launch_power": 1,
+                            "angle_offset": "query.cardinal_facing"
+                        },
+                        "damage": {
+                            "type": "durability",
+                            "amount": 1
+                        }
+                    }
+                ]
+            },
+            "minecraft:break": {
+                "damage": {
+                    "type": "durability",
+                    "amount": 1
+                }
+            }
+        }
+    }
+}

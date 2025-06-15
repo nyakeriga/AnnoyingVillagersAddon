@@ -1,0 +1,137 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "xc:cnscj",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.sword"
+            }
+        },
+        "components": {
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_katana",
+                    "minecraft:is_tool"
+                ]
+            },
+            "minecraft:display_name": {
+                "value": "Charged Trident"
+            },
+            "minecraft:cooldown": {
+                "category": "cnscj",
+                "duration": 0
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "yes:stab_attack",
+                    "condition": "!query.scoreboard('weakness') == 1",
+                    "target": "self"
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "minecraft:diamond"
+                        ],
+                        "repair_amount": 450
+                    },
+                    {
+                        "items": [
+                            "true:diamond_katana"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+                    }
+                ]
+            },
+            "minecraft:can_destroy_in_creative": false,
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:mining_speed": 20,
+            "minecraft:damage": 45,
+            "minecraft:allow_off_hand": true,
+            "minecraft:enchantable": {
+                "value": 100,
+                "slot": "sword"
+            },
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "block": "minecraft:web",
+                        "speed": 15,
+                        "on_dig": {
+                            "event": "minecraft:break"
+                        }
+                    },
+                    {
+                        "block": "minecraft:obsidian",
+                        "speed": 100,
+                        "on_dig": {
+                            "event": "hurt"
+                        }
+                    },
+                    {
+                        "block": "minecraft:bamboo",
+                        "speed": 300,
+                        "on_dig": {
+                            "event": "minecraft:break"
+                        }
+                    }
+                ],
+                "on_dig": {
+                    "event": "minecraft:break",
+                    "target": "self"
+                }
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "cnscj"
+                }
+            },
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "yes:damage_event",
+                    "target": "self"
+                }
+            }
+        },
+        "events": {
+            "yes:damage_event": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "effect @s resistance 3 0 true",
+                                "scoreboard objectives add dq dummy",
+                                "scoreboard players add @s dq 1",
+                                "execute @s[scores={dq=2}] ~ ~ ~ function lem",
+                                "execute @s[scores={dq=3}] ~ ~ ~ function lem2",
+                                "execute @s[scores={dq=4}] ~ ~ ~ function lem3",
+                                "execute @s[scores={dq=5}] ~ ~ ~ function lem4",
+                                "execute @s[scores={dq=6}] ~ ~ ~ function lem5",
+                                "execute @s[scores={dq=7}] ~ ~ ~ scoreboard players reset @s dq",
+                                "effect @s speed 3 0 true",
+                                "playsound sound.attack.big_sweep @a ~ ~ ~ 1 1.2",
+                                "playsound sound.attack.dj @a ~ ~ ~ 1 1.2",
+                                "playsound weapon.greatsword_hit_weewee @a ~ ~ ~ 1 1.2"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "yes:stab_attack": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "effect @s[tag=fjz,tag=yj] levitation 1 9 true"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "xc:cnzskr",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.sword"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "xc_cnzskr"
+                }
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:allow_off_hand": true,
+            "minecraft:foil": false,
+            "minecraft:durability": {
+                "max_durability": 1656,
+                "damage_chance": {
+                    "min": 30,
+                    "max": 50
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "minecraft:diamond"
+                        ],
+                        "repair_amount": 300
+                    },
+                    {
+                        "items": [
+                            "xc:cnzskr"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability + 0.2 * context.other->query.max_durability"
+                    }
+                ]
+            },
+            "minecraft:mining_speed": 0.75,
+            "minecraft:damage": 15,
+            "minecraft:enchantable": {
+                "value": 50,
+                "slot": "sword"
+            },
+            "minecraft:cooldown": {
+                "category": "cnzskr",
+                "duration": 10
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "yes:stab_attack",
+                    "condition": "!query.scoreboard('weakness') == 1",
+                    "target": "self"
+                }
+            },
+            "minecraft:can_destroy_in_creative": true,
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "sweep_special"
+                }
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_katana",
+                    "minecraft:is_tool"
+                ]
+            },
+            "minecraft:display_name": {
+                "value": "§cBooster Sword"
+            }
+        },
+        "events": {
+            "sweep_special": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "playsound sound.attack.hs @a ~ ~ ~ 1 1.2",
+                                "function hs",
+                                "playsound weapon.greatsword_hit_weewee @a ~ ~ ~ 1 1.2",
+                                "particle xc:dg ^ ^1 ^0.2",
+                                "effect @s resistance 3 0 true",
+                                "scoreboard objectives add 护盾 dummy",
+                                "scoreboard players add @s 护盾 1",
+                                "effect @s[scores={护盾=7..}] resistance 3 3 false",
+                                "effect @s[scores={护盾=7..}] absorption 3 0 false",
+                                "execute @s[scores={护盾=7..}] ~ ~ ~ playsound sound.gd @a[r=30]",
+                                "execute @s[scores={护盾=7..}] ~ ~ ~ particle xc:pzhh ^ ^ ^",
+                                "scoreboard players set @s[scores={护盾=7..}] 护盾 0"
+                            ]
+                        },
+                        "damage": {
+                            "type": "durability",
+                            "amount": 1
+                        }
+                    }
+                ]
+            },
+            "minecraft:break": {
+                "damage": {
+                    "type": "durability",
+                    "amount": 1
+                }
+            },
+            "yes:stab_attack": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "function cn",
+                                "playanimation @s animation.player.gd"
+                            ]
+                        },
+                        "damage": {
+                            "type": "durability",
+                            "amount": 10
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

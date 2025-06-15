@@ -1,0 +1,106 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "xc:zsdd",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.sword"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "xc_zsdd"
+                }
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.sword"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:allow_off_hand": true,
+            "minecraft:foil": false,
+            "minecraft:durability": {
+                "max_durability": 1346,
+                "damage_chance": {
+                    "min": 30,
+                    "max": 50
+                }
+            },
+            "minecraft:mining_speed": 1,
+            "minecraft:damage": 7,
+            "minecraft:enchantable": {
+                "value": 50,
+                "slot": "sword"
+            },
+            "minecraft:cooldown": {
+                "category": "zsdd",
+                "duration": 3
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "yes:stab_attack",
+                    "condition": "!query.scoreboard('weakness') == 1",
+                    "target": "self"
+                }
+            },
+            "minecraft:can_destroy_in_creative": true,
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "sweep_special"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "Diamond Dagger"
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_dagger",
+                    "minecraft:is_tool"
+                ]
+            }
+        },
+        "events": {
+            "sweep_special": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "playsound sound.attack.hs @a ~ ~ ~ 1 1.2",
+                                "function hs",
+                                "playsound weapon.greatsword_hit_weewee @a ~ ~ ~ 1 1.2"
+                            ]
+                        },
+                        "damage": {
+                            "type": "durability",
+                            "amount": 1
+                        }
+                    }
+                ]
+            },
+            "minecraft:break": {
+                "damage": {
+                    "type": "durability",
+                    "amount": 1
+                }
+            },
+            "yes:stab_attack": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "function gd",
+                                "playanimation @s animation.player.gd"
+                            ]
+                        },
+                        "damage": {
+                            "type": "durability",
+                            "amount": 5
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

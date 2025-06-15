@@ -1,0 +1,53 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xc:stevetk",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.helmet"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "jtk"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 150,
+        "slot": "armor_head"
+      },
+      "minecraft:durability": {
+        "max_durability": 4079,
+        "damage_chance": {
+          "min": 20,
+          "max": 50
+        }
+      },
+      "minecraft:mining_speed": 5,
+      "minecraft:foil": false,
+      "minecraft:hand_equipped": false,
+      "minecraft:wearable": {
+        "slot": "slot.armor.head",
+        "protection": 20
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["minecraft:diamond"],
+            "repair_amount": 500
+          },
+          {
+            "items": ["xc:cdzs"],
+            "repair_amount": 1800
+          }
+        ]
+      },
+      "minecraft:display_name": {
+        "value": "Compressed Diamond Helmet"
+      }
+    }
+  }
+}

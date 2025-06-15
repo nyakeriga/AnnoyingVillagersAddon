@@ -1,0 +1,40 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xc:txj",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.chestplate"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "xc_txj"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "armor_torso"
+      },
+      "minecraft:durability": {
+        "max_durability": 646,
+        "damage_chance": {
+          "min": 10,
+          "max": 50
+        }
+      },
+      "minecraft:mining_speed": 5,
+      "minecraft:foil": false,
+      "minecraft:hand_equipped": false,
+      "minecraft:wearable": {
+        "slot": "slot.armor.chest",
+        "protection": 6,
+        "dispensable": true
+      },
+      "minecraft:display_name": {}
+    }
+  }
+}

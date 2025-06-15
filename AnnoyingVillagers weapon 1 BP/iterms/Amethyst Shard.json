@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xc:zhsjt",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 64,
+      "minecraft:foil": true,
+      "minecraft:stack_by_data": true,
+      "minecraft:icon": {
+        "texture": "zbsjt"
+      },
+      "minecraft:display_name": {
+        "value": "§dAmethyst Shard"
+      }
+    }
+  }
+}
+

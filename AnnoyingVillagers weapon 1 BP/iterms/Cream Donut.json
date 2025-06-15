@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xc:nyttq",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:max_stack_size": 64,
+      "minecraft:foil": false,
+      "minecraft:stack_by_data": true,
+      "minecraft:food": {
+        "saturation_modifier": "high",
+        "nutrition": 4,
+        "can_always_eat": true,
+        "effects": [
+          {
+            "name": "strength",
+            "chance": 1,
+            "duration": 200,
+            "amplifier": 1
+          },
+          {
+            "name": "absorption",
+            "chance": 4,
+            "duration": 200,
+            "amplifier": 1
+          }
+        ],
+        "remove_effects": [
+          "wither",
+          "fatal_poison"
+        ]
+      },
+      "minecraft:use_duration": 32
+    }
+  }
+}
