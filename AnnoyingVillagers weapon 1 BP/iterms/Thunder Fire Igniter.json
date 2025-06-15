@@ -1,0 +1,81 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "xc:lhdrq",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.sword"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "dhq"
+                }
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.sword"
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:hand_equipped": false,
+            "minecraft:allow_off_hand": true,
+            "minecraft:foil": true,
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "minecraft:diamond"
+                        ],
+                        "repair_amount": 300
+                    },
+                    {
+                        "items": [
+                            "pa:qbj"
+                        ],
+                        "repair_amount": "context.other->query.remaining_durability + 0.2 * context.other->query.max_durability"
+                    }
+                ]
+            },
+            "minecraft:mining_speed": 1,
+            "minecraft:can_destroy_in_creative": true,
+            "minecraft:cooldown": {
+                "category": "equipment",
+                "duration": 1
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "on_use"
+                }
+            },
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "hurt"
+                },
+                "on_not_hurt_entity": {
+                    "event": "hurt"
+                },
+                "on_hit_block": {
+                    "event": "hurt"
+                }
+            },
+            "tag:minecraft:is_sword": {},
+            "minecraft:display_name": {}
+        },
+        "events": {
+            "on_use": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "playsound mob.zombie.remedy @a ~ ~ ~ 1 1.2",
+                                "scoreboard players set @s ThunderFire 1001",
+                                "clear @s xc:lhdrq 0 1"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
