@@ -1,0 +1,28 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Annoying Villagers mob rp",
+		"description": "1.21.30+",
+		"uuid": "f09c60cf-1124-4661-b4d3-4eb171d3c425",
+		"version": [0, 2, 0],
+		"min_engine_version": [1, 20, 10]
+
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "aa13cb5f-0ec8-4681-9c47-cc9280ef5811",
+			"version": [1, 20, 1]
+		}
+	],
+	"dependencies": [ 
+        {
+            "uuid": "4cc59106-5c29-4662-a6e6-02a11dfb51f1",
+            "version": [1, 0, 0]
+        }
+    ], 
+	"metadata": { 
+		"authors": ["chew"]
+	}
+
+}

@@ -1,0 +1,566 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "xc:blue_villager": {
+                    "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+				"events": {
+					"ambient": "mob.villager.idle",
+					"death": "mob.villager.death",
+					"death.to.zombie": "mob.villager.death",
+					"haggle": "mob.villager.haggle",
+					"angry": "mob.villager.no",
+					"haggle.yes": "mob.villager.yes",
+					"hurt": "mob.villager.hit",
+					"shoot": "crossbow.shoot"
+        }
+      },
+      "xc:zombie_blue": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.zombie_villager.say",
+          "hurt": "mob.zombie_villager.hurt",
+          "death": "mob.zombie_villager.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+          }
+        }
+      },
+      "xc:hyjs": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.hyjs.say",
+          "hurt": "mob.zombie.hurt",
+          "death": "mob.zombie.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+          }
+        }
+      },
+      "xc:zombie": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.hyjs.say",
+          "hurt": "mob.zombie.hurt",
+          "death": "mob.zombie.death",
+          "step": {
+            "sound": "mob.zombie.step",
+            "volume": 0.45,
+            "pitch": 1.0
+          }
+        }
+      },
+      "xc:green_villagerfl": {
+                    "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+				"events": {
+					"ambient": "mob.villager.idle",
+					"death": "mob.villager.death",
+					"death.to.zombie": "mob.villager.death",
+					"haggle": "mob.villager.haggle",
+					"angry": "mob.villager.no",
+					"haggle.yes": "mob.villager.yes",
+					"hurt": "mob.villager.hit",
+					"shoot": "crossbow.shoot"
+        }
+      },
+      "xc:purple_villagerfl": {
+                    "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+				"events": {
+					"ambient": "mob.villager.idle",
+					"death": "mob.villager.death",
+					"death.to.zombie": "mob.villager.death",
+					"haggle": "mob.villager.haggle",
+					"angry": "mob.villager.no",
+					"haggle.yes": "mob.villager.yes",
+					"hurt": "mob.villager.hit",
+					"shoot": "crossbow.shoot"
+        }
+      },
+      "xc:black_villagerfl": {
+                    "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+				"events": {
+					"ambient": "mob.villager.idle",
+					"death": "mob.villager.death",
+					"death.to.zombie": "mob.villager.death",
+					"haggle": "mob.villager.haggle",
+					"angry": "mob.villager.no",
+					"haggle.yes": "mob.villager.yes",
+					"hurt": "mob.villager.hit",
+					"shoot": "crossbow.shoot"
+        }
+      },
+      "xc:red_villagerfl": {
+                    "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+				"events": {
+					"ambient": "mob.villager.idle",
+					"death": "mob.villager.death",
+					"death.to.zombie": "mob.villager.death",
+					"haggle": "mob.villager.haggle",
+					"angry": "mob.villager.no",
+					"haggle.yes": "mob.villager.yes",
+					"hurt": "mob.villager.hit",
+					"shoot": "crossbow.shoot"
+        }
+      },
+      "xc:villagerfl": {
+                    "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+				"events": {
+					"ambient": "mob.villager.idle",
+					"death": "mob.villager.death",
+					"death.to.zombie": "mob.villager.death",
+					"haggle": "mob.villager.haggle",
+					"angry": "mob.villager.no",
+					"haggle.yes": "mob.villager.yes",
+					"hurt": "mob.villager.hit",
+					"shoot": "crossbow.shoot"
+        }
+      },
+      "xc:red_villager": {
+                    "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+				"events": {
+					"ambient": "mob.villager.idle",
+					"death": "mob.villager.death",
+					"death.to.zombie": "mob.villager.death",
+					"haggle": "mob.villager.haggle",
+					"angry": "mob.villager.no",
+					"haggle.yes": "mob.villager.yes",
+					"hurt": "mob.villager.hit",
+					"shoot": "crossbow.shoot"
+        }
+      },
+      "xc:green_villager": {
+          "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+				"events": {
+					"ambient": "mob.villager.idle",
+					"death": "mob.villager.death",
+					"death.to.zombie": "mob.villager.death",
+					"haggle": "mob.villager.haggle",
+					"angry": "mob.villager.no",
+					"haggle.yes": "mob.villager.yes",
+					"hurt": "mob.villager.hit",
+					"shoot": "crossbow.shoot"
+        }
+      },
+      "xc:purple_villager": {
+                    "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+				"events": {
+					"ambient": "mob.villager.idle",
+					"death": "mob.villager.death",
+					"death.to.zombie": "mob.villager.death",
+					"haggle": "mob.villager.haggle",
+					"angry": "mob.villager.no",
+					"haggle.yes": "mob.villager.yes",
+					"hurt": "mob.villager.hit",
+					"shoot": "crossbow.shoot"
+        }
+      },
+      "xc:black_villager": {
+                    "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+				"events": {
+					"ambient": "mob.villager.idle",
+					"death": "mob.villager.death",
+					"death.to.zombie": "mob.villager.death",
+					"haggle": "mob.villager.haggle",
+					"angry": "mob.villager.no",
+					"haggle.yes": "mob.villager.yes",
+					"hurt": "mob.villager.hit",
+					"shoot": "crossbow.shoot"
+        }
+      },
+      "xc:scout": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.villager.idle",
+          "hurt": "mob.villager.hit",
+          "death": "mob.villager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.yes": "mob.villager.yes",
+          "haggle.no": "mob.villager.no"
+        }
+      },
+      "xc:sheep": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.sheep.say",
+          "hurt": "mob.sheep.say",
+          "death": "mob.sheep.say",
+          "step": {
+            "sound": "mob.sheep.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          }
+        }
+      },
+      "xc:qsheep": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.sheep.say",
+          "hurt": "mob.sheep.say",
+          "death": "mob.sheep.say",
+          "step": {
+            "sound": "mob.sheep.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          }
+        }
+      },
+      "xc:csheep": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.sheep.say",
+          "hurt": "mob.sheep.say",
+          "death": "mob.sheep.say",
+          "step": {
+            "sound": "mob.sheep.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          }
+        }
+      },
+      "xc:cow": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.cow.say",
+          "hurt": "mob.cow.hurt",
+          "death": "mob.cow.hurt",
+          "step": {
+            "sound": "mob.cow.step",
+            "volume": 0.65,
+            "pitch": [ 0.9, 1.1 ]
+          }
+        }
+      },
+      "xc:scout1": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.villager.idle",
+          "hurt": "mob.villager.hit",
+          "death": "mob.villager.death",
+          "death.to.zombie": "mob.villager.death",
+          "haggle": "mob.villager.haggle",
+          "haggle.yes": "mob.villager.yes",
+          "haggle.no": "mob.villager.no"
+        }
+      },
+      "xc:hszjtkl": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.warrior_golem.say",
+          "hurt": "mob.warrior_golem.hurt",
+          "death": "mob.warrior_golem.death",
+          "step": {
+            "sound": "mob.irongolem.walk",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.warrior_golem.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "xc:hszjtkl": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.warrior_golem.say",
+          "hurt": "mob.warrior_golem.hurt",
+          "death": "mob.warrior_golem.death",
+          "step": {
+            "sound": "mob.irongolem.walk",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.warrior_golem.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "xc:zjhb": {
+        "volume": 3.0,
+        "pitch": [
+          0.8,
+          1.0
+        ],
+        "events": {
+          "ambient": "sound.kyhb",
+          "death": "sound.jbgz"
+        }
+      },
+      "xc:kuilei": {
+        "volume": 3.0,
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "events": {
+          "ambient": "sound.kyhb"
+        }
+      },
+      "xc:kuilei2": {
+        "volume": 3.0,
+        "pitch": [
+          1.0,
+          1.0
+        ],
+        "events": {
+          "ambient": "sound.kyhb"
+        }
+      },
+      "xc:steve": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "sound.steve",
+          "death": "sound.steve"
+        }
+      },
+      "xc:grave": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "sound.grave",
+          "death": "sound.grave"
+        }
+      },
+      "xc:grave2": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "sound.grave",
+          "death": "sound.grave"
+        }
+      },
+      "xc:steve2": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "sound.steve",
+          "death": "sound.steve"
+        }
+      },
+      "xc:herobrine7": {
+        "volume": 3.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "sound.kyhb"
+        }
+      },
+      "illager:king": {
+        "volume": 3.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "sound.cmw"
+        }
+      },
+      "lwarrior:golem": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.warrior_golem.say",
+          "hurt": "mob.warrior_golem.hurt",
+          "death": "mob.warrior_golem.death",
+          "step": {
+            "sound": "mob.irongolem.walk",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.warrior_golem.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "dg_redwarrior:golem": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.warrior_golem.say",
+          "hurt": "mob.warrior_golem.hurt",
+          "death": "mob.warrior_golem.death",
+          "step": {
+            "sound": "mob.irongolem.walk",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.warrior_golem.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "xc:zszjtkl": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.warrior_golem.say",
+          "hurt": "mob.warrior_golem.hurt",
+          "death": "mob.warrior_golem.death",
+          "step": {
+            "sound": "mob.irongolem.walk",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.warrior_golem.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "xc:lbx": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.polarbear.idle",
+          "ambient.baby": "mob.polarbear_baby.idle",
+          "hurt": {
+            "sound": "mob.polarbear.hurt",
+            "volume": 0.7
+          },
+          "death": "mob.polarbear.death",
+          "step": {
+            "sound": "mob.polarbear.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          },
+          "mob.warning": {
+            "sound": "mob.polarbear.warning",
+            "volume": 1.2,
+            "pitch": 1.0
+          }
+        }
+      },
+      "xc:lbjx": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.polarbear.idle",
+          "ambient.baby": "mob.polarbear_baby.idle",
+          "hurt": {
+            "sound": "mob.polarbear.hurt",
+            "volume": 0.7
+          },
+          "death": "mob.polarbear.death",
+          "step": {
+            "sound": "mob.polarbear.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          },
+          "mob.warning": {
+            "sound": "mob.polarbear.warning",
+            "volume": 1.2,
+            "pitch": 1.0
+          }
+        }
+      },
+      "xc:zbjx": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.polarbear.idle",
+          "ambient.baby": "mob.polarbear_baby.idle",
+          "hurt": {
+            "sound": "mob.polarbear.hurt",
+            "volume": 0.7
+          },
+          "death": "mob.polarbear.death",
+          "step": {
+            "sound": "mob.polarbear.step",
+            "volume": 0.15,
+            "pitch": 1.0
+          },
+          "mob.warning": {
+            "sound": "mob.polarbear.warning",
+            "volume": 1.2,
+            "pitch": 1.0
+          }
+        }
+      },
+      "xc:tklzs": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.warrior_golem.say",
+          "hurt": "mob.warrior_golem.hurt",
+          "death": "mob.warrior_golem.death",
+          "step": {
+            "sound": "mob.irongolem.walk",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "throw": {
+            "sound": "mob.warrior_golem.throw",
+            "volume": 1.0,
+            "pitch": 1.0
+          }
+        }
+      }
+    }
+  }
+}
