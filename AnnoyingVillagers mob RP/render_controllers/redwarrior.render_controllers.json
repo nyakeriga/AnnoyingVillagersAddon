@@ -1,0 +1,16 @@
+{
+	"format_version":"1.8.0",
+	"render_controllers":{
+		"controller.render.redwarrior":{
+			"textures":[
+				"Texture.default"
+			],
+			"materials":[
+				{
+					"*":"Material.default"
+				}
+			],
+			"geometry":"Geometry.default"
+		}
+	}
+}

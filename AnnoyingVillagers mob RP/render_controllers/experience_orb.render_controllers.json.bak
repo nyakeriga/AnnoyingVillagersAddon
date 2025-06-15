@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.red_golem_enchant": {
+      "geometry": "Geometry.glint",
+      "materials": [ { "*": "Material.glint" } ],
+      "textures": [ "Texture.glint" ],
+      "overlay_color": {
+        "r": "(Math.sin(query.life_time * 500.0) + 1.0) * 0.5",
+        "g": "(Math.sin(query.life_time * 500.0) + 1.0) * 0.5",
+        "b": "(Math.sin(query.life_time * 500.0) + 1.0) * 0.5",
+        "a": "0.5"
+      },
+      "uv_anim": {
+        "offset": [ "variable.u", "variable.v" ],
+        "scale": [ 1.0, 1.0 ]
+      }
+    }
+  }
+}

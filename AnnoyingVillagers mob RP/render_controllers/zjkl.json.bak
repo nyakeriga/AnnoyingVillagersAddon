@@ -1,0 +1,25 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.zjkl": {
+    /*
+      "rebuild_animation_matrices": true,
+      */
+      "arrays": {
+        "textures": {
+          "Array.zjkl": [
+            "texture.fmhszjtkl1",
+            "texture.fmhszjtkl2",
+            "texture.fmhszjtkl3",
+            "texture.fmhszjtkl4",
+            "texture.fmhszjtkl5",
+            "texture.fmhszjtkl6"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "array.zjkl[(query.anim_time * 6)]" ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.glint": {
+      "geometry": "geometry.glint",
+      "materials": [ { "*": "material.glint" } ],
+      "textures": [ "texture.glint" ]
+    }
+  }
+}
