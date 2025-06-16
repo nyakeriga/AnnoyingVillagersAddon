@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xc:Prom0v0",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "xc_Prom0v0",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+    }
+  }
+}

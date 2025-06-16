@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xc:cnlbsII",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "xc_fglbs",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

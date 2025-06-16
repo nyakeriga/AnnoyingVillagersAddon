@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xc:nyttq",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "xc_nyttq",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+    }
+  }
+}

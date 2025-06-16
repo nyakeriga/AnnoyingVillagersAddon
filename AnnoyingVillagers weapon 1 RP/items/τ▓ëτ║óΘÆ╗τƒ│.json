@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xc:fhzs",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "xc_fhzs",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

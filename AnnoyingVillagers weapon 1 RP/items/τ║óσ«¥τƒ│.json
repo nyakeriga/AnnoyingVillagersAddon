@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "xc:hbs",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "xc_hbs",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}
