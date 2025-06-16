@@ -1,0 +1,259 @@
+{
+	"file_path": "C:\\Users\\elcha\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Raiyon's More Shields Addon\\recipes\\diamond_shield.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "68c7c5c2_4f7c_437c_9b41_60c62362baed",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "diamond:shield"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"#I#",
+							"###",
+							" # "
+						],
+						"key": {
+							"#": {
+								"item": "minecraft:planks"
+							},
+							"I": {
+								"item": "minecraft:diamond"
+							}
+						},
+						"result": {
+							"item": "diamond:shield"
+						}
+					}
+				},
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "diamond:shield"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"#I#",
+							"###",
+							" # "
+						],
+						"key": {
+							"#": {
+								"item": "minecraft:planks"
+							},
+							"I": {
+								"item": "minecraft:diamond"
+							}
+						},
+						"result": {
+							"item": "diamond:shield"
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "diamond:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:planks"
+								},
+								"I": {
+									"item": "minecraft:diamond"
+								}
+							},
+							"result": {
+								"item": "diamond:shield"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "diamond:shield"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "diamond:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:planks"
+								},
+								"I": {
+									"item": "minecraft:diamond"
+								}
+							},
+							"result": {
+								"item": "diamond:shield"
+							}
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "diamond:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:planks"
+								},
+								"I": {
+									"item": "minecraft:diamond"
+								}
+							},
+							"result": {
+								"item": "diamond:shield"
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"#I#",
+							"###",
+							" # "
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "diamond:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:planks"
+								},
+								"I": {
+									"item": "minecraft:diamond"
+								}
+							},
+							"result": {
+								"item": "diamond:shield"
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "minecraft:planks"
+									},
+									"I": {
+										"item": "minecraft:diamond"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:planks"
+								}
+							},
+							{
+								"open": {
+									"#": {
+										"item": "minecraft:planks"
+									},
+									"I": {
+										"item": "minecraft:diamond"
+									}
+								},
+								"key": "I",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:diamond"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "diamond:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:planks"
+								},
+								"I": {
+									"item": "minecraft:diamond"
+								}
+							},
+							"result": {
+								"item": "diamond:shield"
+							}
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": {
+							"item": "diamond:shield"
+						}
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,259 @@
+{
+	"file_path": "C:\\Users\\elcha\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Raiyon's More Shields Addon\\recipes\\sculk_shield.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "f4a5b797_0bcf_4aa7_93cb_bf25d461cd28",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "sculk:shield"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"#I#",
+							"###",
+							" # "
+						],
+						"key": {
+							"#": {
+								"item": "minecraft:planks"
+							},
+							"I": {
+								"item": "minecraft:sculk"
+							}
+						},
+						"result": {
+							"item": "sculk:shield"
+						}
+					}
+				},
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "sculk:shield"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"#I#",
+							"###",
+							" # "
+						],
+						"key": {
+							"#": {
+								"item": "minecraft:planks"
+							},
+							"I": {
+								"item": "minecraft:sculk"
+							}
+						},
+						"result": {
+							"item": "sculk:shield"
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "sculk:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:planks"
+								},
+								"I": {
+									"item": "minecraft:sculk"
+								}
+							},
+							"result": {
+								"item": "sculk:shield"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "sculk:shield"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "sculk:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:planks"
+								},
+								"I": {
+									"item": "minecraft:sculk"
+								}
+							},
+							"result": {
+								"item": "sculk:shield"
+							}
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "sculk:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:planks"
+								},
+								"I": {
+									"item": "minecraft:sculk"
+								}
+							},
+							"result": {
+								"item": "sculk:shield"
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"#I#",
+							"###",
+							" # "
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "sculk:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:planks"
+								},
+								"I": {
+									"item": "minecraft:sculk"
+								}
+							},
+							"result": {
+								"item": "sculk:shield"
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "minecraft:planks"
+									},
+									"I": {
+										"item": "minecraft:sculk"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:planks"
+								}
+							},
+							{
+								"open": {
+									"#": {
+										"item": "minecraft:planks"
+									},
+									"I": {
+										"item": "minecraft:sculk"
+									}
+								},
+								"key": "I",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:sculk"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "sculk:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:planks"
+								},
+								"I": {
+									"item": "minecraft:sculk"
+								}
+							},
+							"result": {
+								"item": "sculk:shield"
+							}
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": {
+							"item": "sculk:shield"
+						}
+					}
+				]
+			}
+		]
+	}
+}

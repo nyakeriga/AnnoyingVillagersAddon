@@ -1,0 +1,259 @@
+{
+	"file_path": "C:\\Users\\elcha\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Raiyon's More Shields Addon\\recipes\\slime_shield.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "3ec77020_a922_40a2_b081_7a9b43555409",
+	"file_version": 6,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "slime:shield"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"#I#",
+							"###",
+							" # "
+						],
+						"key": {
+							"#": {
+								"item": "minecraft:planks"
+							},
+							"I": {
+								"item": "minecraft:slime_ball"
+							}
+						},
+						"result": {
+							"item": "slime:shield"
+						}
+					}
+				},
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "slime:shield"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"#I#",
+							"###",
+							" # "
+						],
+						"key": {
+							"#": {
+								"item": "minecraft:planks"
+							},
+							"I": {
+								"item": "minecraft:slime_ball"
+							}
+						},
+						"result": {
+							"item": "slime:shield"
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "slime:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:planks"
+								},
+								"I": {
+									"item": "minecraft:slime_ball"
+								}
+							},
+							"result": {
+								"item": "slime:shield"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "slime:shield"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "slime:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:planks"
+								},
+								"I": {
+									"item": "minecraft:slime_ball"
+								}
+							},
+							"result": {
+								"item": "slime:shield"
+							}
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "slime:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:planks"
+								},
+								"I": {
+									"item": "minecraft:slime_ball"
+								}
+							},
+							"result": {
+								"item": "slime:shield"
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"#I#",
+							"###",
+							" # "
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "slime:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:planks"
+								},
+								"I": {
+									"item": "minecraft:slime_ball"
+								}
+							},
+							"result": {
+								"item": "slime:shield"
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "minecraft:planks"
+									},
+									"I": {
+										"item": "minecraft:slime_ball"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:planks"
+								}
+							},
+							{
+								"open": {
+									"#": {
+										"item": "minecraft:planks"
+									},
+									"I": {
+										"item": "minecraft:slime_ball"
+									}
+								},
+								"key": "I",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:slime_ball"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "slime:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:planks"
+								},
+								"I": {
+									"item": "minecraft:slime_ball"
+								}
+							},
+							"result": {
+								"item": "slime:shield"
+							}
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": {
+							"item": "slime:shield"
+						}
+					}
+				]
+			}
+		]
+	}
+}

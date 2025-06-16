@@ -1,0 +1,259 @@
+{
+	"file_path": "C:\\Users\\elcha\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Raiyon's More Shields Addon\\recipes\\bee_shield.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "bc98c438_f743_49e7_b11a_abe0ec734d73",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "bee:shield"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"#I#",
+							"###",
+							" # "
+						],
+						"key": {
+							"#": {
+								"item": "minecraft:planks"
+							},
+							"I": {
+								"item": "minecraft:bee_nest"
+							}
+						},
+						"result": {
+							"item": "bee:shield"
+						}
+					}
+				},
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "bee:shield"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"#I#",
+							"###",
+							" # "
+						],
+						"key": {
+							"#": {
+								"item": "minecraft:planks"
+							},
+							"I": {
+								"item": "minecraft:bee_nest"
+							}
+						},
+						"result": {
+							"item": "bee:shield"
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "bee:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:planks"
+								},
+								"I": {
+									"item": "minecraft:bee_nest"
+								}
+							},
+							"result": {
+								"item": "bee:shield"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "bee:shield"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "bee:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:planks"
+								},
+								"I": {
+									"item": "minecraft:bee_nest"
+								}
+							},
+							"result": {
+								"item": "bee:shield"
+							}
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "bee:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:planks"
+								},
+								"I": {
+									"item": "minecraft:bee_nest"
+								}
+							},
+							"result": {
+								"item": "bee:shield"
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"#I#",
+							"###",
+							" # "
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "bee:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:planks"
+								},
+								"I": {
+									"item": "minecraft:bee_nest"
+								}
+							},
+							"result": {
+								"item": "bee:shield"
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "minecraft:planks"
+									},
+									"I": {
+										"item": "minecraft:bee_nest"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:planks"
+								}
+							},
+							{
+								"open": {
+									"#": {
+										"item": "minecraft:planks"
+									},
+									"I": {
+										"item": "minecraft:bee_nest"
+									}
+								},
+								"key": "I",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:bee_nest"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "bee:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:planks"
+								},
+								"I": {
+									"item": "minecraft:bee_nest"
+								}
+							},
+							"result": {
+								"item": "bee:shield"
+							}
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": {
+							"item": "bee:shield"
+						}
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,259 @@
+{
+	"file_path": "C:\\Users\\elcha\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Raiyon's More Shields Addon\\recipes\\netherite_crimson_shield.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "99f0999a_6a03_4f2b_9f96_0d9f332e00ba",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "netherite_crimson:shield"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"#I#",
+							"###",
+							" # "
+						],
+						"key": {
+							"#": {
+								"item": "minecraft:crimson_planks"
+							},
+							"I": {
+								"item": "minecraft:netherite_ingot"
+							}
+						},
+						"result": {
+							"item": "netherite_crimson:shield"
+						}
+					}
+				},
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "netherite_crimson:shield"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"#I#",
+							"###",
+							" # "
+						],
+						"key": {
+							"#": {
+								"item": "minecraft:crimson_planks"
+							},
+							"I": {
+								"item": "minecraft:netherite_ingot"
+							}
+						},
+						"result": {
+							"item": "netherite_crimson:shield"
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "netherite_crimson:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:crimson_planks"
+								},
+								"I": {
+									"item": "minecraft:netherite_ingot"
+								}
+							},
+							"result": {
+								"item": "netherite_crimson:shield"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "netherite_crimson:shield"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "netherite_crimson:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:crimson_planks"
+								},
+								"I": {
+									"item": "minecraft:netherite_ingot"
+								}
+							},
+							"result": {
+								"item": "netherite_crimson:shield"
+							}
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "netherite_crimson:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:crimson_planks"
+								},
+								"I": {
+									"item": "minecraft:netherite_ingot"
+								}
+							},
+							"result": {
+								"item": "netherite_crimson:shield"
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"#I#",
+							"###",
+							" # "
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "netherite_crimson:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:crimson_planks"
+								},
+								"I": {
+									"item": "minecraft:netherite_ingot"
+								}
+							},
+							"result": {
+								"item": "netherite_crimson:shield"
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "minecraft:crimson_planks"
+									},
+									"I": {
+										"item": "minecraft:netherite_ingot"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:crimson_planks"
+								}
+							},
+							{
+								"open": {
+									"#": {
+										"item": "minecraft:crimson_planks"
+									},
+									"I": {
+										"item": "minecraft:netherite_ingot"
+									}
+								},
+								"key": "I",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:netherite_ingot"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "netherite_crimson:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:crimson_planks"
+								},
+								"I": {
+									"item": "minecraft:netherite_ingot"
+								}
+							},
+							"result": {
+								"item": "netherite_crimson:shield"
+							}
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": {
+							"item": "netherite_crimson:shield"
+						}
+					}
+				]
+			}
+		]
+	}
+}

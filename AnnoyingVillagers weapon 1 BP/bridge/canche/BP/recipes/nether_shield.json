@@ -1,0 +1,282 @@
+{
+	"file_path": "C:\\Users\\elcha\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\pack.name\\recipes\\nether_shield.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "017a2fb7_1eba_4ca3_bbfc_a122100423cd",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "nether:shield"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"###",
+							"#X#",
+							"###"
+						],
+						"key": {
+							"#": {
+								"item": "minecraft:obsidian"
+							},
+							"X": {
+								"item": "minecraft:flint_and_steel"
+							}
+						},
+						"result": [
+							{
+								"item": "nether:shield"
+							}
+						]
+					}
+				},
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "nether:shield"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"###",
+							"#X#",
+							"###"
+						],
+						"key": {
+							"#": {
+								"item": "minecraft:obsidian"
+							},
+							"X": {
+								"item": "minecraft:flint_and_steel"
+							}
+						},
+						"result": [
+							{
+								"item": "nether:shield"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "nether:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:obsidian"
+								},
+								"X": {
+									"item": "minecraft:flint_and_steel"
+								}
+							},
+							"result": [
+								{
+									"item": "nether:shield"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "nether:shield"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "nether:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:obsidian"
+								},
+								"X": {
+									"item": "minecraft:flint_and_steel"
+								}
+							},
+							"result": [
+								{
+									"item": "nether:shield"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "nether:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:obsidian"
+								},
+								"X": {
+									"item": "minecraft:flint_and_steel"
+								}
+							},
+							"result": [
+								{
+									"item": "nether:shield"
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"###",
+							"#X#",
+							"###"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "nether:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:obsidian"
+								},
+								"X": {
+									"item": "minecraft:flint_and_steel"
+								}
+							},
+							"result": [
+								{
+									"item": "nether:shield"
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "minecraft:obsidian"
+									},
+									"X": {
+										"item": "minecraft:flint_and_steel"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:obsidian"
+								}
+							},
+							{
+								"open": {
+									"#": {
+										"item": "minecraft:obsidian"
+									},
+									"X": {
+										"item": "minecraft:flint_and_steel"
+									}
+								},
+								"key": "X",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:flint_and_steel"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "nether:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"###",
+								"#X#",
+								"###"
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:obsidian"
+								},
+								"X": {
+									"item": "minecraft:flint_and_steel"
+								}
+							},
+							"result": [
+								{
+									"item": "nether:shield"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "nether:shield"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "nether:shield"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

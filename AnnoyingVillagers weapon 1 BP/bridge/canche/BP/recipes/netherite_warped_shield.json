@@ -1,0 +1,259 @@
+{
+	"file_path": "C:\\Users\\elcha\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Raiyon's More Shields Addon\\recipes\\netherite_warped_shield.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "e43959ab_9963_4007_b400_d523d8bd71b3",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "netherite_warped:shield"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"#I#",
+							"###",
+							" # "
+						],
+						"key": {
+							"#": {
+								"item": "minecraft:warped_planks"
+							},
+							"I": {
+								"item": "minecraft:netherite_ingot"
+							}
+						},
+						"result": {
+							"item": "netherite_warped:shield"
+						}
+					}
+				},
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "netherite_warped:shield"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"#I#",
+							"###",
+							" # "
+						],
+						"key": {
+							"#": {
+								"item": "minecraft:warped_planks"
+							},
+							"I": {
+								"item": "minecraft:netherite_ingot"
+							}
+						},
+						"result": {
+							"item": "netherite_warped:shield"
+						}
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "netherite_warped:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:warped_planks"
+								},
+								"I": {
+									"item": "minecraft:netherite_ingot"
+								}
+							},
+							"result": {
+								"item": "netherite_warped:shield"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "netherite_warped:shield"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "netherite_warped:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:warped_planks"
+								},
+								"I": {
+									"item": "minecraft:netherite_ingot"
+								}
+							},
+							"result": {
+								"item": "netherite_warped:shield"
+							}
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "netherite_warped:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:warped_planks"
+								},
+								"I": {
+									"item": "minecraft:netherite_ingot"
+								}
+							},
+							"result": {
+								"item": "netherite_warped:shield"
+							}
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"#I#",
+							"###",
+							" # "
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "netherite_warped:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:warped_planks"
+								},
+								"I": {
+									"item": "minecraft:netherite_ingot"
+								}
+							},
+							"result": {
+								"item": "netherite_warped:shield"
+							}
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"#": {
+										"item": "minecraft:warped_planks"
+									},
+									"I": {
+										"item": "minecraft:netherite_ingot"
+									}
+								},
+								"key": "#",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:warped_planks"
+								}
+							},
+							{
+								"open": {
+									"#": {
+										"item": "minecraft:warped_planks"
+									},
+									"I": {
+										"item": "minecraft:netherite_ingot"
+									}
+								},
+								"key": "I",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:netherite_ingot"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "netherite_warped:shield"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"#I#",
+								"###",
+								" # "
+							],
+							"key": {
+								"#": {
+									"item": "minecraft:warped_planks"
+								},
+								"I": {
+									"item": "minecraft:netherite_ingot"
+								}
+							},
+							"result": {
+								"item": "netherite_warped:shield"
+							}
+						},
+						"key": "result",
+						"is_minified": true,
+						"children": {
+							"item": "netherite_warped:shield"
+						}
+					}
+				]
+			}
+		]
+	}
+}
