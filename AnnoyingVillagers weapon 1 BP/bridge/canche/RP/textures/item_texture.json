@@ -1,0 +1,1526 @@
+{
+	"file_path": "C:\\Users\\elcha\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Raiyon'sMo\\textures\\item_texture.json",
+	"file_type": "item_texture",
+	"format_version": 1,
+	"file_uuid": "9be01ef5_76ba_4a16_a17e_9db892db7fda",
+	"file_version": 26,
+	"cache_content": {
+		"children": [
+			{
+				"data": "bridgeRP",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.items",
+				"key": "texture_name"
+			},
+			{
+				"open": {
+					"resource_pack_name": "bridgeRP",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"sculk_shrieker": {
+							"textures": [
+								"textures/items/sculk_shrieker_shield"
+							]
+						},
+						"ender": {
+							"textures": [
+								"textures/items/ender_shield"
+							]
+						},
+						"sculk": {
+							"textures": [
+								"textures/items/sculk_shield"
+							]
+						},
+						"magma": {
+							"textures": [
+								"textures/items/magma_shield"
+							]
+						},
+						"skely": {
+							"textures": [
+								"textures/items/skely_shield"
+							]
+						},
+						"iron": {
+							"textures": [
+								"textures/items/iron_shield"
+							]
+						},
+						"sea": {
+							"textures": [
+								"textures/items/sea_shield"
+							]
+						},
+						"amethyst": {
+							"textures": [
+								"textures/items/amethyst_shield"
+							]
+						},
+						"slime": {
+							"textures": [
+								"textures/items/slime_shield"
+							]
+						},
+						"wither": {
+							"textures": [
+								"textures/items/wither_skely_shield"
+							]
+						},
+						"torch": {
+							"textures": [
+								"textures/items/torch_shield"
+							]
+						},
+						"wooden": {
+							"textures": [
+								"textures/items/wooden_shield"
+							]
+						},
+						"shulker": {
+							"textures": [
+								"textures/items/shulker_shield"
+							]
+						},
+						"copper": {
+							"textures": [
+								"textures/items/copper_shield"
+							]
+						},
+						"diamond_s": {
+							"textures": [
+								"textures/items/diamond_shield"
+							]
+						},
+						"netherite": {
+							"textures": [
+								"textures/items/netherite_shield"
+							]
+						},
+						"gold": {
+							"textures": [
+								"textures/items/gold_shield"
+							]
+						},
+						"bee": {
+							"textures": [
+								"textures/items/bee_shield"
+							]
+						},
+						"tnt": {
+							"textures": [
+								"textures/items/tnt_shield"
+							]
+						},
+						"nether": {
+							"textures": [
+								"textures/items/nether_shield"
+							]
+						},
+						"dripstone": {
+							"textures": [
+								"textures/items/dripstone_shield"
+							]
+						},
+						"barrel": {
+							"textures": [
+								"textures/items/barrel_shield"
+							]
+						},
+						"mushroom": {
+							"textures": [
+								"textures/items/mushroom_shield"
+							]
+						},
+						"crimson": {
+							"textures": [
+								"textures/items/crimson"
+							]
+						},
+						"warped": {
+							"textures": [
+								"textures/items/warped"
+							]
+						},
+						"bamboo_s": {
+							"textures": [
+								"textures/items/bamboo_s"
+							]
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"open": {
+							"sculk_shrieker": {
+								"textures": [
+									"textures/items/sculk_shrieker_shield"
+								]
+							},
+							"ender": {
+								"textures": [
+									"textures/items/ender_shield"
+								]
+							},
+							"sculk": {
+								"textures": [
+									"textures/items/sculk_shield"
+								]
+							},
+							"magma": {
+								"textures": [
+									"textures/items/magma_shield"
+								]
+							},
+							"skely": {
+								"textures": [
+									"textures/items/skely_shield"
+								]
+							},
+							"iron": {
+								"textures": [
+									"textures/items/iron_shield"
+								]
+							},
+							"sea": {
+								"textures": [
+									"textures/items/sea_shield"
+								]
+							},
+							"amethyst": {
+								"textures": [
+									"textures/items/amethyst_shield"
+								]
+							},
+							"slime": {
+								"textures": [
+									"textures/items/slime_shield"
+								]
+							},
+							"wither": {
+								"textures": [
+									"textures/items/wither_skely_shield"
+								]
+							},
+							"torch": {
+								"textures": [
+									"textures/items/torch_shield"
+								]
+							},
+							"wooden": {
+								"textures": [
+									"textures/items/wooden_shield"
+								]
+							},
+							"shulker": {
+								"textures": [
+									"textures/items/shulker_shield"
+								]
+							},
+							"copper": {
+								"textures": [
+									"textures/items/copper_shield"
+								]
+							},
+							"diamond_s": {
+								"textures": [
+									"textures/items/diamond_shield"
+								]
+							},
+							"netherite": {
+								"textures": [
+									"textures/items/netherite_shield"
+								]
+							},
+							"gold": {
+								"textures": [
+									"textures/items/gold_shield"
+								]
+							},
+							"bee": {
+								"textures": [
+									"textures/items/bee_shield"
+								]
+							},
+							"tnt": {
+								"textures": [
+									"textures/items/tnt_shield"
+								]
+							},
+							"nether": {
+								"textures": [
+									"textures/items/nether_shield"
+								]
+							},
+							"dripstone": {
+								"textures": [
+									"textures/items/dripstone_shield"
+								]
+							},
+							"barrel": {
+								"textures": [
+									"textures/items/barrel_shield"
+								]
+							},
+							"mushroom": {
+								"textures": [
+									"textures/items/mushroom_shield"
+								]
+							},
+							"crimson": {
+								"textures": [
+									"textures/items/crimson"
+								]
+							},
+							"warped": {
+								"textures": [
+									"textures/items/warped"
+								]
+							},
+							"bamboo_s": {
+								"textures": [
+									"textures/items/bamboo_s"
+								]
+							}
+						},
+						"key": "sculk_shrieker",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/sculk_shrieker_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/sculk_shrieker_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "ender",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/ender_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/ender_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "sculk",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/sculk_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/sculk_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "magma",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/magma_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/magma_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "skely",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/skely_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/skely_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "iron",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/iron_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/iron_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "sea",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/sea_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/sea_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "amethyst",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/amethyst_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/amethyst_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "slime",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/slime_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/slime_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "wither",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/wither_skely_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/wither_skely_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "torch",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/torch_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/torch_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "wooden",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/wooden_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/wooden_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "shulker",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/shulker_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/shulker_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "copper",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/copper_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/copper_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "diamond_s",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/diamond_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/diamond_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "netherite",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/netherite_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/netherite_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "gold",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/gold_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/gold_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "bee",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/bee_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/bee_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "tnt",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/tnt_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/tnt_shield"
+								]
+							}
+						]
+					},
+					{
+						"key": "nether",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/nether_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/nether_shield"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"sculk_shrieker": {
+								"textures": [
+									"textures/items/sculk_shrieker_shield"
+								]
+							},
+							"ender": {
+								"textures": [
+									"textures/items/ender_shield"
+								]
+							},
+							"sculk": {
+								"textures": [
+									"textures/items/sculk_shield"
+								]
+							},
+							"magma": {
+								"textures": [
+									"textures/items/magma_shield"
+								]
+							},
+							"skely": {
+								"textures": [
+									"textures/items/skely_shield"
+								]
+							},
+							"iron": {
+								"textures": [
+									"textures/items/iron_shield"
+								]
+							},
+							"sea": {
+								"textures": [
+									"textures/items/sea_shield"
+								]
+							},
+							"amethyst": {
+								"textures": [
+									"textures/items/amethyst_shield"
+								]
+							},
+							"slime": {
+								"textures": [
+									"textures/items/slime_shield"
+								]
+							},
+							"wither": {
+								"textures": [
+									"textures/items/wither_skely_shield"
+								]
+							},
+							"torch": {
+								"textures": [
+									"textures/items/torch_shield"
+								]
+							},
+							"wooden": {
+								"textures": [
+									"textures/items/wooden_shield"
+								]
+							},
+							"shulker": {
+								"textures": [
+									"textures/items/shulker_shield"
+								]
+							},
+							"copper": {
+								"textures": [
+									"textures/items/copper_shield"
+								]
+							},
+							"diamond_s": {
+								"textures": [
+									"textures/items/diamond_shield"
+								]
+							},
+							"netherite": {
+								"textures": [
+									"textures/items/netherite_shield"
+								]
+							},
+							"gold": {
+								"textures": [
+									"textures/items/gold_shield"
+								]
+							},
+							"bee": {
+								"textures": [
+									"textures/items/bee_shield"
+								]
+							},
+							"tnt": {
+								"textures": [
+									"textures/items/tnt_shield"
+								]
+							},
+							"nether": {
+								"textures": [
+									"textures/items/nether_shield"
+								]
+							},
+							"dripstone": {
+								"textures": [
+									"textures/items/dripstone_shield"
+								]
+							},
+							"barrel": {
+								"textures": [
+									"textures/items/barrel_shield"
+								]
+							},
+							"mushroom": {
+								"textures": [
+									"textures/items/mushroom_shield"
+								]
+							},
+							"crimson": {
+								"textures": [
+									"textures/items/crimson"
+								]
+							},
+							"warped": {
+								"textures": [
+									"textures/items/warped"
+								]
+							},
+							"bamboo_s": {
+								"textures": [
+									"textures/items/bamboo_s"
+								]
+							}
+						},
+						"key": "dripstone",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/dripstone_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/dripstone_shield"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"sculk_shrieker": {
+								"textures": [
+									"textures/items/sculk_shrieker_shield"
+								]
+							},
+							"ender": {
+								"textures": [
+									"textures/items/ender_shield"
+								]
+							},
+							"sculk": {
+								"textures": [
+									"textures/items/sculk_shield"
+								]
+							},
+							"magma": {
+								"textures": [
+									"textures/items/magma_shield"
+								]
+							},
+							"skely": {
+								"textures": [
+									"textures/items/skely_shield"
+								]
+							},
+							"iron": {
+								"textures": [
+									"textures/items/iron_shield"
+								]
+							},
+							"sea": {
+								"textures": [
+									"textures/items/sea_shield"
+								]
+							},
+							"amethyst": {
+								"textures": [
+									"textures/items/amethyst_shield"
+								]
+							},
+							"slime": {
+								"textures": [
+									"textures/items/slime_shield"
+								]
+							},
+							"wither": {
+								"textures": [
+									"textures/items/wither_skely_shield"
+								]
+							},
+							"torch": {
+								"textures": [
+									"textures/items/torch_shield"
+								]
+							},
+							"wooden": {
+								"textures": [
+									"textures/items/wooden_shield"
+								]
+							},
+							"shulker": {
+								"textures": [
+									"textures/items/shulker_shield"
+								]
+							},
+							"copper": {
+								"textures": [
+									"textures/items/copper_shield"
+								]
+							},
+							"diamond_s": {
+								"textures": [
+									"textures/items/diamond_shield"
+								]
+							},
+							"netherite": {
+								"textures": [
+									"textures/items/netherite_shield"
+								]
+							},
+							"gold": {
+								"textures": [
+									"textures/items/gold_shield"
+								]
+							},
+							"bee": {
+								"textures": [
+									"textures/items/bee_shield"
+								]
+							},
+							"tnt": {
+								"textures": [
+									"textures/items/tnt_shield"
+								]
+							},
+							"nether": {
+								"textures": [
+									"textures/items/nether_shield"
+								]
+							},
+							"dripstone": {
+								"textures": [
+									"textures/items/dripstone_shield"
+								]
+							},
+							"barrel": {
+								"textures": [
+									"textures/items/barrel_shield"
+								]
+							},
+							"mushroom": {
+								"textures": [
+									"textures/items/mushroom_shield"
+								]
+							},
+							"crimson": {
+								"textures": [
+									"textures/items/crimson"
+								]
+							},
+							"warped": {
+								"textures": [
+									"textures/items/warped"
+								]
+							},
+							"bamboo_s": {
+								"textures": [
+									"textures/items/bamboo_s"
+								]
+							}
+						},
+						"key": "barrel",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/barrel_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/barrel_shield"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"sculk_shrieker": {
+								"textures": [
+									"textures/items/sculk_shrieker_shield"
+								]
+							},
+							"ender": {
+								"textures": [
+									"textures/items/ender_shield"
+								]
+							},
+							"sculk": {
+								"textures": [
+									"textures/items/sculk_shield"
+								]
+							},
+							"magma": {
+								"textures": [
+									"textures/items/magma_shield"
+								]
+							},
+							"skely": {
+								"textures": [
+									"textures/items/skely_shield"
+								]
+							},
+							"iron": {
+								"textures": [
+									"textures/items/iron_shield"
+								]
+							},
+							"sea": {
+								"textures": [
+									"textures/items/sea_shield"
+								]
+							},
+							"amethyst": {
+								"textures": [
+									"textures/items/amethyst_shield"
+								]
+							},
+							"slime": {
+								"textures": [
+									"textures/items/slime_shield"
+								]
+							},
+							"wither": {
+								"textures": [
+									"textures/items/wither_skely_shield"
+								]
+							},
+							"torch": {
+								"textures": [
+									"textures/items/torch_shield"
+								]
+							},
+							"wooden": {
+								"textures": [
+									"textures/items/wooden_shield"
+								]
+							},
+							"shulker": {
+								"textures": [
+									"textures/items/shulker_shield"
+								]
+							},
+							"copper": {
+								"textures": [
+									"textures/items/copper_shield"
+								]
+							},
+							"diamond_s": {
+								"textures": [
+									"textures/items/diamond_shield"
+								]
+							},
+							"netherite": {
+								"textures": [
+									"textures/items/netherite_shield"
+								]
+							},
+							"gold": {
+								"textures": [
+									"textures/items/gold_shield"
+								]
+							},
+							"bee": {
+								"textures": [
+									"textures/items/bee_shield"
+								]
+							},
+							"tnt": {
+								"textures": [
+									"textures/items/tnt_shield"
+								]
+							},
+							"nether": {
+								"textures": [
+									"textures/items/nether_shield"
+								]
+							},
+							"dripstone": {
+								"textures": [
+									"textures/items/dripstone_shield"
+								]
+							},
+							"barrel": {
+								"textures": [
+									"textures/items/barrel_shield"
+								]
+							},
+							"mushroom": {
+								"textures": [
+									"textures/items/mushroom_shield"
+								]
+							},
+							"crimson": {
+								"textures": [
+									"textures/items/crimson"
+								]
+							},
+							"warped": {
+								"textures": [
+									"textures/items/warped"
+								]
+							},
+							"bamboo_s": {
+								"textures": [
+									"textures/items/bamboo_s"
+								]
+							}
+						},
+						"key": "mushroom",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/mushroom_shield"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/mushroom_shield"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"sculk_shrieker": {
+								"textures": [
+									"textures/items/sculk_shrieker_shield"
+								]
+							},
+							"ender": {
+								"textures": [
+									"textures/items/ender_shield"
+								]
+							},
+							"sculk": {
+								"textures": [
+									"textures/items/sculk_shield"
+								]
+							},
+							"magma": {
+								"textures": [
+									"textures/items/magma_shield"
+								]
+							},
+							"skely": {
+								"textures": [
+									"textures/items/skely_shield"
+								]
+							},
+							"iron": {
+								"textures": [
+									"textures/items/iron_shield"
+								]
+							},
+							"sea": {
+								"textures": [
+									"textures/items/sea_shield"
+								]
+							},
+							"amethyst": {
+								"textures": [
+									"textures/items/amethyst_shield"
+								]
+							},
+							"slime": {
+								"textures": [
+									"textures/items/slime_shield"
+								]
+							},
+							"wither": {
+								"textures": [
+									"textures/items/wither_skely_shield"
+								]
+							},
+							"torch": {
+								"textures": [
+									"textures/items/torch_shield"
+								]
+							},
+							"wooden": {
+								"textures": [
+									"textures/items/wooden_shield"
+								]
+							},
+							"shulker": {
+								"textures": [
+									"textures/items/shulker_shield"
+								]
+							},
+							"copper": {
+								"textures": [
+									"textures/items/copper_shield"
+								]
+							},
+							"diamond_s": {
+								"textures": [
+									"textures/items/diamond_shield"
+								]
+							},
+							"netherite": {
+								"textures": [
+									"textures/items/netherite_shield"
+								]
+							},
+							"gold": {
+								"textures": [
+									"textures/items/gold_shield"
+								]
+							},
+							"bee": {
+								"textures": [
+									"textures/items/bee_shield"
+								]
+							},
+							"tnt": {
+								"textures": [
+									"textures/items/tnt_shield"
+								]
+							},
+							"nether": {
+								"textures": [
+									"textures/items/nether_shield"
+								]
+							},
+							"dripstone": {
+								"textures": [
+									"textures/items/dripstone_shield"
+								]
+							},
+							"barrel": {
+								"textures": [
+									"textures/items/barrel_shield"
+								]
+							},
+							"mushroom": {
+								"textures": [
+									"textures/items/mushroom_shield"
+								]
+							},
+							"crimson": {
+								"textures": [
+									"textures/items/crimson"
+								]
+							},
+							"warped": {
+								"textures": [
+									"textures/items/warped"
+								]
+							},
+							"bamboo_s": {
+								"textures": [
+									"textures/items/bamboo_s"
+								]
+							}
+						},
+						"key": "crimson",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/crimson"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/crimson"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"sculk_shrieker": {
+								"textures": [
+									"textures/items/sculk_shrieker_shield"
+								]
+							},
+							"ender": {
+								"textures": [
+									"textures/items/ender_shield"
+								]
+							},
+							"sculk": {
+								"textures": [
+									"textures/items/sculk_shield"
+								]
+							},
+							"magma": {
+								"textures": [
+									"textures/items/magma_shield"
+								]
+							},
+							"skely": {
+								"textures": [
+									"textures/items/skely_shield"
+								]
+							},
+							"iron": {
+								"textures": [
+									"textures/items/iron_shield"
+								]
+							},
+							"sea": {
+								"textures": [
+									"textures/items/sea_shield"
+								]
+							},
+							"amethyst": {
+								"textures": [
+									"textures/items/amethyst_shield"
+								]
+							},
+							"slime": {
+								"textures": [
+									"textures/items/slime_shield"
+								]
+							},
+							"wither": {
+								"textures": [
+									"textures/items/wither_skely_shield"
+								]
+							},
+							"torch": {
+								"textures": [
+									"textures/items/torch_shield"
+								]
+							},
+							"wooden": {
+								"textures": [
+									"textures/items/wooden_shield"
+								]
+							},
+							"shulker": {
+								"textures": [
+									"textures/items/shulker_shield"
+								]
+							},
+							"copper": {
+								"textures": [
+									"textures/items/copper_shield"
+								]
+							},
+							"diamond_s": {
+								"textures": [
+									"textures/items/diamond_shield"
+								]
+							},
+							"netherite": {
+								"textures": [
+									"textures/items/netherite_shield"
+								]
+							},
+							"gold": {
+								"textures": [
+									"textures/items/gold_shield"
+								]
+							},
+							"bee": {
+								"textures": [
+									"textures/items/bee_shield"
+								]
+							},
+							"tnt": {
+								"textures": [
+									"textures/items/tnt_shield"
+								]
+							},
+							"nether": {
+								"textures": [
+									"textures/items/nether_shield"
+								]
+							},
+							"dripstone": {
+								"textures": [
+									"textures/items/dripstone_shield"
+								]
+							},
+							"barrel": {
+								"textures": [
+									"textures/items/barrel_shield"
+								]
+							},
+							"mushroom": {
+								"textures": [
+									"textures/items/mushroom_shield"
+								]
+							},
+							"crimson": {
+								"textures": [
+									"textures/items/crimson"
+								]
+							},
+							"warped": {
+								"textures": [
+									"textures/items/warped"
+								]
+							},
+							"bamboo_s": {
+								"textures": [
+									"textures/items/bamboo_s"
+								]
+							}
+						},
+						"key": "warped",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/warped"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/warped"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"sculk_shrieker": {
+								"textures": [
+									"textures/items/sculk_shrieker_shield"
+								]
+							},
+							"ender": {
+								"textures": [
+									"textures/items/ender_shield"
+								]
+							},
+							"sculk": {
+								"textures": [
+									"textures/items/sculk_shield"
+								]
+							},
+							"magma": {
+								"textures": [
+									"textures/items/magma_shield"
+								]
+							},
+							"skely": {
+								"textures": [
+									"textures/items/skely_shield"
+								]
+							},
+							"iron": {
+								"textures": [
+									"textures/items/iron_shield"
+								]
+							},
+							"sea": {
+								"textures": [
+									"textures/items/sea_shield"
+								]
+							},
+							"amethyst": {
+								"textures": [
+									"textures/items/amethyst_shield"
+								]
+							},
+							"slime": {
+								"textures": [
+									"textures/items/slime_shield"
+								]
+							},
+							"wither": {
+								"textures": [
+									"textures/items/wither_skely_shield"
+								]
+							},
+							"torch": {
+								"textures": [
+									"textures/items/torch_shield"
+								]
+							},
+							"wooden": {
+								"textures": [
+									"textures/items/wooden_shield"
+								]
+							},
+							"shulker": {
+								"textures": [
+									"textures/items/shulker_shield"
+								]
+							},
+							"copper": {
+								"textures": [
+									"textures/items/copper_shield"
+								]
+							},
+							"diamond_s": {
+								"textures": [
+									"textures/items/diamond_shield"
+								]
+							},
+							"netherite": {
+								"textures": [
+									"textures/items/netherite_shield"
+								]
+							},
+							"gold": {
+								"textures": [
+									"textures/items/gold_shield"
+								]
+							},
+							"bee": {
+								"textures": [
+									"textures/items/bee_shield"
+								]
+							},
+							"tnt": {
+								"textures": [
+									"textures/items/tnt_shield"
+								]
+							},
+							"nether": {
+								"textures": [
+									"textures/items/nether_shield"
+								]
+							},
+							"dripstone": {
+								"textures": [
+									"textures/items/dripstone_shield"
+								]
+							},
+							"barrel": {
+								"textures": [
+									"textures/items/barrel_shield"
+								]
+							},
+							"mushroom": {
+								"textures": [
+									"textures/items/mushroom_shield"
+								]
+							},
+							"crimson": {
+								"textures": [
+									"textures/items/crimson"
+								]
+							},
+							"warped": {
+								"textures": [
+									"textures/items/warped"
+								]
+							},
+							"bamboo_s": {
+								"textures": [
+									"textures/items/bamboo_s"
+								]
+							}
+						},
+						"key": "bamboo_s",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/bamboo_s"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/bamboo_s"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
