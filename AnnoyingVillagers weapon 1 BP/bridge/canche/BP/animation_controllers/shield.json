@@ -1,0 +1,386 @@
+{
+	"file_path": "C:\\Users\\elcha\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Raiyon's More Shields Addon\\animation_controllers\\shield.json",
+	"file_type": "animation_controller",
+	"format_version": 1,
+	"file_uuid": "f0419156_109d_4040_a751_166ce7430785",
+	"file_version": 11,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.shield": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"shield": "(query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shield') || query.equipped_item_any_tag('slot.weapon.offhand', 'minecraft:is_shield')) && query.is_sneaking && !variable.attack_time && !query.is_using_item"
+										},
+										{
+											"not_shield": "(!query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shield') || !query.equipped_item_any_tag('slot.weapon.offhand', 'minecraft:is_shield')) || !query.is_sneaking || variable.attack_time || query.is_using_item"
+										}
+									]
+								},
+								"shield": {
+									"transitions": [
+										{
+											"default": "(1.0)"
+										}
+									],
+									"on_entry": [
+										"/tag @s add blocking"
+									]
+								},
+								"not_shield": {
+									"transitions": [
+										{
+											"default": "(1.0)"
+										}
+									],
+									"on_entry": [
+										"/tag @s remove blocking"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.shield": {
+								"initial_state": "default",
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"shield": "(query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shield') || query.equipped_item_any_tag('slot.weapon.offhand', 'minecraft:is_shield')) && query.is_sneaking && !variable.attack_time && !query.is_using_item"
+											},
+											{
+												"not_shield": "(!query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shield') || !query.equipped_item_any_tag('slot.weapon.offhand', 'minecraft:is_shield')) || !query.is_sneaking || variable.attack_time || query.is_using_item"
+											}
+										]
+									},
+									"shield": {
+										"transitions": [
+											{
+												"default": "(1.0)"
+											}
+										],
+										"on_entry": [
+											"/tag @s add blocking"
+										]
+									},
+									"not_shield": {
+										"transitions": [
+											{
+												"default": "(1.0)"
+											}
+										],
+										"on_entry": [
+											"/tag @s remove blocking"
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.shield",
+						"children": [
+							{
+								"data": "default",
+								"key": "initial_state"
+							},
+							{
+								"open": {
+									"initial_state": "default",
+									"states": {
+										"default": {
+											"transitions": [
+												{
+													"shield": "(query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shield') || query.equipped_item_any_tag('slot.weapon.offhand', 'minecraft:is_shield')) && query.is_sneaking && !variable.attack_time && !query.is_using_item"
+												},
+												{
+													"not_shield": "(!query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shield') || !query.equipped_item_any_tag('slot.weapon.offhand', 'minecraft:is_shield')) || !query.is_sneaking || variable.attack_time || query.is_using_item"
+												}
+											]
+										},
+										"shield": {
+											"transitions": [
+												{
+													"default": "(1.0)"
+												}
+											],
+											"on_entry": [
+												"/tag @s add blocking"
+											]
+										},
+										"not_shield": {
+											"transitions": [
+												{
+													"default": "(1.0)"
+												}
+											],
+											"on_entry": [
+												"/tag @s remove blocking"
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"shield": "(query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shield') || query.equipped_item_any_tag('slot.weapon.offhand', 'minecraft:is_shield')) && query.is_sneaking && !variable.attack_time && !query.is_using_item"
+													},
+													{
+														"not_shield": "(!query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shield') || !query.equipped_item_any_tag('slot.weapon.offhand', 'minecraft:is_shield')) || !query.is_sneaking || variable.attack_time || query.is_using_item"
+													}
+												]
+											},
+											"shield": {
+												"transitions": [
+													{
+														"default": "(1.0)"
+													}
+												],
+												"on_entry": [
+													"/tag @s add blocking"
+												]
+											},
+											"not_shield": {
+												"transitions": [
+													{
+														"default": "(1.0)"
+													}
+												],
+												"on_entry": [
+													"/tag @s remove blocking"
+												]
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"shield": "(query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shield') || query.equipped_item_any_tag('slot.weapon.offhand', 'minecraft:is_shield')) && query.is_sneaking && !variable.attack_time && !query.is_using_item"
+														},
+														{
+															"not_shield": "(!query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shield') || !query.equipped_item_any_tag('slot.weapon.offhand', 'minecraft:is_shield')) || !query.is_sneaking || variable.attack_time || query.is_using_item"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"shield": "(query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shield') || query.equipped_item_any_tag('slot.weapon.offhand', 'minecraft:is_shield')) && query.is_sneaking && !variable.attack_time && !query.is_using_item"
+															},
+															{
+																"not_shield": "(!query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shield') || !query.equipped_item_any_tag('slot.weapon.offhand', 'minecraft:is_shield')) || !query.is_sneaking || variable.attack_time || query.is_using_item"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"shield": "(query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shield') || query.equipped_item_any_tag('slot.weapon.offhand', 'minecraft:is_shield')) && query.is_sneaking && !variable.attack_time && !query.is_using_item"
+														}
+													},
+													{
+														"open": [
+															{
+																"shield": "(query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shield') || query.equipped_item_any_tag('slot.weapon.offhand', 'minecraft:is_shield')) && query.is_sneaking && !variable.attack_time && !query.is_using_item"
+															},
+															{
+																"not_shield": "(!query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shield') || !query.equipped_item_any_tag('slot.weapon.offhand', 'minecraft:is_shield')) || !query.is_sneaking || variable.attack_time || query.is_using_item"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"not_shield": "(!query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shield') || !query.equipped_item_any_tag('slot.weapon.offhand', 'minecraft:is_shield')) || !query.is_sneaking || variable.attack_time || query.is_using_item"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"shield": "(query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shield') || query.equipped_item_any_tag('slot.weapon.offhand', 'minecraft:is_shield')) && query.is_sneaking && !variable.attack_time && !query.is_using_item"
+													},
+													{
+														"not_shield": "(!query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shield') || !query.equipped_item_any_tag('slot.weapon.offhand', 'minecraft:is_shield')) || !query.is_sneaking || variable.attack_time || query.is_using_item"
+													}
+												]
+											},
+											"shield": {
+												"transitions": [
+													{
+														"default": "(1.0)"
+													}
+												],
+												"on_entry": [
+													"/tag @s add blocking"
+												]
+											},
+											"not_shield": {
+												"transitions": [
+													{
+														"default": "(1.0)"
+													}
+												],
+												"on_entry": [
+													"/tag @s remove blocking"
+												]
+											}
+										},
+										"key": "shield",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "(1.0)"
+														}
+													],
+													"on_entry": [
+														"/tag @s add blocking"
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "(1.0)"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "(1.0)"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "(1.0)"
+														}
+													],
+													"on_entry": [
+														"/tag @s add blocking"
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/tag @s add blocking"
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"shield": "(query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shield') || query.equipped_item_any_tag('slot.weapon.offhand', 'minecraft:is_shield')) && query.is_sneaking && !variable.attack_time && !query.is_using_item"
+													},
+													{
+														"not_shield": "(!query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shield') || !query.equipped_item_any_tag('slot.weapon.offhand', 'minecraft:is_shield')) || !query.is_sneaking || variable.attack_time || query.is_using_item"
+													}
+												]
+											},
+											"shield": {
+												"transitions": [
+													{
+														"default": "(1.0)"
+													}
+												],
+												"on_entry": [
+													"/tag @s add blocking"
+												]
+											},
+											"not_shield": {
+												"transitions": [
+													{
+														"default": "(1.0)"
+													}
+												],
+												"on_entry": [
+													"/tag @s remove blocking"
+												]
+											}
+										},
+										"key": "not_shield",
+										"children": [
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "(1.0)"
+														}
+													],
+													"on_entry": [
+														"/tag @s remove blocking"
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "(1.0)"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "(1.0)"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "(1.0)"
+														}
+													],
+													"on_entry": [
+														"/tag @s remove blocking"
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/tag @s remove blocking"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
