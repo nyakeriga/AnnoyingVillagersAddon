@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"geometry.Prom0v0": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 4,
+		"visible_bounds_height": 4,
+		"visible_bounds_offset": [0, 1, 0],
+		"bones": [
+			{
+				"name": "rightitem",
+				"pivot": [0, 17, 0],
+				"rotation": [-90.44067, 9.99038, -92.53852],
+				"cubes": [
+					{"origin": [4, 12, -2], "size": [3, 12, 4], "uv": [48, 48], "inflate": 0.5},
+					{"origin": [-4, 12, -2], "size": [8, 12, 4], "uv": [16, 16]},
+					{"origin": [-4, 24, -4], "size": [8, 8, 8], "uv": [0, 0]},
+					{"origin": [0.05, 0, -2], "size": [4, 12, 4], "uv": [0, 32], "inflate": 0.5},
+					{"origin": [-4, 25, -4], "size": [8, 7, 8], "uv": [32, 0], "inflate": 0.5},
+					{"origin": [-7, 12, -2], "size": [3, 12, 4], "uv": [40, 32], "inflate": 0.5},
+					{"origin": [4, 12, -2], "size": [3, 12, 4], "uv": [32, 48]},
+					{"origin": [-4.05, 0, -2], "size": [4, 12, 4], "uv": [0, 16]},
+					{"origin": [-4.05, 0, -2], "size": [4, 12, 4], "uv": [0, 48], "inflate": 0.5},
+					{"origin": [-7, 12, -2], "size": [3, 12, 4], "uv": [40, 16]},
+					{"origin": [-4, 12, -2], "size": [8, 12, 4], "uv": [16, 32], "inflate": 0.5},
+					{"origin": [0.05, 0, -2], "size": [4, 12, 4], "uv": [0, 16]}
+				]
+			}
+		]
+	}
+}
