@@ -1,0 +1,32 @@
+{
+  "format_version" : "1.10.0",
+  "animation_controllers" : {
+    "controller.animation.vzsxyj.wield": {
+      "initial_state": "first_person",
+      "states": {
+        "first_person": {
+          "animations": [ "wield" ],
+          "transitions": [
+            {
+              "vzsxyj_blocking": "c.is_first_person && q.is_sneaking"
+            }
+          ]
+        },
+         "vzsxyj_blocking": {
+         "particle_effects": [
+            {
+              "effect": "jq",
+              "locator": "jq"
+            }
+          ],
+          "animations": [ "blocking" ],
+          "transitions": [
+            {
+              "first_person": "c.is_first_person && !q.is_sneaking"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "format_version" : "1.10.0",
+  "animation_controllers" : {
+    "controller.animation.vcj.wield": {
+      "initial_state": "first_person",
+      "states": {
+        "first_person": {
+          "animations": [ "wield" ],
+          "transitions": [
+            {
+              "vcj_blocking": "c.is_first_person && q.is_sneaking"
+            }
+          ]
+        },
+        "vcj_blocking": {
+          "animations": [ "blocking" ],
+          "transitions": [
+            {
+              "first_person": "c.is_first_person && !q.is_sneaking"
+            }
+          ]
+        }
+      }
+    },
+		"controller.animation.fs": {
+			"states": {
+				"default": {
+					"blend_transition": 0.0,
+					"transitions": [
+						{
+							"1" : "query.query.is_item_name_any('off_hand') == 'hbscj'"
+						}
+					]
+				},
+				"1": {
+					"animations": [
+						"fs"
+					],
+					"blend_transition": 0.0,
+					"transitions": [
+						{
+							"default": "query.is_item_name_any('off_hand') != 'hbscj'"
+						}
+					]
+				}
+			}
+		}
+  }
+}

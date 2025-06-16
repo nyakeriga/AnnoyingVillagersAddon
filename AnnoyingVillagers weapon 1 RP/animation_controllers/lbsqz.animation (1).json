@@ -1,0 +1,21 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"controller.animation.vlbsqz.first_person_attack": {
+			"states": {
+				"default": {
+					"animations": ["first_person_attack_rotation"],
+					"transitions": [
+						{"vlbsqz_attack": "variable.is_using_vr"}
+					]
+				},
+				"vlbsqz_attack": {
+					"animations": ["first_person_vr_attack_rotation"],
+					"transitions": [
+						{"default": "!variable.is_using_vr"}
+					]
+				}
+			}
+		}
+	}
+}

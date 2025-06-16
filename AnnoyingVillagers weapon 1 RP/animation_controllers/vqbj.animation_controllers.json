@@ -1,0 +1,26 @@
+{
+  "format_version" : "1.10.0",
+  "animation_controllers" : {
+    "controller.animation.vqbj.wield": {
+      "initial_state": "first_person",
+      "states": {
+        "first_person": {
+          "animations": [ "wield" ],
+          "transitions": [
+            {
+              "vqbj_blocking": "c.is_first_person && q.is_sneaking"
+            }
+          ]
+        },
+        "vqbj_blocking": {
+          "animations": [ "blocking" ],
+          "transitions": [
+            {
+              "first_person": "c.is_first_person && !q.is_sneaking"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

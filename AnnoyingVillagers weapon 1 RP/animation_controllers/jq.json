@@ -1,0 +1,18 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.jq": {
+            "initial_state" : "default",
+			"states": {
+				"default": {
+					"particle_effects": [
+					{
+					"effect" : "trail_effect",
+					"locator" : "jq"
+					    }
+					]
+				}
+			}
+		}
+	}
+}

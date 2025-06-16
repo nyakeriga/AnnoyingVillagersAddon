@@ -1,0 +1,47 @@
+{
+  "format_version" : "1.10.0",
+  "animation_controllers" : {
+    "controller.animation.vzszr.wield": {
+      "initial_state": "first_person",
+      "states": {
+        "first_person": {
+          "animations": [ "wield" ],
+          "transitions": [
+            {
+              "vzszr_blocking": "c.is_first_person && q.is_sneaking"
+            }
+          ]
+        },
+        "vzszr_blocking": {
+          "animations": [ "blocking" ],
+          "transitions": [
+            {
+              "first_person": "c.is_first_person && !q.is_sneaking"
+            }
+          ]
+        }
+      }
+    },
+		"controller.animation.vzszr.first_person_attack" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [ "first_person_attack_rotation" ],
+					"transitions" : [
+						{
+							"vzszr_attack" : "variable.is_using_vr"
+						}
+					]
+				},
+				"vzszr_attack" : {
+					"animations" : [ "first_person_vr_attack_rotation" ],
+					"transitions" : [
+						{
+							"default" : "!variable.is_using_vr"
+			}
+   		  ]
+		}
+      }
+	}
+  }
+}
