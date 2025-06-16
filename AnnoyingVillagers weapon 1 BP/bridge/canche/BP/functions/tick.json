@@ -1,0 +1,23 @@
+{
+	"file_path": "C:\\Users\\elcha\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Raiyon's More Shields Addon\\functions\\tick.json",
+	"file_type": "function_tick",
+	"format_version": 1,
+	"file_uuid": "7e485bb5_b965_445c_99f7_b543c184b21e",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"values": [
+						"raiyon_shield_tick"
+					]
+				},
+				"key": "values",
+				"is_minified": true,
+				"children": [
+					"raiyon_shield_tick"
+				]
+			}
+		]
+	}
+}
