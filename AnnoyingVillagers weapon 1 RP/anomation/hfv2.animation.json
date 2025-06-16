@@ -1,0 +1,249 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.vhf2.first_person_wield": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.5,
+			"bones": {
+				"rightitem": {
+					"rotation": ["c.is_first_person ? 195.0 : 0.0", "c.is_first_person ? 65.0 : 0.0", "c.is_first_person ? -60.0 : 0.0"],
+					"position": ["c.is_first_person ? 10.0 : 0.0", "c.is_first_person ? 3.0 : 0.0", "c.is_first_person ? 28.0 : 0.0"],
+					"scale": 3
+				},
+				"leftitem": {
+					"scale": 0
+				},
+				"bs2": {
+					"position": {
+						"0.0": [0, 0, -6],
+						"0.25": [0, 0, 0]
+					}
+				},
+				"bs3": {
+					"position": {
+						"0.0": [0, 0, -14],
+						"0.25": [0, 0, 0]
+					}
+				},
+				"bs4": {
+					"position": {
+						"0.0": [0, 0, -35],
+						"0.25": [0, 0, 0]
+					}
+				},
+				"bs5": {
+					"position": {
+						"0.0": [0, 0, -42],
+						"0.25": [0, 0, 0]
+					}
+				},
+				"bs6": {
+					"position": {
+						"0.0": [0, 0, -22],
+						"0.25": [0, 0, 0]
+					}
+				},
+				"bs7": {
+					"position": {
+						"0.0": [0, 0, -28],
+						"0.25": [0, 0, 0]
+					}
+				},
+				"rightitem2": {
+					"position": {
+						"0.0": [0, 0, -49],
+						"0.25": [0, 0, 0]
+					}
+				},
+				"b": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.25": [0, 0, 0]
+					}
+				},
+				"r": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.25": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.vfh2.first_person_fs": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"rightitem": {
+					"rotation": ["c.is_first_person ? -195.0 : 0.0", "c.is_first_person ? -60.0 : 0.0", "c.is_first_person ? 115.0 : 0.0"],
+					"position": ["c.is_first_person ? 30.0 : 0.0", "c.is_first_person ? 20.0 : 10.0", "c.is_first_person ? -30.0 : 0.0"],
+					"scale": 2.4
+				},
+				"leftitem": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.vfh2.first_person_blocking": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"rightitem": {
+					"rotation": {
+						"0.0": ["c.is_first_person ? 180.0 : 0.0", "c.is_first_person ? 55.0 : 0.0", "c.is_first_person ? -35.0 : 0.0"],
+						"0.15": ["c.is_first_person ? 200.0 : 0.0", "c.is_first_person ? -55.0 : 0.0", "c.is_first_person ? -35.0 : 0.0"]
+					},
+					"position": {
+						"0.0": ["c.is_first_person ? 1.0 : 0.0", "c.is_first_person ? 1.0 : 0.0", "c.is_first_person ? 1.0 : 0.0"],
+						"0.15": ["c.is_first_person ? 1.0 : 0.0", "c.is_first_person ? -5.0 : 0.0", "c.is_first_person ? 1.0 : 0.0"]
+					}
+				},
+				"leftitem": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.vfh2.default": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.5,
+			"bones": {
+				"rightitem": {
+					"rotation": [175, 0, 0],
+					"position": [0, 0, 0],
+					"scale": 1
+				},
+				"leftitem": {
+					"scale": 0
+				},
+				"b": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 4, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.25": [0, 0, 0]
+					}
+				},
+				"j": {
+					"position": {
+						"0.0": [0, 0, -2],
+						"0.25": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.25": [1, 1, 1]
+					}
+				},
+				"r": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -3, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.25": [0, 0, 0]
+					}
+				},
+				"bs2": {
+					"position": {
+						"0.0": [0, 0, -7],
+						"0.25": [0, 0, 0]
+					}
+				},
+				"bs3": {
+					"position": {
+						"0.0": [0, 0, -14],
+						"0.25": [0, 0, 0]
+					}
+				},
+				"bs4": {
+					"position": {
+						"0.0": [0, 0, -35],
+						"0.25": [0, 0, 0]
+					}
+				},
+				"bs5": {
+					"position": {
+						"0.0": [0, 0, -42],
+						"0.25": [0, 0, 0]
+					}
+				},
+				"bs6": {
+					"position": {
+						"0.0": [0, 0, -22],
+						"0.25": [0, 0, 0]
+					}
+				},
+				"bs7": {
+					"position": {
+						"0.0": [0, 0, -29],
+						"0.25": [0, 0, 0]
+					}
+				},
+				"rightitem2": {
+					"position": {
+						"0.0": [0, 0, -49],
+						"0.25": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.vfh2.ss": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [175, 0, 0],
+					"position": [0, 0, 0],
+					"scale": 1
+				},
+				"leftitem": {
+					"rotation": [175, 0, 0],
+					"position": [0, 0, 0],
+					"scale": 1
+				}
+			}
+		},
+		"animation.vfh2.sfs": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"scale": 0
+				},
+				"leftitem": {
+					"rotation": [175, 0, 0],
+					"position": [0, 0, 0],
+					"scale": 1
+				}
+			}
+		},
+		"animation.vfh2.is_using_item": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [175, 0, 0],
+					"position": [0, 0, 0],
+					"scale": 1
+				},
+				"leftitem": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.vfh2.qfs": {
+			"loop": true,
+			"bones": {
+				"leftitem": {
+					"rotation": [175, 0, 0],
+					"position": [0, 0, 0],
+					"scale": 1
+				},
+				"rightitem": {
+					"scale": 0
+				}
+			}
+		}
+	}
+}
