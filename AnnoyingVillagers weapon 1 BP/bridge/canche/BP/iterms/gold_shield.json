@@ -1,0 +1,261 @@
+{
+	"file_path": "C:\\Users\\elcha\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Raiyon's More Shields Addon\\items\\gold_shield.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "3faea448_25d4_4f91_a47e_a521d31c47fc",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "gold:shield",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.shield"
+							},
+							"minecraft:enchantable": {
+								"slot": "shield",
+								"value": 1
+							},
+							"minecraft:display_name": {
+								"value": "Golden Shield"
+							},
+							"minecraft:icon": {
+								"texture": "gold"
+							},
+							"minecraft:hand_equipped": true,
+							"minecraft:allow_off_hand": true,
+							"tag:minecraft:is_shield": {}
+						}
+					}
+				},
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "gold:shield",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.shield"
+							},
+							"minecraft:enchantable": {
+								"slot": "shield",
+								"value": 1
+							},
+							"minecraft:display_name": {
+								"value": "Golden Shield"
+							},
+							"minecraft:icon": {
+								"texture": "gold"
+							},
+							"minecraft:hand_equipped": true,
+							"minecraft:allow_off_hand": true,
+							"tag:minecraft:is_shield": {}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "gold:shield",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.shield"
+								},
+								"minecraft:enchantable": {
+									"slot": "shield",
+									"value": 1
+								},
+								"minecraft:display_name": {
+									"value": "Golden Shield"
+								},
+								"minecraft:icon": {
+									"texture": "gold"
+								},
+								"minecraft:hand_equipped": true,
+								"minecraft:allow_off_hand": true,
+								"tag:minecraft:is_shield": {}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "gold:shield",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "gold:shield",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.shield"
+								},
+								"minecraft:enchantable": {
+									"slot": "shield",
+									"value": 1
+								},
+								"minecraft:display_name": {
+									"value": "Golden Shield"
+								},
+								"minecraft:icon": {
+									"texture": "gold"
+								},
+								"minecraft:hand_equipped": true,
+								"minecraft:allow_off_hand": true,
+								"tag:minecraft:is_shield": {}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.shield"
+									},
+									"minecraft:enchantable": {
+										"slot": "shield",
+										"value": 1
+									},
+									"minecraft:display_name": {
+										"value": "Golden Shield"
+									},
+									"minecraft:icon": {
+										"texture": "gold"
+									},
+									"minecraft:hand_equipped": true,
+									"minecraft:allow_off_hand": true,
+									"tag:minecraft:is_shield": {}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.shield"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.shield"
+									},
+									"minecraft:enchantable": {
+										"slot": "shield",
+										"value": 1
+									},
+									"minecraft:display_name": {
+										"value": "Golden Shield"
+									},
+									"minecraft:icon": {
+										"texture": "gold"
+									},
+									"minecraft:hand_equipped": true,
+									"minecraft:allow_off_hand": true,
+									"tag:minecraft:is_shield": {}
+								},
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"slot": "shield",
+									"value": 1
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.shield"
+									},
+									"minecraft:enchantable": {
+										"slot": "shield",
+										"value": 1
+									},
+									"minecraft:display_name": {
+										"value": "Golden Shield"
+									},
+									"minecraft:icon": {
+										"texture": "gold"
+									},
+									"minecraft:hand_equipped": true,
+									"minecraft:allow_off_hand": true,
+									"tag:minecraft:is_shield": {}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Golden Shield"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.shield"
+									},
+									"minecraft:enchantable": {
+										"slot": "shield",
+										"value": 1
+									},
+									"minecraft:display_name": {
+										"value": "Golden Shield"
+									},
+									"minecraft:icon": {
+										"texture": "gold"
+									},
+									"minecraft:hand_equipped": true,
+									"minecraft:allow_off_hand": true,
+									"tag:minecraft:is_shield": {}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "gold"
+								}
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:allow_off_hand"
+							},
+							{
+								"key": "tag:minecraft:is_shield",
+								"is_minified": true,
+								"children": {}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

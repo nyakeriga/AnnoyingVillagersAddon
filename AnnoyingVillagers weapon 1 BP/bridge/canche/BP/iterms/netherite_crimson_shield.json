@@ -1,0 +1,261 @@
+{
+	"file_path": "C:\\Users\\elcha\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Raiyon's More Shields Addon\\items\\netherite_crimson_shield.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "29954e72_5247_4e95_b972_cdb1387258aa",
+	"file_version": 8,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "netherite_crimson:shield",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.shield"
+							},
+							"minecraft:enchantable": {
+								"slot": "shield",
+								"value": 1
+							},
+							"minecraft:display_name": {
+								"value": "Netherite Crimson Shield"
+							},
+							"minecraft:icon": {
+								"texture": "netherite"
+							},
+							"minecraft:hand_equipped": true,
+							"minecraft:allow_off_hand": true,
+							"tag:minecraft:is_shield": {}
+						}
+					}
+				},
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:item": {
+						"description": {
+							"identifier": "netherite_crimson:shield",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.shield"
+							},
+							"minecraft:enchantable": {
+								"slot": "shield",
+								"value": 1
+							},
+							"minecraft:display_name": {
+								"value": "Netherite Crimson Shield"
+							},
+							"minecraft:icon": {
+								"texture": "netherite"
+							},
+							"minecraft:hand_equipped": true,
+							"minecraft:allow_off_hand": true,
+							"tag:minecraft:is_shield": {}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "netherite_crimson:shield",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.shield"
+								},
+								"minecraft:enchantable": {
+									"slot": "shield",
+									"value": 1
+								},
+								"minecraft:display_name": {
+									"value": "Netherite Crimson Shield"
+								},
+								"minecraft:icon": {
+									"texture": "netherite"
+								},
+								"minecraft:hand_equipped": true,
+								"minecraft:allow_off_hand": true,
+								"tag:minecraft:is_shield": {}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "netherite_crimson:shield",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "netherite_crimson:shield",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.shield"
+								},
+								"minecraft:enchantable": {
+									"slot": "shield",
+									"value": 1
+								},
+								"minecraft:display_name": {
+									"value": "Netherite Crimson Shield"
+								},
+								"minecraft:icon": {
+									"texture": "netherite"
+								},
+								"minecraft:hand_equipped": true,
+								"minecraft:allow_off_hand": true,
+								"tag:minecraft:is_shield": {}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.shield"
+									},
+									"minecraft:enchantable": {
+										"slot": "shield",
+										"value": 1
+									},
+									"minecraft:display_name": {
+										"value": "Netherite Crimson Shield"
+									},
+									"minecraft:icon": {
+										"texture": "netherite"
+									},
+									"minecraft:hand_equipped": true,
+									"minecraft:allow_off_hand": true,
+									"tag:minecraft:is_shield": {}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.shield"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.shield"
+									},
+									"minecraft:enchantable": {
+										"slot": "shield",
+										"value": 1
+									},
+									"minecraft:display_name": {
+										"value": "Netherite Crimson Shield"
+									},
+									"minecraft:icon": {
+										"texture": "netherite"
+									},
+									"minecraft:hand_equipped": true,
+									"minecraft:allow_off_hand": true,
+									"tag:minecraft:is_shield": {}
+								},
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"slot": "shield",
+									"value": 1
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.shield"
+									},
+									"minecraft:enchantable": {
+										"slot": "shield",
+										"value": 1
+									},
+									"minecraft:display_name": {
+										"value": "Netherite Crimson Shield"
+									},
+									"minecraft:icon": {
+										"texture": "netherite"
+									},
+									"minecraft:hand_equipped": true,
+									"minecraft:allow_off_hand": true,
+									"tag:minecraft:is_shield": {}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Netherite Crimson Shield"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.shield"
+									},
+									"minecraft:enchantable": {
+										"slot": "shield",
+										"value": 1
+									},
+									"minecraft:display_name": {
+										"value": "Netherite Crimson Shield"
+									},
+									"minecraft:icon": {
+										"texture": "netherite"
+									},
+									"minecraft:hand_equipped": true,
+									"minecraft:allow_off_hand": true,
+									"tag:minecraft:is_shield": {}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "netherite"
+								}
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:allow_off_hand"
+							},
+							{
+								"key": "tag:minecraft:is_shield",
+								"is_minified": true,
+								"children": {}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
