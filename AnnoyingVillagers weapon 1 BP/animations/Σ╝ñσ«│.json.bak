@@ -1,0 +1,18 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.hysgj": {
+      "loop": true,
+      "animation_length": 0.1,
+      "timeline": {
+       "0.1": [
+			"execute as @e[type=xc:obsidian] ~ ~ ~ damage @e[type=!xc:obsidian,tag=!延伸,r=2] 14 entity_attack entity @s",
+			"/scoreboard players add @e[type=xc:obsidian] 清除 1",
+			"/kill @e[type=xc:obsidian,scores={清除=10..}]",
+			"/scoreboard objectives add 清除 dummy",
+			"/fill ~ ~ ~-1 ~ ~ ~-1 obsidian keep"
+		]
+      }
+    }
+  }
+}

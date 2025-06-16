@@ -1,0 +1,30 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.lbsxj": {
+      "loop": true,
+      "animation_length": 0.3,
+      "timeline": {
+       "0.1": [
+			"/effect @a[hasitem={item=xc:lbsxj,location=slot.armor.chest}] health_boost 3 4 true",
+			"/effect @a[hasitem={item=xc:lbsxj,location=slot.armor.chest}] speed 3 0 true",
+			"/effect @a[hasitem={item=xc:ahjxj,location=slot.armor.chest}] fire_resistance 3 4 true",
+			"/effect @a[hasitem={item=xc:hys1,location=slot.weapon.mainhand}] speed 1 1 true",
+			"/effect @a[hasitem={item=xc:hys1,location=slot.weapon.mainhand}] jump_boost 1 1 true",
+			"/replaceitem entity @s[hasitem={item=xc:hys2,location=slot.weapon.mainhand},tag=hyszh,tag=zh] slot.weapon.mainhand 1 xc:hys1",
+			"/replaceitem entity @s[hasitem={item=xc:hys1,location=slot.weapon.mainhand},tag=hyszh1,tag=zh] slot.weapon.mainhand 1 xc:hys2",
+			"/event entity @e xc:b",
+			"/effect @a[hasitem={item=xc:kysfz,location=slot.armor.feet}] invisibility 1 1 true",
+			"/execute @e ~ ~ ~ function mdb",
+			"/execute @a[dx=0,dy=3,dz=0] ~ ~ ~ execute @a[y=~-2,dy=1] ~ ~ ~ function hslz",
+			"/effect @a[hasitem={item=xc:lbsjj,location=slot.armor.chest}] health_boost 3 4 true",
+			"/effect @a[hasitem={item=xc:lbsjj,location=slot.armor.chest}] speed 3 0 true",
+			"/effect @a[hasitem={item=xc:fgzsxj,location=slot.armor.chest}] speed 3 2 true",
+			"/effect @a[hasitem={item=xc:fgzsjj,location=slot.armor.chest}] speed 3 2 true",
+			"/effect @a[hasitem={item=xc:ahjjj,location=slot.armor.chest}] fire_resistance 3 4 true",
+			"/tag @a remove 延伸"
+		]
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+//bridge-file-version: #22
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.shield_hit": {
+			"timeline": {
+				"0.4": [
+					"@s razz:hit_animation"
+				]
+			},
+			"animation_length": 0.6,
+			"loop": true
+		},
+		"animation.shield_hit_ability": {
+			"timeline": {
+				"0.1": [
+					"/function shield_controller/hit",
+					"@s razz:hit_ability_exit"
+				]
+			},
+			"animation_length": 0.2,
+			"loop": true
+		},
+		"animation.shield_hit_ability_projectile": {
+			"timeline": {
+				"0.1": [
+					"/function shield_controller/hit_projectile",
+					"@s razz:hit_ability_projectile_exit"
+				]
+			},
+			"animation_length": 0.2,
+			"loop": true
+		},
+		"animation.bee_shield": {
+			"timeline": {
+				"4.0": [
+					"/particle razz:bee_shield_despawn_bee ~~~",
+					"@s razz:despawn"
+				]
+			},
+			"animation_length": 5,
+			"loop": true
+		},
+		"animation.hunger": {
+			"animation_length": 0.5,
+			"loop": true,
+			"timeline": {
+				"0": [
+					"/effect @s hunger 30 0",
+					"@s razz:hunger"
+				]
+			}
+		},
+		"animation.poison": {
+			"animation_length": 0.5,
+			"loop": true,
+			"timeline": {
+				"0": [
+					"/effect @s poison 11 0",
+					"@s razz:poison"
+				]
+			}
+		},
+		"animation.wither": {
+			"animation_length": 0.5,
+			"loop": true,
+			"timeline": {
+				"0": [
+					"/effect @s wither 7 0",
+					"@s razz:wither"
+				]
+			}
+		}
+	}
+}

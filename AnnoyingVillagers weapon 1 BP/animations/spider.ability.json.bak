@@ -1,0 +1,37 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.spider.bmd": {
+      "loop": true,
+      "animation_length": 0.1,
+      "timeline": {
+        "0.1": [
+          "/scoreboard players remove @a 连击time 1"
+        ]
+      }
+    },
+    "animation.spider.ability.climb.stop": {
+      "loop": true,
+      "animation_length": 0.1,
+      "timeline": {
+        "0.0": [
+          "/effect @s levitation 0",
+          "/execute @a[dx=0,dy=3,dz=0] ~ ~ ~ execute @a[y=~-2,dy=1] ~ ~ ~ function hslz",
+          "/title @a[scores={连击time=10},tag=显示,hasitem={item=xc:hkj,location=slot.weapon.mainhand}] actionbar §c§l|||{§r §cDynamite Boost §dTime §4§l§o▍▍▍▍▍▍▍▍▍▍ §cTIME:10s §r§c§l}|||",
+          "/title @a[scores={连击time=9},tag=显示,hasitem={item=xc:hkj,location=slot.weapon.mainhand}] actionbar §r§c§l|||{ §r§cDynamite Boost §dTime §4§l§o▍▍▍▍▍▍▍▍▍§c▍ §cTIME:9s §r§c§l}|||",
+          "/title @a[scores={连击time=8},tag=显示,hasitem={item=xc:hkj,location=slot.weapon.mainhand}] actionbar §r§c§l|||{ §r§cDynamite Boost §dTime §4§l§o▍▍▍▍▍▍▍▍§c▍▍ §cTIME:8s §r§c§l}|||",
+          "/title @a[scores={连击time=7},tag=显示,hasitem={item=xc:hkj,location=slot.weapon.mainhand}] actionbar §r§c§l|||{ §r§cDynamite Boost §dTime §4§l§o▍▍▍▍▍▍▍§c▍▍▍ §cTIME:7s §r§c§l}|||",
+          "/title @a[scores={连击time=6},tag=显示,hasitem={item=xc:hkj,location=slot.weapon.mainhand}] actionbar §r§c§l|||{ §r§cDynamite Boost §dTime §4§l§o▍▍▍▍▍▍§c▍▍▍▍ §cTIME:6s §r§c§l}|||",
+          "/title @a[scores={连击time=5},tag=显示,hasitem={item=xc:hkj,location=slot.weapon.mainhand}] actionbar §r§c§l|||{ §r§cDynamite Boost §dTime §4§l§o▍▍▍▍▍§c▍▍▍▍▍ §cTIME:5s §r§c§l}|||",
+          "/title @a[scores={连击time=4},tag=显示,hasitem={item=xc:hkj,location=slot.weapon.mainhand}] actionbar §r§c§l|||{ §r§cDynamite Boost §dTime §4§l§o▍▍▍▍§c▍▍▍▍▍▍ §cTIME:4s §r§c§l}|||",
+          "/title @a[scores={连击time=3},tag=显示,hasitem={item=xc:hkj,location=slot.weapon.mainhand}] actionbar §r§c§l|||{ §r§cDynamite Boost §dTime §4§l§o▍▍▍§c▍▍▍▍▍▍▍ §cTIME:3s §r§c§l}|||",
+          "/title @a[scores={连击time=2},tag=显示,hasitem={item=xc:hkj,location=slot.weapon.mainhand}] actionbar §r§c§l|||{ §r§cDynamite Boost §dTime §4§l§o▍▍§c▍▍▍▍▍▍▍▍ §cTIME:2s §r§c§l}|||",
+          "/title @a[scores={连击time=1},tag=显示,hasitem={item=xc:hkj,location=slot.weapon.mainhand}] actionbar §r§c§l|||{ §r§cDynamite Boost §dTime §4§l§o▍§c▍▍▍▍▍▍▍▍▍ §cTIME:1s §r§c§l}|||"
+          "/title @a[scores={连击time=0},tag=显示,hasitem={item=xc:hkj,location=slot.weapon.mainhand}] actionbar §r§c§l|||{ §r§cDynamite Boost §dTime§l§o §cTIME:§4§lOver §r§c§l}|||",
+          "tag @a[scores={连击time=1..10},hasitem={item=xc:hkj,location=slot.weapon.mainhand}] add 显示"
+          
+        ]
+      }
+    }
+  }
+}
