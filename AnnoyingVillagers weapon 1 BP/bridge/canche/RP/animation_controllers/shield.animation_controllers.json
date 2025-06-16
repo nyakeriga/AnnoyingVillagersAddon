@@ -1,0 +1,548 @@
+{
+	"file_path": "C:\\Users\\elcha\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Raiyon's More Shields Addon\\animation_controllers\\shield.animation_controllers.json",
+	"file_type": "rp_animation_controller",
+	"format_version": 1,
+	"file_uuid": "979e5824_3915_4ef6_9f08_0621eee4bb38",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.shield.whield": {
+							"initial_state": "default",
+							"states": {
+								"default": {
+									"animations": [
+										{
+											"wield_main_hand_first_person": "c.item_slot == 'main_hand'"
+										},
+										{
+											"wield_off_hand_first_person": "c.item_slot != 'main_hand'"
+										}
+									],
+									"transitions": [
+										{
+											"blocking": "query.blocking"
+										},
+										{
+											"third_person": "!c.is_first_person"
+										}
+									]
+								},
+								"blocking": {
+									"animations": [
+										{
+											"wield_main_hand_first_person_block": "query.blocking && query.get_equipped_item_name('off_hand') != 'shield' || query.get_equipped_item_name('off_hand') != 'shield' && query.get_equipped_item_name == 'shield' && c.item_slot == 'main_hand'"
+										},
+										{
+											"wield_off_hand_first_person_block": "query.blocking && query.get_equipped_item_name('off_hand') == 'shield' && c.item_slot != 'main_hand' || query.get_equipped_item_name('off_hand') == 'light_shield_off'"
+										}
+									],
+									"transitions": [
+										{
+											"default": "!query.blocking"
+										},
+										{
+											"third_person": "!c.is_first_person"
+										}
+									]
+								},
+								"third_person": {
+									"animations": [
+										"wield_third_person"
+									],
+									"transitions": [
+										{
+											"default": "c.is_first_person"
+										}
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.shield.whield": {
+								"initial_state": "default",
+								"states": {
+									"default": {
+										"animations": [
+											{
+												"wield_main_hand_first_person": "c.item_slot == 'main_hand'"
+											},
+											{
+												"wield_off_hand_first_person": "c.item_slot != 'main_hand'"
+											}
+										],
+										"transitions": [
+											{
+												"blocking": "query.blocking"
+											},
+											{
+												"third_person": "!c.is_first_person"
+											}
+										]
+									},
+									"blocking": {
+										"animations": [
+											{
+												"wield_main_hand_first_person_block": "query.blocking && query.get_equipped_item_name('off_hand') != 'shield' || query.get_equipped_item_name('off_hand') != 'shield' && query.get_equipped_item_name == 'shield' && c.item_slot == 'main_hand'"
+											},
+											{
+												"wield_off_hand_first_person_block": "query.blocking && query.get_equipped_item_name('off_hand') == 'shield' && c.item_slot != 'main_hand' || query.get_equipped_item_name('off_hand') == 'light_shield_off'"
+											}
+										],
+										"transitions": [
+											{
+												"default": "!query.blocking"
+											},
+											{
+												"third_person": "!c.is_first_person"
+											}
+										]
+									},
+									"third_person": {
+										"animations": [
+											"wield_third_person"
+										],
+										"transitions": [
+											{
+												"default": "c.is_first_person"
+											}
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.shield.whield",
+						"children": [
+							{
+								"open": {
+									"initial_state": "default",
+									"states": {
+										"default": {
+											"animations": [
+												{
+													"wield_main_hand_first_person": "c.item_slot == 'main_hand'"
+												},
+												{
+													"wield_off_hand_first_person": "c.item_slot != 'main_hand'"
+												}
+											],
+											"transitions": [
+												{
+													"blocking": "query.blocking"
+												},
+												{
+													"third_person": "!c.is_first_person"
+												}
+											]
+										},
+										"blocking": {
+											"animations": [
+												{
+													"wield_main_hand_first_person_block": "query.blocking && query.get_equipped_item_name('off_hand') != 'shield' || query.get_equipped_item_name('off_hand') != 'shield' && query.get_equipped_item_name == 'shield' && c.item_slot == 'main_hand'"
+												},
+												{
+													"wield_off_hand_first_person_block": "query.blocking && query.get_equipped_item_name('off_hand') == 'shield' && c.item_slot != 'main_hand' || query.get_equipped_item_name('off_hand') == 'light_shield_off'"
+												}
+											],
+											"transitions": [
+												{
+													"default": "!query.blocking"
+												},
+												{
+													"third_person": "!c.is_first_person"
+												}
+											]
+										},
+										"third_person": {
+											"animations": [
+												"wield_third_person"
+											],
+											"transitions": [
+												{
+													"default": "c.is_first_person"
+												}
+											]
+										}
+									}
+								},
+								"data": "default",
+								"key": "initial_state"
+							},
+							{
+								"open": {
+									"initial_state": "default",
+									"states": {
+										"default": {
+											"animations": [
+												{
+													"wield_main_hand_first_person": "c.item_slot == 'main_hand'"
+												},
+												{
+													"wield_off_hand_first_person": "c.item_slot != 'main_hand'"
+												}
+											],
+											"transitions": [
+												{
+													"blocking": "query.blocking"
+												},
+												{
+													"third_person": "!c.is_first_person"
+												}
+											]
+										},
+										"blocking": {
+											"animations": [
+												{
+													"wield_main_hand_first_person_block": "query.blocking && query.get_equipped_item_name('off_hand') != 'shield' || query.get_equipped_item_name('off_hand') != 'shield' && query.get_equipped_item_name == 'shield' && c.item_slot == 'main_hand'"
+												},
+												{
+													"wield_off_hand_first_person_block": "query.blocking && query.get_equipped_item_name('off_hand') == 'shield' && c.item_slot != 'main_hand' || query.get_equipped_item_name('off_hand') == 'light_shield_off'"
+												}
+											],
+											"transitions": [
+												{
+													"default": "!query.blocking"
+												},
+												{
+													"third_person": "!c.is_first_person"
+												}
+											]
+										},
+										"third_person": {
+											"animations": [
+												"wield_third_person"
+											],
+											"transitions": [
+												{
+													"default": "c.is_first_person"
+												}
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"animations": [
+													{
+														"wield_main_hand_first_person": "c.item_slot == 'main_hand'"
+													},
+													{
+														"wield_off_hand_first_person": "c.item_slot != 'main_hand'"
+													}
+												],
+												"transitions": [
+													{
+														"blocking": "query.blocking"
+													},
+													{
+														"third_person": "!c.is_first_person"
+													}
+												]
+											},
+											"blocking": {
+												"animations": [
+													{
+														"wield_main_hand_first_person_block": "query.blocking && query.get_equipped_item_name('off_hand') != 'shield' || query.get_equipped_item_name('off_hand') != 'shield' && query.get_equipped_item_name == 'shield' && c.item_slot == 'main_hand'"
+													},
+													{
+														"wield_off_hand_first_person_block": "query.blocking && query.get_equipped_item_name('off_hand') == 'shield' && c.item_slot != 'main_hand' || query.get_equipped_item_name('off_hand') == 'light_shield_off'"
+													}
+												],
+												"transitions": [
+													{
+														"default": "!query.blocking"
+													},
+													{
+														"third_person": "!c.is_first_person"
+													}
+												]
+											},
+											"third_person": {
+												"animations": [
+													"wield_third_person"
+												],
+												"transitions": [
+													{
+														"default": "c.is_first_person"
+													}
+												]
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"open": {
+													"animations": [
+														{
+															"wield_main_hand_first_person": "c.item_slot == 'main_hand'"
+														},
+														{
+															"wield_off_hand_first_person": "c.item_slot != 'main_hand'"
+														}
+													],
+													"transitions": [
+														{
+															"blocking": "query.blocking"
+														},
+														{
+															"third_person": "!c.is_first_person"
+														}
+													]
+												},
+												"key": "animations",
+												"children": [
+													{
+														"open": [
+															{
+																"wield_main_hand_first_person": "c.item_slot == 'main_hand'"
+															},
+															{
+																"wield_off_hand_first_person": "c.item_slot != 'main_hand'"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"wield_main_hand_first_person": "c.item_slot == 'main_hand'"
+														}
+													},
+													{
+														"open": [
+															{
+																"wield_main_hand_first_person": "c.item_slot == 'main_hand'"
+															},
+															{
+																"wield_off_hand_first_person": "c.item_slot != 'main_hand'"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"wield_off_hand_first_person": "c.item_slot != 'main_hand'"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"animations": [
+														{
+															"wield_main_hand_first_person": "c.item_slot == 'main_hand'"
+														},
+														{
+															"wield_off_hand_first_person": "c.item_slot != 'main_hand'"
+														}
+													],
+													"transitions": [
+														{
+															"blocking": "query.blocking"
+														},
+														{
+															"third_person": "!c.is_first_person"
+														}
+													]
+												},
+												"key": "transitions",
+												"is_minified": true,
+												"children": [
+													{
+														"blocking": "query.blocking"
+													},
+													{
+														"third_person": "!c.is_first_person"
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"animations": [
+													{
+														"wield_main_hand_first_person": "c.item_slot == 'main_hand'"
+													},
+													{
+														"wield_off_hand_first_person": "c.item_slot != 'main_hand'"
+													}
+												],
+												"transitions": [
+													{
+														"blocking": "query.blocking"
+													},
+													{
+														"third_person": "!c.is_first_person"
+													}
+												]
+											},
+											"blocking": {
+												"animations": [
+													{
+														"wield_main_hand_first_person_block": "query.blocking && query.get_equipped_item_name('off_hand') != 'shield' || query.get_equipped_item_name('off_hand') != 'shield' && query.get_equipped_item_name == 'shield' && c.item_slot == 'main_hand'"
+													},
+													{
+														"wield_off_hand_first_person_block": "query.blocking && query.get_equipped_item_name('off_hand') == 'shield' && c.item_slot != 'main_hand' || query.get_equipped_item_name('off_hand') == 'light_shield_off'"
+													}
+												],
+												"transitions": [
+													{
+														"default": "!query.blocking"
+													},
+													{
+														"third_person": "!c.is_first_person"
+													}
+												]
+											},
+											"third_person": {
+												"animations": [
+													"wield_third_person"
+												],
+												"transitions": [
+													{
+														"default": "c.is_first_person"
+													}
+												]
+											}
+										},
+										"key": "blocking",
+										"children": [
+											{
+												"open": {
+													"animations": [
+														{
+															"wield_main_hand_first_person_block": "query.blocking && query.get_equipped_item_name('off_hand') != 'shield' || query.get_equipped_item_name('off_hand') != 'shield' && query.get_equipped_item_name == 'shield' && c.item_slot == 'main_hand'"
+														},
+														{
+															"wield_off_hand_first_person_block": "query.blocking && query.get_equipped_item_name('off_hand') == 'shield' && c.item_slot != 'main_hand' || query.get_equipped_item_name('off_hand') == 'light_shield_off'"
+														}
+													],
+													"transitions": [
+														{
+															"default": "!query.blocking"
+														},
+														{
+															"third_person": "!c.is_first_person"
+														}
+													]
+												},
+												"key": "animations",
+												"children": [
+													{
+														"open": [
+															{
+																"wield_main_hand_first_person_block": "query.blocking && query.get_equipped_item_name('off_hand') != 'shield' || query.get_equipped_item_name('off_hand') != 'shield' && query.get_equipped_item_name == 'shield' && c.item_slot == 'main_hand'"
+															},
+															{
+																"wield_off_hand_first_person_block": "query.blocking && query.get_equipped_item_name('off_hand') == 'shield' && c.item_slot != 'main_hand' || query.get_equipped_item_name('off_hand') == 'light_shield_off'"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"wield_main_hand_first_person_block": "query.blocking && query.get_equipped_item_name('off_hand') != 'shield' || query.get_equipped_item_name('off_hand') != 'shield' && query.get_equipped_item_name == 'shield' && c.item_slot == 'main_hand'"
+														}
+													},
+													{
+														"open": [
+															{
+																"wield_main_hand_first_person_block": "query.blocking && query.get_equipped_item_name('off_hand') != 'shield' || query.get_equipped_item_name('off_hand') != 'shield' && query.get_equipped_item_name == 'shield' && c.item_slot == 'main_hand'"
+															},
+															{
+																"wield_off_hand_first_person_block": "query.blocking && query.get_equipped_item_name('off_hand') == 'shield' && c.item_slot != 'main_hand' || query.get_equipped_item_name('off_hand') == 'light_shield_off'"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"wield_off_hand_first_person_block": "query.blocking && query.get_equipped_item_name('off_hand') == 'shield' && c.item_slot != 'main_hand' || query.get_equipped_item_name('off_hand') == 'light_shield_off'"
+														}
+													}
+												]
+											},
+											{
+												"open": {
+													"animations": [
+														{
+															"wield_main_hand_first_person_block": "query.blocking && query.get_equipped_item_name('off_hand') != 'shield' || query.get_equipped_item_name('off_hand') != 'shield' && query.get_equipped_item_name == 'shield' && c.item_slot == 'main_hand'"
+														},
+														{
+															"wield_off_hand_first_person_block": "query.blocking && query.get_equipped_item_name('off_hand') == 'shield' && c.item_slot != 'main_hand' || query.get_equipped_item_name('off_hand') == 'light_shield_off'"
+														}
+													],
+													"transitions": [
+														{
+															"default": "!query.blocking"
+														},
+														{
+															"third_person": "!c.is_first_person"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "!query.blocking"
+															},
+															{
+																"third_person": "!c.is_first_person"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "!query.blocking"
+														}
+													},
+													{
+														"open": [
+															{
+																"default": "!query.blocking"
+															},
+															{
+																"third_person": "!c.is_first_person"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"third_person": "!c.is_first_person"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"key": "third_person",
+										"is_minified": true,
+										"children": {
+											"animations": [
+												"wield_third_person"
+											],
+											"transitions": [
+												{
+													"default": "c.is_first_person"
+												}
+											]
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
