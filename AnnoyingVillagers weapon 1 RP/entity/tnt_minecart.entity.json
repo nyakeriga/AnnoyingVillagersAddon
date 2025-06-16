@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "xc:ptnt",
+      "materials": {
+        "default": "arrow"
+      },
+      "textures": {
+        "default": "textures/entity/xc_tnt"
+      },
+      "geometry": {
+        "default": "geometry.ttnt"
+      },
+       "scripts": {
+        "pre_animation": [
+          "variable.hurt = query.hurt_time - query.frame_alpha;"
+        ],
+        "animate": [
+          "move"
+        ]
+      },
+      "animations": {
+        "move": "animation.minecart.move"
+      },
+      "render_controllers": [ "controller.render.minecart" ]
+    }
+  }
+}

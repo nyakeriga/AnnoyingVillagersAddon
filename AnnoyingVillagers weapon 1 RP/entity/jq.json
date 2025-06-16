@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "xc:jq",
+      "scripts": {
+        "animate": [
+          "particles"
+        ]
+      },
+      "animations": {
+        "particles": "controller.animation.particles"
+      },
+      "render_controllers": [ "controller.render.slime" ],
+        "particle_effects": {
+           "trail_effect": "xc:fys"
+      }
+    }
+  }
+}

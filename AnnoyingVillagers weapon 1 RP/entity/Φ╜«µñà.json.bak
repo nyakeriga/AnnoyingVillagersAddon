@@ -1,0 +1,42 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "xc:wheelchair",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/wheelchair",
+				"belled": "textures/entity/hus_wheelchair_with_bell",
+				"bombed": "textures/entity/hus_wheelchair_with_bomb"
+			},
+			"geometry": {
+				"default": "geometry.wheelchair"
+			},
+			"animations": {
+				"scale": "animation.hus_wheelchair.scale",
+				"roll": "animation.hus_wheelchair.roll",
+				"reversed": "animation.hus_wheelchair.reversed"
+			},
+			"scripts": {
+				"animate": [
+					"scale",
+					{
+						"roll": "query.modified_move_speed>=0.4"
+					},
+					{
+						"reversed": "query.modified_move_speed>=0.2&&query.modified_move_speed<=0.3;"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.wheelchair"
+			],
+			"spawn_egg": {
+				"base_color": "#0036B3",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
+}

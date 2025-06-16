@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "xc:hq",
+      "materials": {
+        "default": "enderman"
+      },
+      "textures": {
+        "default": "textures/items/h"
+      },
+      "geometry": {
+        "default": "geometry.item_sprite"
+      },
+      "particle_effects": {
+        "soul_flame": "xc:heihuo"
+      },
+      "animations": {
+        "face_target": "animation.actor.billboard",
+		"flame": "controller.animation.soul_fireball.fire"
+      },
+      "scripts": {
+        "scale": "0.5",
+        "animate": [
+          "face_target",
+          "flame"
+        ]
+      },
+      "render_controllers": [ "controller.render.item_sprite" ]
+    }
+  }
+}

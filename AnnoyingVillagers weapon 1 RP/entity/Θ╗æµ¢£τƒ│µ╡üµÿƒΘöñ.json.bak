@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "xc:hyslxc",
+      "materials": {
+        "default": "arrow"
+      },
+      "textures": {
+        "default": "textures/entity/hyslxc/a",
+        "a": "textures/entity/hyslxc/a",
+        "b": "textures/entity/hyslxc/b",
+        "c": "textures/entity/hyslxc/c",
+        "d": "textures/entity/hyslxc/d",
+        "e": "textures/entity/hyslxc/e",
+        "f": "textures/entity/hyslxc/f",
+        "g": "textures/entity/hyslxc/g",
+        "h": "textures/entity/hyslxc/h"
+      },
+      "geometry": {
+        "default": "geometry.hyslxc"
+      },
+      "animations": {
+      "idle": "animation.zjzzftzw.xz"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.shake = query.shake_time - query.frame_alpha;",
+          "variable.shake_power = variable.shake > 0.0 ? -Math.sin(variable.shake * 200.0) * variable.shake : 0.0;"
+        ],
+        "animate": [
+          "move",
+          "idle",
+          "flying",
+          "ljw"
+        ]
+      },
+      "render_controllers": [ "controller.render.arrow", "controller.render.hyslxc"]
+      }
+    }
+  }
