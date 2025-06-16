@@ -1,0 +1,23 @@
+{
+  "format_version": "1.16.0",
+  "sound_definitions": {
+    "say": {
+      "category": "player",
+      "sounds": [
+        {
+          "name": "sounds/say_sound",
+          "volume": 0.80
+        }
+      ]
+    },
+    "sound.slash": {
+      "category": "player",
+      "max_distance": 20.0,
+      "sounds": [
+        { "name": "sounds/pz", "volume": 1.00 },
+        { "name": "sounds/pz6", "volume": 1.00 },
+        { "name": "sounds/big_sweep", "volume": 1.00 }
+      ]
+    }
+  }
+}
