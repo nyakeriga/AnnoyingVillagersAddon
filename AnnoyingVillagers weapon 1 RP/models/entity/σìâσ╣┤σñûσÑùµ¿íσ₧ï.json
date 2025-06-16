@@ -1,0 +1,98 @@
+{
+  "format_version": "1.10.0",
+  "geometry.pa_qnwt": {
+    "texturewidth": 64,
+    "textureheight": 64,
+    "visible_bounds_width": 3,
+    "visible_bounds_height": 3,
+    "visible_bounds_offset": [
+      0,
+      1.5,
+      0
+    ],
+    "bones": [
+      {
+        "name": "body",
+        "pivot": [
+          0,
+          24,
+          0
+        ],
+        "cubes": [
+          {
+            "origin": [
+              -4,
+              10,
+              -2
+            ],
+            "size": [
+              8,
+              14,
+              4
+            ],
+            "uv": [
+              16,
+              16
+            ],
+            "inflate": 0.6
+          }
+        ]
+      },
+      {
+        "name": "rightArm",
+        "pivot": [
+          -5,
+          22,
+          0
+        ],
+        "cubes": [
+          {
+            "origin": [
+              -7,
+              12,
+              -2
+            ],
+            "size": [
+              3,
+              12,
+              4
+            ],
+            "uv": [
+              40,
+              16
+            ],
+            "inflate": 0.6
+          }
+        ]
+      },
+      {
+        "name": "leftArm",
+        "pivot": [
+          5,
+          22,
+          0
+        ],
+        "mirror": true,
+        "cubes": [
+          {
+            "origin": [
+              4,
+              12,
+              -2
+            ],
+            "size": [
+              3,
+              12,
+              4
+            ],
+            "uv": [
+              40,
+              16
+            ],
+            "inflate": 0.6
+          }
+        ]
+      }
+    ]
+  }
+}

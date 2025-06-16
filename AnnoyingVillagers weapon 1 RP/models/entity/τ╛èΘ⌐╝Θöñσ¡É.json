@@ -1,0 +1,39 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ytc",
+				"texture_width": 80,
+				"texture_height": 80,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 4,
+				"visible_bounds_offset": [0, 1, 0]
+			},
+			"bones": [
+				{
+					"name": "leftitem",
+					"pivot": [0, 5, 0],
+					"cubes": [
+						{"origin": [-6, 20, -1.5], "size": [16, 16, 16], "pivot": [0, 6, -1], "rotation": [-90, 0, 0], "uv": [8, 8]},
+						{"origin": [-6, 20, -17.5], "size": [16, 16, 16], "pivot": [0, 6, -1], "rotation": [-90, 0, 0], "uv": [8, 8]},
+						{"origin": [0.5, 2, -3], "size": [3, 3, 3], "pivot": [0, 6, -1], "rotation": [-90, 0, 0], "uv": [30, 62]},
+						{"origin": [0.5, 18, -3], "size": [3, 2, 3], "pivot": [0, 6, -1], "rotation": [-90, 0, 0], "uv": [30, 52]},
+						{"origin": [1, 5, -2.5], "size": [2, 13, 2], "pivot": [0, 6, -1], "rotation": [-90, 0, 0], "uv": [15, 52]}
+					]
+				},
+				{
+					"name": "rightitem",
+					"pivot": [0, 5, 0],
+					"cubes": [
+						{"origin": [-6, 20, -1.5], "size": [16, 16, 16], "pivot": [0, 6, -1], "rotation": [-90, 0, 0], "uv": [8, 8]},
+						{"origin": [-6, 20, -17.5], "size": [16, 16, 16], "pivot": [0, 6, -1], "rotation": [-90, 0, 0], "uv": [8, 8]},
+						{"origin": [0.5, 2, -3], "size": [3, 3, 3], "pivot": [0, 6, -1], "rotation": [-90, 0, 0], "uv": [30, 62]},
+						{"origin": [0.5, 18, -3], "size": [3, 2, 3], "pivot": [0, 6, -1], "rotation": [-90, 0, 0], "uv": [30, 52]},
+						{"origin": [1, 5, -2.5], "size": [2, 13, 2], "pivot": [0, 6, -1], "rotation": [-90, 0, 0], "uv": [15, 52]}
+					]
+				}
+			]
+		}
+	]
+}

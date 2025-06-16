@@ -1,0 +1,84 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.wheelchair",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "chair",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6.5, 9, -6.5], "size": [13, 2, 12], "uv": [0, 0]},
+						{"origin": [-6, 9.01519, -14.6736], "size": [12, 1, 9], "pivot": [0, 10.01519, -6.67365], "rotation": [80, 0, 0], "uv": [16, 15]},
+						{"origin": [-6.5, 1.96313, -11.07802], "size": [13, 1, 4], "uv": [39, 0]},
+						{"origin": [4, 8, 2], "size": [1, 2, 1], "uv": [5, 7]},
+						{"origin": [-5, 8, 2], "size": [1, 2, 1], "uv": [0, 7]},
+						{"origin": [-8, 7, 2], "size": [16, 1, 1], "uv": [39, 6]},
+						{"origin": [-4, 7, 2.5], "size": [1, 1, 8], "pivot": [3.5, 7.5, 2.5], "rotation": [-55, 0, 0], "uv": [44, 53]},
+						{"origin": [3, 7, 2.5], "size": [1, 1, 8], "pivot": [3.5, 7.5, 2.5], "rotation": [-55, 0, 0], "uv": [52, 23]},
+						{"origin": [-7, 10, -6], "size": [1, 5, 1], "uv": [5, 0]},
+						{"origin": [6, 10, -6], "size": [1, 5, 1], "uv": [0, 0]},
+						{"origin": [5, 15, -6.5], "size": [3, 1, 14], "uv": [17, 42]},
+						{"origin": [-8, 15, -6.5], "size": [3, 1, 14], "uv": [31, 26]}
+					]
+				},
+				{
+					"name": "back",
+					"parent": "chair",
+					"pivot": [0, 10, 5.5],
+					"rotation": [-17.5, 0, 0],
+					"cubes": [
+						{"origin": [-6, 12, 5.5], "size": [12, 8, 0], "uv": [0, 46]},
+						{"origin": [-6, 21, 5], "size": [12, 1, 1], "uv": [50, 20]},
+						{"origin": [-6, 23, 5], "size": [12, 1, 1], "uv": [16, 26]},
+						{"origin": [-7, 10, 5], "size": [1, 14, 1], "uv": [0, 55]},
+						{"origin": [6, 10, 5], "size": [1, 14, 1], "uv": [5, 55]}
+					]
+				},
+				{
+					"name": "wheel1",
+					"parent": "chair",
+					"pivot": [-7.5, 7.5, 2.5],
+					"cubes": [
+						{"origin": [-7.75, 0, -5], "size": [0, 15, 15], "uv": [0, 15]},
+						{"origin": [-13.75, -2, -15], "size": [14, 9, 9], "inflate": -7, "uv": [22, 69]},
+						{"origin": [-7.75, 0, -5], "size": [0, 15, 15], "uv": [0, 15]}
+					]
+				},
+				{
+					"name": "wheel2",
+					"parent": "chair",
+					"pivot": [7.5, 7.5, 2.5],
+					"cubes": [
+						{"origin": [7.75, 0, -5], "size": [0, 15, 15], "uv": [0, 15]},
+						{"origin": [-0.25, -2, -15], "size": [14, 9, 9], "inflate": -7, "uv": [22, 69]}
+					]
+				},
+				{
+					"name": "tnt",
+					"parent": "chair",
+					"pivot": [0, 7, 3],
+					"cubes": [
+						{"origin": [-1.5, 6, -2], "size": [3, 3, 7], "uv": [50, 9]}
+					]
+				},
+				{
+					"name": "bell",
+					"parent": "chair",
+					"pivot": [-6.5, 16, -4.5],
+					"cubes": [
+						{"origin": [-10, 16, -8], "size": [7, 3, 7], "uv": [38, 42]},
+						{"origin": [-7, 19, -5], "size": [1, 1, 1], "uv": [0, 15]}
+					]
+				}
+			]
+		}
+	]
+}
