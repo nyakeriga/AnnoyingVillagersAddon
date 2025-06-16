@@ -1,0 +1,22 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.tklsb.qx": {
+			"loop": true,
+			"bones": {
+				"bone": {
+					"rotation": [50.74201, 9.48444, -53.45534],
+					"position": [0, -7, 0]
+				},
+				"bone2": {
+					"rotation": [0, 25, 0],
+					"position": [2, -11, 0]
+				},
+				"bone3": {
+					"rotation": [25.09251, -68.84523, -14.68244],
+					"position": [-4, -6, 0]
+				}
+			}
+		}
+	}
+}

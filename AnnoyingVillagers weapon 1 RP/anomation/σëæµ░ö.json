@@ -1,0 +1,15 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.jq": {
+			"animation_length": 0.33333,
+			"particle_effects": {
+				"0.0": {
+					"effect": "jq",
+					"locator": "jq",
+					"pre_effect_script": "math.sin(10);"
+				}
+			}
+		}
+	}
+}

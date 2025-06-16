@@ -1,0 +1,84 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.vd.first_person_wield": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "rotation": [ "c.is_first_person ? 150.0 : 0.0", "c.is_first_person ? 140.0 : 0.0", "c.is_first_person ? -168.0 : 0.0" ],
+          "position": [ "c.is_first_person ? -7.0 : 0.0", "c.is_first_person ? 0.0 : 0.0", "c.is_first_person ? -10.0 : 0.0" ],
+           "scale": [ 1.0, 1.0, 1.0 ]
+        }
+      }
+    },
+    "animation.vd.first_person_fs": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "rotation": [ "c.is_first_person ? 150.0 : 0.0", "c.is_first_person ? 115.0 : 0.0", "c.is_first_person ? -135.0 : 0.0" ],
+          "position": [ "c.is_first_person ? -15.0 : 0.0", "c.is_first_person ? 20.0 : 10.0", "c.is_first_person ? -30.0 : 0.0" ],
+           "scale": [ 2.4, 2.4, 2.4 ]
+        }
+      }
+    },
+    "animation.vd.first_person_blocking": {
+      "loop": "hold_on_last_frame",
+      "bones": {
+        "rightitem": {
+          "rotation": {
+            "0.0": [
+              "c.is_first_person ? 200.0 : 0.0", "c.is_first_person ? 140.0 : 0.0", "c.is_first_person ? -195.0 : 0.0" ],
+            "0.15": [
+              "c.is_first_person ? 200.0 : 0.0", "c.is_first_person ? 140.0 : 0.0", "c.is_first_person ? -195.0 : 0.0" ]
+          },
+          "position": {
+            "0.0": [
+              "c.is_first_person ? 1.0 : 0.0", "c.is_first_person ? 1.0 : 0.0", "c.is_first_person ? 1.0 : 0.0" ],
+            "0.15": [
+              "c.is_first_person ? 1.0 : 0.0", "c.is_first_person ? -5.0 : 0.0", "c.is_first_person ? 1.0 : 0.0" ]
+          }
+        }
+      }
+    },
+    "animation.vd.default": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "rotation": [195, 0, 0],
+          "position": [0, 0, -1],
+          "scale": [1.6, 1.6, 1.6]
+        }
+      }
+    },
+    "animation.vd.sfs": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "rotation": [195, 0, 0],
+          "position": [12, 0, -1],
+          "scale": [1.6, 1.6, 1.6]
+        }
+      }
+    },
+    "animation.vd.is_using_item": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "rotation": [195, 0, 0],
+          "position": [0, 0, -1],
+          "scale": [1.6, 1.6, 1.6]
+        }
+      }
+    },
+    "animation.vd.qfs": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "rotation": [195, 0, 0],
+          "position": [12, 0, -1],
+          "scale": [1.6, 1.6, 1.6]
+        }
+      }
+    }
+  }
+}

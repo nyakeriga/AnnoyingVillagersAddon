@@ -1,0 +1,105 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.vzsp.first_person_wield": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [ "c.is_first_person ? 190.0 : 0.0", "c.is_first_person ? 65.0 : 0.0", "c.is_first_person ? -60.0 : 0.0" ],
+          "position": [ "c.is_first_person ? 20.0 : 0.0", "c.is_first_person ? 3.0 : 0.0", "c.is_first_person ? 20.0 : 0.0" ],
+           "scale": [ 0, -20, 0 ]
+        },
+        "body": {
+           "scale": 0
+        }
+      }
+    },
+    "animation.vzsp.first_person_fs": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [ "c.is_first_person ? 360.0 : 0.0", "c.is_first_person ? -250.0 : 0.0", "c.is_first_person ? 135.0 : 0.0" ],
+          "position": [ "c.is_first_person ? 30.0 : 0.0", "c.is_first_person ? 20.0 : 10.0", "c.is_first_person ? -30.0 : 0.0" ],
+           "scale": [ 2.2, -30, 2.2 ]
+        },
+        "body": {
+           "scale": 0
+        }
+      }
+    },
+    "animation.vzsp.first_person_blocking": {
+      "loop": "hold_on_last_frame",
+      "bones": {
+        "body": {
+          "rotation": {
+            "0.0": [
+              "c.is_first_person ? 180.0 : 0.0", "c.is_first_person ? 55.0 : 0.0", "c.is_first_person ? -35.0 : 0.0" ],
+            "0.15": [
+              "c.is_first_person ? 200.0 : 0.0", "c.is_first_person ? -55.0 : 0.0", "c.is_first_person ? -35.0 : 0.0" ]
+          },
+          "position": {
+            "0.0": [
+              "c.is_first_person ? 1.0 : 0.0", "c.is_first_person ? 1.0 : 0.0", "c.is_first_person ? 1.0 : 0.0" ],
+            "0.15": [
+              "c.is_first_person ? 1.0 : 0.0", "c.is_first_person ? -5.0 : 0.0", "c.is_first_person ? 1.0 : 0.0" ]
+          }
+        },
+        "body": {
+          "scale": 0
+        }
+      }
+    },
+    "animation.vzsp.default": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [175, 0, 0],
+          "position": [0, 0, 0],
+          "scale": [1.3, 1.3, 1.3]
+        },
+        "body": {
+          "scale": 0
+        }
+      }
+    },
+    "animation.vzsp.sfs": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "scale": 0
+        },
+        "body": {
+          "rotation": [175, 0, 0],
+          "position": [0, 0, 0],
+          "scale": [1.3, 1.3, 1.3]
+        }
+      }
+    },
+    "animation.vzsp.is_using_item": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [175, 0, 0],
+          "position": [0, 0, 0],
+          "scale": [1.3, 1.3, 1.3]
+        },
+        "body": {
+          "scale": 0
+        }
+      }
+    },
+    "animation.vzsp.qfs": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [175, 0, 0],
+          "position": [0, 0, 0],
+          "scale": [1.3, 1.3, 1.3]
+        },
+          "body": {
+          "scale": 0
+        }
+      }
+    }
+  }
+}

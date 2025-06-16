@@ -1,0 +1,46 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "xc:heih",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      }, 
+      "textures": {
+        "default": "textures/items/xc_heihuo",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.lbsj"
+      },
+      "animations": {
+        "wield_controller": "controller.animation.vcj.wield",
+        "wield": "animation.vcj.first_person_wield",
+        "fs": "animation.vcj.first_person_fs",
+        "sfs": "animation.vcj.sfs",
+        "blocking": "animation.vcj.first_person_blocking",
+        "default": "animation.vcj.default",
+        "is_using_item": "animation.vcj.is_using_item",
+        "qfs": "animation.vcj.qfs"
+      },
+      "scripts": {
+        "animate": [
+          { "wield_controller": "c.is_first_person && (q.get_equipped_item_name('main_hand') == 'heih')"
+          },
+          { "fs": "c.is_first_person && (q.get_equipped_item_name('off_hand') == 'heih')"
+          },
+          { "default": "!c.is_first_person && (q.get_equipped_item_name('main_hand') == 'heih') && !q.is_sneaking"
+          },
+          { "sfs": "!c.is_first_person && (q.get_equipped_item_name('off_hand') == 'heih') && !q.is_sneaking"
+          },
+          { "qfs": "!c.is_first_person && (q.get_equipped_item_name('off_hand') == 'heih') && q.is_sneaking"
+          },
+          { "is_using_item": "!c.is_first_person && (q.get_equipped_item_name('main_hand') == 'heih') && q.is_sneaking"
+          }
+        ]
+      },
+      "render_controllers": [ "controller.render.item_default" ]
+    }
+  }
+}

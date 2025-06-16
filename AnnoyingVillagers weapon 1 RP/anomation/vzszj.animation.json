@@ -1,0 +1,54 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.vzszj.first_person_wield": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "rotation": [ "c.is_first_person ? 200.0 : 0.0", "c.is_first_person ? 65.0 : 0.0", "c.is_first_person ? -50.0 : 0.0" ],
+          "position": [ "c.is_first_person ? 10.0 : 0.0", "c.is_first_person ? 0.0 : 0.0", "c.is_first_person ? 17.0 : 0.0" ],
+           "scale": [ 2.0, 2.0, 2.0 ]
+        }
+      }
+    },
+    "animation.vzszj.first_person_blocking": {
+      "loop": "hold_on_last_frame",
+      "bones": {
+        "rightitem": {
+          "rotation": {
+            "0.0": [
+              "c.is_first_person ? 180.0 : 0.0", "c.is_first_person ? 55.0 : 0.0", "c.is_first_person ? -35.0 : 0.0" ],
+            "0.15": [
+              "c.is_first_person ? 220.0 : 0.0", "c.is_first_person ? 65.0 : 0.0", "c.is_first_person ? -50.0 : 0.0" ]
+          },
+          "position": {
+            "0.0": [
+              "c.is_first_person ? 1.0 : 0.0", "c.is_first_person ? 1.0 : 0.0", "c.is_first_person ? 1.0 : 0.0" ],
+            "0.15": [
+              "c.is_first_person ? 1.0 : 0.0", "c.is_first_person ? 1.0 : 0.0", "c.is_first_person ? 1.0 : 0.0" ]
+          }
+        }
+      }
+    },
+    "animation.vzszj.default": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "rotation": [175, 0, 0],
+          "position": [0, 0, 0],
+          "scale": [1, 1, 1]
+        }
+      }
+    },
+    "animation.vzszj.is_using_item": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "rotation": [175, 0, 0],
+          "position": [0, 0, 0],
+          "scale": [1, 1, 1]
+        }
+      }
+    }
+  }
+}
