@@ -1,0 +1,74 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.lz_warden.melee_attacking" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"transitions" : [
+						{
+                            "attack": "variable.attack_time>0 && Math.round(Math.random(0,2)) == 0"
+                        },
+                        {
+                            "attack2": "variable.attack_time>0 && Math.round(Math.random(0,2)) == 1"
+                        },
+                        {
+                            "attack3": "variable.attack_time>0 && Math.round(Math.random(0,2)) == 2"
+                        }
+					]
+				},
+				"attack" : {
+					"animations" : [ "melee_attack" ],
+					"transitions" : [
+						{ 
+							"default" : "variable.attack_time <= 0.0"
+						}
+					]
+				},
+				"attack2" : {
+					"animations" : [ "melee_attack2" ],
+					"transitions" : [
+						{ 
+							"default" : "variable.attack_time <= 0.0"
+						}
+					]
+				},
+				"attack3" : {
+					"animations" : [ "melee_attack3" ],
+					"transitions" : [
+						{ 
+							"default" : "variable.attack_time <= 0.0"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.lz_warden.default": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "animations": [
+                        "default"
+                    ],
+                    "transitions": [
+                        {
+                            "run": "query.ground_speed > 0.08"
+                        }
+                    ],
+                    "blend_transition": 0.75
+                },
+                "run": {
+                    "animations": [
+                        "run"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "query.ground_speed <= 0.08"
+                        }
+                    ],
+                    "blend_transition": 0.75
+                }
+            }
+        }
+	}
+}
