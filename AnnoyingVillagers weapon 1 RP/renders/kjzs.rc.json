@@ -1,0 +1,29 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.kjzs": {
+			"arrays": {
+				"textures": {
+					"Array.cracks": ["Texture.zs2", "Texture.zs1", "Texture.zs0", "Texture.default"]
+				}
+			},
+			"geometry": "Geometry.default",
+			"materials": [{
+				"*": "Material.armor"
+			}],
+			"textures": ["Array.cracks[math.clamp(query.health / 5, 0, 3)]"],
+			"is_hurt_color": {
+				"r": 0,
+				"b": 0,
+				"g": 0,
+				"a": 0
+			},
+			"on_fire_color": {
+				"r": 0,
+				"b": 0,
+				"g": 0,
+				"a": 0
+			}
+		}
+	}
+}

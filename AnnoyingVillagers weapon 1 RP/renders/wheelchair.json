@@ -1,0 +1,31 @@
+{
+	"format_version": "1.17.0",
+	"render_controllers": {
+		"controller.render.wheelchair": {
+			"arrays": {
+				"textures": {
+					"Array.wheelchairtype": [
+						"Texture.default",
+						"Texture.belled",
+						"Texture.bombed"
+					]
+				}
+			},
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"is_hurt_color": {
+				"r": 255,
+				"g": 255,
+				"b": 255,
+				"a": 0.22
+			},
+			"geometry": "geometry.default",
+			"textures": [
+				"array.wheelchairtype[query.mark_variant]"
+			]
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.glfjzs": {
+			"arrays": {
+				"textures": {
+					"Array.cracks": ["Texture.glfj2", "Texture.glfj1", "Texture.glfj0", "Texture.glfj"]
+				}
+			},
+			"geometry": "Geometry.default",
+			"materials": [{
+				"*": "Material.default"
+			}],
+			"textures": ["Array.cracks[math.clamp(query.health / 5, 0, 3)]"],
+			"is_hurt_color": {
+				"r": 0,
+				"b": 0,
+				"g": 0,
+				"a": 0
+			},
+			"on_fire_color": {
+				"r": 0,
+				"b": 0,
+				"g": 0,
+				"a": 0
+			}
+		}
+	}
+}

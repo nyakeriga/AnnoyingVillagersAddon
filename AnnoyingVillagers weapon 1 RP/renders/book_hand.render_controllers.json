@@ -1,0 +1,10 @@
+{
+  "format_version": "1.10",
+  "render_controllers": {
+    "controller.render.book_writable_hand": {
+      "geometry": "geometry.feather",
+      "materials": [ { "*": "variable.is_enchanted ? material.enchanted : material.feather" } ],
+      "textures": [ "texture.feather", "texture.enchanted" ]
+    }
+  }
+}
