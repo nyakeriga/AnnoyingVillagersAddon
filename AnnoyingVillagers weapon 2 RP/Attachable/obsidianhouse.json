@@ -1,0 +1,30 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "lz:obsidianhouse",
+			"materials": {
+				"default": "spider"
+			},
+			"textures": {
+        "default": "textures/entities/lz_obsidian",
+        "enchanted": "textures/misc/enchanted_item_glint"
+            },
+      "geometry": {
+        "default": "geometry.obsidianhouse"
+			},
+			"animation_controllers": [
+				{
+					"obsidianhouse": "controller.animation.obsidianhouse"
+				}
+			],
+			"animations": {
+				"rotation": "animation.obsidianhouse.summon"
+			},
+			"render_controllers": [
+				"controller.render.pillager"
+			],
+			 "enable_attachables": true
+		}
+	}
+}

@@ -1,0 +1,45 @@
+{
+  "format_version": "1.10",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "lz:zszr",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/entity/pamobile/lz_zszr",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.lz_zszr"
+      },
+      "animations": {
+        "wield_first_person": "animation.lz_zszr.first_person",
+        "wield_third_person": "animation.lz_zszr.third_person",
+        "attack": "controller.animation.lz_item",
+        "first_person_attack": "animation.lz_zszr.jx",
+        "third_person_attack": "controller.animation.jx"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.charge_amount = math.clamp((query.main_hand_item_max_duration - (query.main_hand_item_use_duration - query.frame_alpha + 1.0)) / 10.0, 0.0, 1.0f);"
+        ],
+        "animate": [
+          {
+            "wield_first_person": "c.is_first_person"
+          },
+          {
+            "wield_third_person": "!c.is_first_person"
+          },
+          {
+            "attack":"!q.is_in_ui"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.item_default"
+      ]
+    }
+  }
+}
