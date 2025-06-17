@@ -1,0 +1,22 @@
+{
+    "pools": [
+    {
+        "rolls": 100,
+      "entries": [
+                {
+          "type": "item",
+          "name": "lz:hys3",
+          "weight": 1,
+          "functions": [
+            {
+              "count": {
+                "min": 0,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
