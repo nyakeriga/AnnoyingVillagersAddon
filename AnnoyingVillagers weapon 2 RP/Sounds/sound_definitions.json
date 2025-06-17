@@ -1,0 +1,178 @@
+{
+    "sound.error": {
+    "sounds": [
+      {
+        "name": "sounds/error/error"
+      }
+    ]
+  },
+  "obsidianhouse": {
+    "sounds": [
+      {
+        "name": "sounds/obsidianhouse/obsidianhouse"
+      }
+    ]
+  },
+  "superhouseattack": {
+    "sounds": [
+      {
+        "name": "sounds/obsidianhouse/superhouseattack"
+      }
+    ]
+  },
+  "him3.summon": {
+    "sounds": [
+      {
+        "name": "sounds/him3/him3.summon"
+      }
+    ]
+  },
+  "trident_festival": {
+    "sounds": [
+      {
+        "name": "sounds/blue_demon/trident_festival"
+      }
+    ]
+  },
+  "attack.a": {
+    "sounds": [
+      {
+        "name": "sounds/attack/a/a0"
+      },
+      {
+        "name": "sounds/attack/a/a1"
+      },
+      {
+        "name": "sounds/attack/a/a2"
+      },
+      {
+        "name": "sounds/attack/a/a3"
+      },
+      {
+        "name": "sounds/attack/a/a4"
+      },
+      {
+        "name": "sounds/attack/a/a5"
+      },
+      {
+        "name": "sounds/attack/a/a6"
+      }
+    ]
+  },
+  "attack.b": {
+    "sounds": [
+      {
+        "name": "sounds/attack/b/b0"
+      },
+      {
+        "name": "sounds/attack/b/b1"
+      },
+      {
+        "name": "sounds/attack/b/b2"
+      },
+      {
+        "name": "sounds/attack/b/b3"
+      },
+      {
+        "name": "sounds/attack/b/b4"
+      },
+      {
+        "name": "sounds/attack/b/b5"
+      }
+    ]
+  },
+  "guns_attack.sq": {
+    "sounds": [
+      {
+        "name": "sounds/attack/guns/sq"
+      }
+    ]
+  },
+  "guns_attack.sdq": {
+    "sounds": [
+      {
+        "name": "sounds/attack/guns/sdq"
+      }
+    ]
+  },
+  "guns_attack.ak": {
+    "sounds": [
+      {
+        "name": "sounds/attack/guns/ak"
+      }
+    ]
+  },
+  "lz.cnm": {
+    "sounds": [
+      {
+        "name": "sounds/cnm"
+      }
+    ]
+  },
+  "lz.active": {
+    "sounds": [
+      {
+        "name": "sounds/effect/electify/active"
+      }
+    ]
+  },
+  "lz.standing": {
+    "sounds": [
+      {
+        "name": "sounds/effect/electify/standing"
+      }
+    ]
+  },
+  "lz.electify": {
+    "sounds": [
+      {
+        "name": "sounds/effect/electify/electify"
+      }
+    ]
+  },
+  "lz.ambient": {
+    "sounds": [
+      {
+        "name": "sounds/item/demo_volt_reaver/ambient"
+      }
+    ]
+  },
+  "lz.counterattack": {
+    "sounds": [
+      {
+        "name": "sounds/attack/counterattack"
+      }
+    ]
+  },
+  "lz.zeklmsf": {
+    "sounds": [
+      {
+        "name": "sounds/zeklm/zeklmsf"
+      }
+    ]
+  },
+  "lz.zrjx": {
+    "sounds": [
+      {
+        "name": "sounds/steve/zrjx"
+      }
+    ]
+  },
+  "lz.grave.say_die": {
+    "sounds": [
+      {
+        "name": "sounds/grave/die1"
+      },
+      {
+        "name": "sounds/grave/die2"
+      }
+    ]
+  },
+  "lz.scream": {
+    "sounds": [
+      {
+        "name": "sounds/item/demo_volt_reaver/scream"
+      }
+    ]
+  }
+}
