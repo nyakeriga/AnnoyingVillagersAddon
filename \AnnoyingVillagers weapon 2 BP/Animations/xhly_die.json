@@ -1,0 +1,17 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.xhly_die": {
+    "loop": true,
+      "animation_length": 2.01,
+      "timeline": {
+		"2": [
+			"/tag @a[tag=xhly] remove xhly"
+		],
+		"2.01": [
+			"/kill @s"
+		]
+      }
+    }
+  }
+}
