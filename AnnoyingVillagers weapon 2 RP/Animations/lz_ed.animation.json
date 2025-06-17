@@ -1,0 +1,39 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.lz_ed.first_person": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "animation.lz_ed.third_person": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  }
+}

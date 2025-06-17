@@ -1,0 +1,56 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.villagerqz.third_person": {
+			"loop": true,
+			"animation_length": 3,
+			"bones": {
+				"emerald": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"3.0": [0, -360, 0]
+					},
+					"position": {
+						"0.0": [0, -0.8, 0],
+						"1.5": [0, 0.4, 0],
+						"3.0": [0, -0.8, 0]
+					},
+					"scale": 0.8
+				},
+				"rightitem": {
+					"rotation": [90, 0, 0],
+					"position": [0, 1.5, 5]
+				},
+				"stick": {
+					"scale": [0.8, 1, 0.8]
+				}
+			}
+		},
+		"animation.villagerqz.first_person": {
+			"loop": true,
+			"animation_length": 3,
+			"bones": {
+				"emerald": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"3.0": [0, -360, 0]
+					},
+					"position": {
+						"0.0": [0, -0.8, 0],
+						"1.5": [0, 0.4, 0],
+						"3.0": [0, -0.8, 0]
+					},
+					"scale": 0.8
+				},
+				"rightitem": {
+					"rotation": [130.67276, 38.622, -17.21429],
+					"position": [2, 16.5, 10],
+					"scale": 1.2
+				},
+				"stick": {
+					"scale": [0.8, 1, 0.8]
+				}
+			}
+		}
+	}
+}

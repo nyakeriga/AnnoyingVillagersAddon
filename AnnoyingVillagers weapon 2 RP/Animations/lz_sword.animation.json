@@ -1,0 +1,162 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.lz_sword.first_person": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [39, 59.1, -54.3],
+					"position": [0, 7, 1]
+				}
+			}
+		},
+		"animation.lz_sword.third_person": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [37.5, -2, 0],
+					"position": [-0.3, 0, 3]
+				}
+			}
+		},
+		"animation.lz_dr.first_person": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [30.01334, 57.65302, -67.51604],
+					"position": [0, 7, 1]
+				}
+			}
+		},
+		"animation.lz_gj.first_person": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [39, 59.1, -54.3],
+					"position": [0, 5, 0]
+				}
+			}
+		},
+		"animation.lz_gj.third_person": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [20, -5, 0],
+					"position": [0, -2, 0]
+				}
+			}
+		},
+		"animation.lz_huge_axe.first_person": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [32, 51, -71.57517],
+					"position": [3, 11, -0.5]
+				}
+			}
+		},
+		"animation.cyzw.third_person": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [32.5, 0, 0],
+					"position": [0, -3, 7]
+				},
+				"bone": {
+					"rotation": [17.5, 0, 0],
+					"position": [0, -3, 2]
+			}
+		}
+	},
+	"animation.cyzw.first_person": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [42, 51, -71.57517],
+					"position": [2, 13, 8.5]
+				}
+			}
+	},
+	"animation.nczw.first_person": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [59.25323, 58.96993, -58.97504],
+					"position": [2, 12, 7]
+				}
+			}
+		},
+		"animation.nczw.third_person": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [40, 0, 0],
+					"position": [0, -2, 5]
+				},
+				"bone": {
+					"rotation": [17.5, 0, 0],
+					"position": [0, -3, 2]
+				}
+			}
+		},
+		"animation.lz_guns.first_person": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [76.5, 59.1, -54.3],
+					"position": [0, 7, 1]
+				}
+			}
+		},
+		"animation.lz_sq.third_person": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [90, 0, 0],
+					"position": [0, 3, 2]
+				}
+			}
+		},
+		"animation.lz_sdq.third_person": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [90, 0, 0],
+					"position": [0, 10, 0]
+				}
+			}
+		},
+		"animation.lz_guns2.first_person": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [76.5, 59.1, -54.3],
+					"position": [0, 6, 1],
+					"scale": 1.25
+				}
+			}
+		},
+		"animation.lz_ak.third_person": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [90, 0, 0],
+					"position": [0, 3, 0]
+				}
+			}
+		},
+		"animation.player.first_person.attack_rotation": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+				    "position": ["math.clamp(-15.5 * math.sin(variable.first_person_rotation_factor * variable.attack_time * 112.0), 12, 999.0) * math.sin(variable.first_person_rotation_factor * variable.attack_time * 112.0)", "math.clamp(2 * math.sin(variable.first_person_rotation_factor * variable.attack_time * 112.0), 3, 999.0) * math.sin(variable.first_person_rotation_factor * variable.attack_time * 110.0)", "math.sin(variable.first_person_rotation_factor * (1.0 - variable.attack_time) * (1.0 - variable.attack_time) * 28.0) * -10"],
+					"rotation": [ "math.sin(variable.first_person_rotation_factor * (1.0 - variable.attack_time) * (1.0 - variable.attack_time) * 200.0) * 10.0", "math.sin(variable.first_person_rotation_factor * (1.0 - variable.attack_time) * (1.0 - variable.attack_time) * 200.0) * -20", "math.sin(variable.first_person_rotation_factor * (1.0 - variable.attack_time) * (1.0 - variable.attack_time) * 200.0) * -100" ]
+				},
+				"rightarm": {
+					"position": [ "variable.is_holding_right ? 0.0 : math.clamp(-15.5 * math.sin(variable.first_person_rotation_factor * variable.attack_time * 112.0), -7.0, 999.0) * math.sin(variable.first_person_rotation_factor * variable.attack_time * 112.0)", "variable.is_holding_right ? 0.0 : math.sin(variable.first_person_rotation_factor * (1.0 - variable.attack_time) * (1.0 - variable.attack_time) * 200.0) * 7.5 - variable.first_person_rotation_factor * variable.attack_time * 15.0 + variable.short_arm_offset_right", "variable.is_holding_right ? 0.0 : math.sin(variable.first_person_rotation_factor * variable.attack_time * 120.0) * 1.75" ],
+					"rotation": [ "variable.is_holding_right ? 0.0 : math.sin(variable.first_person_rotation_factor * (1.0 - variable.attack_time) * (1.0 - variable.attack_time) * 280.0) * -60.0", "variable.is_holding_right ? 0.0 : math.sin(variable.first_person_rotation_factor * (1.0 - variable.attack_time) * (1.0 - variable.attack_time) * 280.0) * 40.0", "variable.is_holding_right ? 0.0 : math.sin(variable.first_person_rotation_factor * (1.0 - variable.attack_time) * (1.0 - variable.attack_time) * 280.0) * 20.0" ]
+			}
+		}
+	}
+  }
+}

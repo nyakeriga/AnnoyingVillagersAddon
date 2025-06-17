@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.table.first_person": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "position": [
+            15.0,
+            -2.0,
+            6.5
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    }
+  }
+}

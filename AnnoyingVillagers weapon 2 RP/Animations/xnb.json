@@ -1,0 +1,28 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.lz_xnb.first_person": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [42, 51, -71.57517],
+					"position": [2, 8, 2.5],
+					"scale": 1.5
+				}
+			}
+		},
+		"animation.lz_xnb.third_person": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [55, -5, 0],
+					"position": [0, 0, -2]
+				},
+				"bone": {
+					"rotation": [17.5, 0, 0],
+					"position": [0, -3, 2]
+				}
+			}
+		}
+	}
+}

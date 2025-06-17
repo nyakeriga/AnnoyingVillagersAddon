@@ -1,0 +1,94 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.lz_hys.first_person": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"rightitem": {
+					"rotation": [-30, 5, 40],
+					"position": [0, -5, 2],
+					"scale": 1.8
+				},
+				"bone": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"4.0": [0, -360, 0]
+					}
+				}
+			}
+		},
+		"animation.lz_hys.third_person": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"rightitem": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"4.0": [0, -360, 0]
+					},
+					"position": [0, 0, -5]
+				}
+			}
+		},
+    "animation.purple_obsidian_third_person.rotation": {
+			"loop": true,
+			"animation_length": 3,
+			"bones": {
+				"rightitem": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"3.0": [360, -360, 0]
+					},
+					"position": [0, 0, -5]
+				}
+			}
+		},
+		"animation.purple_obsidian_first_person.rotation": {
+			"loop": true,
+			"animation_length": 3,
+			"bones": {
+				"rightitem": {
+					"rotation": {
+						"0.0": [-35, -45, -180],
+						"3.0": [-35, -405, -540]
+					},
+					"position": [5, -2, -3.5],
+					"scale": [1.5, 1.5, 1.5]
+				}
+			}
+		},
+		"animation.purpleobsidian2.rotation": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.0": [360, -360, 0]
+					}
+				}
+			}
+		},
+		"animation.lz_jy.first_person": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [-30, 5, 40],
+					"position": [0, -5, 2],
+					"scale": 1.8
+				}
+			}
+		},
+		"animation.lz_jy.third_person": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"rightitem": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, -5]
+				}
+			}
+		}
+  }
+}
