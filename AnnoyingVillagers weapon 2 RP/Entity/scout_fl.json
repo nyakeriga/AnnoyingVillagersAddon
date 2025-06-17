@@ -1,0 +1,36 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "lz:villager_scout_fl",
+			"materials": {
+				"default": "spider"
+			},
+			"textures": {
+				"default": "textures/entities/villager/yellow_villager_fl"
+			},
+			"geometry": {
+				"default": "geometry.lz_villager_fl"
+			},
+			"spawn_egg": {
+				"texture": "spawn_egg",
+                "texture_index": 14
+			},
+			"animation_controllers": [
+				{ "villager": "controller.animation.villager" },
+				{ "look_at_target": "controller.animation.humanoid.look_at_target" }
+			],
+			"animations": {
+				"walk": "animation.lz_villager_fl.walk",
+				"run": "animation.lz_villager_fl.walk",
+				"default": "animation.lz_villager_fl.default",
+				"look_at_target_default": "animation.humanoid.look_at_target.default",
+        "look_at_target_gliding": "animation.humanoid.look_at_target.gliding.v1.0",
+        "look_at_target_swimming": "animation.humanoid.look_at_target.swimming.v1.0"
+			},
+			"render_controllers": [
+				"controller.render.pillager"
+			]
+		}
+	}
+}

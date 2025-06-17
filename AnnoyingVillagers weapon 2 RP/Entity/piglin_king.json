@@ -1,0 +1,40 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "lz:piglin_king",
+			"materials": {
+				"default": "spider"
+			},
+			"textures": {
+				"default": "textures/entities/piglin_king"
+			},
+			"geometry": {
+				"default": "geometry.piglin_king"
+			},
+			"spawn_egg": {
+				"texture": "piglin_king",
+				"texture_index": 0
+			},
+			"animation_controllers": [
+				{ "boss": "controller.animation.joe" },
+				{ "riding": "controller.animation.humanoid.riding" },
+				{ "look_at_target": "controller.animation.humanoid.look_at_target" }
+			],
+			"animations": {
+				"run": "animation.piglin_king.run",
+				"attack": "animation.piglin_king.attack",
+				"riding.arms": "animation.humanoid.riding.arms",
+				"riding.legs": "animation.humanoid.riding.legs",
+				"default": "animation.piglin_king.default",
+				"look_at_target_default": "animation.humanoid.look_at_target.default",
+        "look_at_target_gliding": "animation.humanoid.look_at_target.gliding.v1.0",
+        "look_at_target_swimming": "animation.humanoid.look_at_target.swimming.v1.0"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			 "enable_attachables": true
+		}
+	}
+}

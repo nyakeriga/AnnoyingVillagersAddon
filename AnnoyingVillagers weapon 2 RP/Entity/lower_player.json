@@ -1,0 +1,60 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+	  "description": {
+		"identifier": "lz:lower_player",
+		"materials": {
+		  "default": "spider"
+		},
+	    "textures": {
+		"default": "textures/player/lower/one",
+		"lowerplayer2": "textures/player/lower/two",
+        "lowerplayer3": "textures/player/lower/three",
+        "lowerplayer4": "textures/player/lower/four",
+        "lowerplayer5": "textures/player/lower/five",
+        "lowerplayer6": "textures/player/lower/six",
+        "lowerplayer7": "textures/player/lower/seven",
+        "lowerplayer8": "textures/player/lower/eight",
+        "lowerplayer9": "textures/player/lower/nine",
+        "lowerplayer10": "textures/player/lower/ten"
+			},
+        "geometry": {
+          "default": "geometry.humanmodel"
+        },
+        "spawn_egg": {
+                "texture": "spawn_egg",
+                "texture_index": 14
+            },
+			"animation_controllers": [
+				{ "player": "controller.animation.villager" },
+				{ "riding": "controller.animation.humanoid.riding" },
+				{ "look_at_target": "controller.animation.humanoid.look_at_target" },
+				{ "pillager": "controller.animation.pillager.attack" }
+			],
+			"animations": {
+				"walk": "animation.player.walk",
+				"run": "animation.villager.run",
+				"attack": "animation.grave.attack2",
+				"attack2": "animation.grave.attack2",
+				"attack3": "animation.villager.attack",
+        "crossbow_charge": "animation.pillager.crossbow.charge",
+				"riding.arms": "animation.humanoid.riding.arms",
+				"riding.legs": "animation.humanoid.riding.legs",
+				"default": "animation.player.default",
+				"look_at_target_default": "animation.humanoid.look_at_target.default",
+        "look_at_target_gliding": "animation.humanoid.look_at_target.gliding.v1.0",
+        "look_at_target_swimming": "animation.humanoid.look_at_target.swimming.v1.0"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+					"variable.lowerplayer = query.anim_time > 0 ? variable.lowerplayer : Math.Random(0,114);"
+				]
+			},
+			"render_controllers": [
+				"controller.render.lowerplayer"
+			],
+			 "enable_attachables": true
+		}
+	}
+}

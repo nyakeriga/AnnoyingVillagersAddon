@@ -1,0 +1,46 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:zombie",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "spider"
+      },
+      "textures": {
+        "default": "textures/entities/zombie"
+      },
+      "geometry": {
+        "default": "geometry.humanmodel"
+      },
+      "spawn_egg": {
+        "texture": "lz_zombie"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+        ]
+      },
+      "animations": {
+      "humanoid_big_head": "animation.humanoid.big_head",
+      "riding.arms": "animation.humanoid.riding.arms",
+        "riding.legs": "animation.humanoid.riding.legs",
+				"run": "animation.lz_zombie.run",
+				"attack": "animation.lz_zombie.attack",
+				"attack2": "animation.lz_zombie.attack",
+				"default": "animation.lz_zombie.default",
+				"look_at_target_default": "animation.humanoid.look_at_target.default",
+        "look_at_target_gliding": "animation.humanoid.look_at_target.gliding.v1.0",
+        "look_at_target_swimming": "animation.humanoid.look_at_target.swimming.v1.0"
+      },
+      "animation_controllers": [
+        { "zombie": "controller.animation.lz_zombie" },
+        { "humanoid_baby_big_head": "controller.animation.humanoid.baby_big_head" },
+        { "riding": "controller.animation.humanoid.riding" },
+        { "look_at_target": "controller.animation.humanoid.look_at_target" }
+      ],
+      "render_controllers": [ "controller.render.zombie" ],
+      "enable_attachables": true
+    }
+  }
+}

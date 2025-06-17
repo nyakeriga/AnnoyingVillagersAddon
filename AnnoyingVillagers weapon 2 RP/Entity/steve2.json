@@ -1,0 +1,43 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "lz:steve2",
+			"materials": {
+				"default": "spider"
+			},
+			"textures": {
+				"default": "textures/entities/lz_steve2"
+			},
+			"geometry": {
+				"default": "geometry.lz_steve"
+			},
+			"spawn_egg": {
+				"texture": "lz_steve",
+				"texture_index": 0
+			},
+			"animation_controllers": [
+				{ "steve": "controller.animation.steve2" },
+				{ "riding": "controller.animation.humanoid.riding" },
+				{ "look_at_target": "controller.animation.humanoid.look_at_target" }
+			],
+			"animations": {
+				"walk": "animation.steve.walk",
+				"run": "animation.steve.run",
+				"attack": "animation.steve2.attack",
+				"attack2": "animation.steve2.attack2",
+				"attack3": "animation.steve2.attack3",
+				"riding.arms": "animation.humanoid.riding.arms",
+				"riding.legs": "animation.humanoid.riding.legs",
+				"default": "animation.steve2.default",
+				"look_at_target_default": "animation.humanoid.look_at_target.default",
+        "look_at_target_gliding": "animation.humanoid.look_at_target.gliding.v1.0",
+        "look_at_target_swimming": "animation.humanoid.look_at_target.swimming.v1.0"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			 "enable_attachables": true
+		}
+	}
+}

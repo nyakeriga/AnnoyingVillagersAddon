@@ -1,0 +1,44 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+	  "description": {
+		"identifier": "lz:grave",
+		"materials": {
+		  "default": "spider"
+		},
+	    "textures": {
+          "default": "textures/entities/lz_grave"
+        },
+        "geometry": {
+          "default": "geometry.lz_grave"
+        },
+        "spawn_egg": {
+		  "texture": "lz_grave"
+	    },
+			"animation_controllers": [
+				{ "grave": "controller.animation.villager" },
+				{ "riding": "controller.animation.humanoid.riding" },
+				{ "look_at_target": "controller.animation.humanoid.look_at_target" },
+				{ "pillager": "controller.animation.pillager.attack" }
+			],
+			"animations": {
+				"walk": "animation.player.walk",
+				"run": "animation.fire.run",
+				"attack": "animation.grave.attack",
+				"attack2": "animation.grave.attack2",
+				"attack3": "animation.grave.attack3",
+        "crossbow_charge": "animation.pillager.crossbow.charge",
+				"riding.arms": "animation.humanoid.riding.arms",
+				"riding.legs": "animation.humanoid.riding.legs",
+				"default": "animation.player.default",
+				"swimming": "animation.player.swim",				"look_at_target_default": "animation.humanoid.look_at_target.default",
+        "look_at_target_gliding": "animation.humanoid.look_at_target.gliding.v1.0",
+        "look_at_target_swimming": "animation.humanoid.look_at_target.swimming.v1.0"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			 "enable_attachables": true
+		}
+	}
+}

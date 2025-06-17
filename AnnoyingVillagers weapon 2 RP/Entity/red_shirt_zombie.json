@@ -1,0 +1,42 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+	  "description": {
+		"identifier": "lz:red_shirt_zombie",
+		"materials": {
+		  "default": "spider"
+		},
+	    "textures": {
+          "default": "textures/entities/red_shirt_zombie"
+        },
+        "geometry": {
+          "default": "geometry.humanmodel"
+        },
+        "spawn_egg": {
+		  "texture": "lz_zombie"
+	    },
+		"animation_controllers": [
+		{ "lz_zombie": "controller.animation.lz_zombie" },
+        { "humanoid_baby_big_head": "controller.animation.humanoid.baby_big_head" },
+        { "riding": "controller.animation.humanoid.riding" },
+        { "look_at_target": "controller.animation.humanoid.look_at_target" }
+			],
+		"animations": {
+      "humanoid_big_head": "animation.humanoid.big_head",
+      "riding.arms": "animation.humanoid.riding.arms",
+        "riding.legs": "animation.humanoid.riding.legs",
+				"run": "animation.lz_zombie.run",
+				"attack": "animation.lz_zombie.attack",
+				"attack2": "animation.lz_zombie.attack",
+				"default": "animation.lz_zombie.default",
+				"look_at_target_default": "animation.humanoid.look_at_target.default",
+        "look_at_target_gliding": "animation.humanoid.look_at_target.gliding.v1.0",
+        "look_at_target_swimming": "animation.humanoid.look_at_target.swimming.v1.0"
+      },
+			"render_controllers": [
+				"controller.render.default"
+			],
+		"enable_attachables": true
+		}
+	}
+}

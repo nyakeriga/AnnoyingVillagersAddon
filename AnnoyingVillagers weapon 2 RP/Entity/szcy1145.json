@@ -1,0 +1,39 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "lz:szcy1145",
+			"materials": {
+				"default": "spider"
+			},
+			"textures": {
+				"default": "textures/entities/szcy1145"
+			},
+			"geometry": {
+				"default": "geometry.szcy1145"
+			},
+			"spawn_egg": {
+				"texture": "szcy1145",
+				"texture_index": 0
+			},
+			"animation_controllers": [
+				{
+					"him3": "controller.animation.him3"
+				}
+			],
+			"animations": {
+				"walk": "animation.steve.walk",
+				"run": "animation.him.run",
+				"attack": "animation.szcy1145.attack",
+				"default": "animation.humanmodel.default",
+				"look_at_target_default": "animation.humanoid.look_at_target.default",
+        "look_at_target_gliding": "animation.humanoid.look_at_target.gliding.v1.0",
+        "look_at_target_swimming": "animation.humanoid.look_at_target.swimming.v1.0"
+			},
+			"render_controllers": [
+				"controller.render.pillager"
+			],
+			 "enable_attachables": true
+		}
+	}
+}
