@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lz:potatoqz"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "__B",
+      "_A",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "xc:mfmg"
+      },
+      "B": {
+        "item": "minecraft:potato"
+      }
+    },
+    "result": {
+      "item": "lz:potatoqz",
+      "count": 1
+    }
+  }
+}

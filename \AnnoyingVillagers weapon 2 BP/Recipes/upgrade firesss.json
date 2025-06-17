@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lz:xhly_cmqsj"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "",
+      "ABA",
+      ""
+    ],
+    "key": {
+      "A": {
+        "item": "xc:lhdrq"
+      },
+      "B": {
+        "item": "lz:xhly"
+      }
+    },
+    "result": {
+      "item": "lz:xhly_cmqsj",
+      "count": 1
+    }
+  }
+}

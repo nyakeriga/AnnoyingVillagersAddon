@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lz:jy"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "lz:shadowobsidian",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "lz:jy",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "lz:mfzsxz"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "   ",
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "xc:dcdmfzs",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "lz:mfzsxz",
+      "count": 1
+    }
+  }
+}
