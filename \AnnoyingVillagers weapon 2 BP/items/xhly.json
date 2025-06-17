@@ -1,0 +1,140 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lz:xhly",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.sword"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "xhly"
+        }
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.sword"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:allow_off_hand": true,
+      "minecraft:foil": false,
+      "minecraft:durability": {
+        "max_durability": 4500,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "lz:red_diamond"
+            ],
+            "repair_amount": 600
+          },
+          {
+            "items": [
+              "lz:xhly"
+            ],
+            "repair_amount": "context.other->query.remaining_durability + 0.2 * context.other->query.max_durability"
+          }
+        ]
+      },
+      "minecraft:damage": 48,
+      "minecraft:enchantable": {
+        "value": 99,
+        "slot": "sword"
+      },
+      "minecraft:can_destroy_in_creative": true,
+      "minecraft:weapon": {
+        "on_hurt_entity": {
+          "event": "sweep_special"
+        },
+        "on_not_hurt_entity": {
+          "event": "hurt"
+        },
+        "on_hit_block": {
+          "event": "hurt"
+        }
+      },
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "on_use_event"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "§6Incinerate"
+      },
+      "minecraft:cooldown": {
+        "category": "xhly",
+        "duration": 15
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:is_katana",
+          "minecraft:is_tool"
+        ]
+      }
+    },
+    "events": {
+      "sweep_special": {
+        "sequence": [
+          {
+            "run_command": {
+              "command": [
+                "playsound attack.a @a[r=16] ~ ~ ~ 100 1 100",
+                "execute @s ~~~ particle lz:redjq ^^1.5^1.55"
+              ]
+            },
+            "damage": {
+              "type": "durability",
+              "amount": 1
+            }
+          }
+        ]
+      },
+      "on_use_event": {
+        "sequence": [
+          {
+            "run_command": {
+              "command": [
+                "function parry",
+                "tag @s add xhly",
+                "execute @e[tag=xhly] ~~~ summon lz:fire ^^^1",
+                "execute @e[tag=xhly] ~~~ summon lz:fire ^^^2",
+                "execute @e[tag=xhly] ~~~ summon lz:fire ^^^3",
+                "execute @e[tag=xhly] ~~~ summon lz:fire ^^^4",
+                "execute @e[tag=xhly] ~~~ summon lz:fire ^^^5",
+                "execute @e[tag=xhly] ~~~ summon lz:fire ^^^6",
+                "execute @e[tag=xhly] ~~~ summon lz:fire ^^^7",
+                "execute @e[tag=xhly] ~~~ summon lz:fire ^^^8",
+                "execute @e[tag=xhly] ~~~ summon lz:fire ^^^9",
+                "execute @e[tag=xhly] ~~~ summon lz:fire ^^^10",
+                "kill @e[type=lz:obsidianhouse]"
+              ],
+              "target": "self"
+            }
+          },
+          {
+            "damage": {
+              "type": "magic",
+              "amount": 1,
+              "target": "self"
+            }
+          }
+        ]
+      },
+      "hurt": {
+        "damage": {
+          "type": "magic",
+          "amount": 1,
+          "target": "self"
+        }
+      }
+    }
+  }
+}

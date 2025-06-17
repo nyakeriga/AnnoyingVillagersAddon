@@ -1,0 +1,55 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lz:mfzsht",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.leggings"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "lz_mfzsht"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 114,
+        "slot": "armor_legs"
+      },
+      "minecraft:durability": {
+        "max_durability": 19900,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:knockback_resistance": {
+        "protection": 0.5
+      },
+      "minecraft:mining_speed": 5,
+      "minecraft:foil": true,
+      "minecraft:hand_equipped": true,
+      "minecraft:wearable": {
+        "slot": "slot.armor.legs",
+        "protection": 50
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "xc:dcdmfzs",
+              "xc:cdzs"
+            ],
+            "repair_amount": 1200
+          }
+        ]
+      },
+      "minecraft:display_name": {
+        "value": "§bPure §dEnchanted §bDiamond Leggings"
+      }
+    }
+  }
+}
