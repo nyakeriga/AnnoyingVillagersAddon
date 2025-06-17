@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lz:magic_diamond",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "magic_diamond",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

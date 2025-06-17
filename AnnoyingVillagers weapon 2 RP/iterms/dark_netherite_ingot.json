@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lz:dark_netherite_ingot",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "dark_netherite_ingot",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

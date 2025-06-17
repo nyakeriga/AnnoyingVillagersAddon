@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lz:blue_villager_knight_chestplate",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "lz_blue_villager_knight_chestplate",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

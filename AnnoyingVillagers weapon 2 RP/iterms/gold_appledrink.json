@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "lz:gold_appledrink",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "gold_apple_drink",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}
