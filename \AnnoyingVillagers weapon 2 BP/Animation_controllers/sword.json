@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+	  "controller.animation.grave_sword": {
+		"states": {
+		  "default": {
+			"transitions": [
+						{ "sneaking":"query.health > 1" }
+						]
+				},
+	  "sneaking": {
+		"on_entry": [
+		"/execute @s ~~~ function grave_sword"
+		]
+				}
+			}
+		},
+		"controller.animation.blue_demon_scj": {
+		"states": {
+		  "default": {
+			"transitions": [
+						{ "sneaking":"query.health > 1" }
+						]
+				},
+	  "sneaking": {
+		"on_entry": [
+		"/execute @s ~~~ function blue_demon_scj"
+		]
+				}
+			}
+		}
+	}
+}

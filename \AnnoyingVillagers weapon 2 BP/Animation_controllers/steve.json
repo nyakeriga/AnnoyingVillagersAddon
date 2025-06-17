@@ -1,0 +1,38 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+	  "controller.animation.steve": {
+		"states": {
+		  "default": {
+			"transitions": [
+						{ "sneaking":"query.health < 200" }
+						]
+				},
+	  "sneaking": {
+		"on_entry": [
+		"/replaceitem entity @e[type=lz:steve,r=2,c=1] slot.weapon.mainhand 0 lz:zszr",
+		"/say §e我不敢相信我会在这里用上这把刀……",
+		"/effect @e[type=lz:steve,r=2,c=1] speed 99999 0 true"
+		]
+				}
+			}
+		},
+		"controller.animation.two_stages": {
+		"states": {
+		  "default": {
+			"transitions": [
+						{ "sneaking":"query.health < 20" }
+						]
+				},
+	  "sneaking": {
+		"on_entry": [
+		"/say §e给你脸给多了",
+		"/effect @e[type=lz:steve,r=2,c=1] invisibility 99999 255 true",
+		"/summon lz:steve2",
+		"/kill @s"
+		]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+	  "controller.animation.blue_villager_knight_sword": {
+		"states": {
+		  "default": {
+			"transitions": [
+						{ "sneaking":"query.health > 1" }
+						]
+				},
+	  "sneaking": {
+		"on_entry": [
+		"/execute @s ~~~ function blue_villager_knight_sword"
+		]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,88 @@
+{
+  "format_version":"1.16.100",
+  "animation_controllers":{
+    "controller.animation.eatjpg2": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "change": "variable.attack_time"
+                        }
+                    ]
+                },
+                "change": {
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ],
+                    "on_entry": [
+                      "/scoreboard players random @s cjpg 1 32",
+                      "/execute @s[tag=!entity_eat,scores={cjpg=16}] ~~~ tag @s add entity_eat",
+		"/playanimation @s[tag=entity_eat] animation.humanmodel.eat default 1.5",
+		"/scoreboard players set @s[tag=entity_eat] entity_eat 0"
+                    ]
+              }
+          }
+      },
+      "controller.animation.grave_sidestep": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "change": "variable.attack_time"
+                        }
+                    ]
+                },
+                "change": {
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ],
+                    "on_entry": [
+                      "/execute @s ~~~ function grave_sidestep"
+                    ]
+              }
+          }
+      },
+      "controller.animation.blue_demon_sidestep": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "change": "variable.attack_time"
+                        }
+                    ]
+                },
+                "change": {
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ],
+                    "on_entry": [
+                      "/scoreboard players random @s sidestep 0 20",
+                      "/execute @s[scores={sidestep=3}] ~~~ tp ^^0.5^-2.4 true",
+                      "/execute @s[scores={sidestep=6}] ~~~ tp ^-2^0.1^ true",
+                      "/execute @s[scores={sidestep=9}] ~~~ tp ^2^0.1^ true",
+                      "/execute @s[scores={sidestep=12}] ~~~ tp ^^0.8^2.5 true",
+                      "/effect @s[scores={sidestep=0}] speed 3 3 true",
+                      "tag @s[scores={sidestep=16}] add tc",
+                      "/execute @s[scores={sidestep=16}] ~~~ tp ^^0.2^1 true",
+                      "/execute @s[scores={sidestep=16}] ~~~ damage @e[tag=!tc,type=!item,type=!xp_orb,type=!armor_stand,r=3] 45 entity_attack entity @s",
+                      "/execute @s[scores={sidestep=16}] ~~~ tp ^^0.2^1 true",
+                      "/execute @s[scores={sidestep=16}] ~~~ damage @e[tag=!tc,type=!item,type=!xp_orb,type=!armor_stand,r=3] 45 entity_attack entity @s",
+                      "/execute @s[scores={sidestep=16}] ~~~ tp ^^0.2^1 true",
+                      "/execute @s[scores={sidestep=16}] ~~~ damage @e[tag=!tc,type=!item,type=!xp_orb,type=!armor_stand,r=3] 45 entity_attack entity @s",
+                      "/execute @s[scores={sidestep=16}] ~~~ tp ^^0.2^1 true",
+                      "/execute @s[scores={sidestep=16}] ~~~ damage @e[tag=!tc,type=!item,type=!xp_orb,type=!armor_stand,r=3] 45 entity_attack entity @s",
+                      "/effect @s[scores={sidestep=16}] strength 3 1 true",
+                      "/execute @s[scores={sidestep=20}] ~~~ summon lz:lemscj ^^1^1",
+                      "/tag @s remove tc"
+                    ]
+              }
+          }
+      }
+  }
+}

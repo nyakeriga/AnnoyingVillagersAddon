@@ -1,0 +1,51 @@
+{
+  "format_version":"1.16.100",
+  "animation_controllers":{
+    "controller.animation.parry": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "change": "variable.attack_time"
+                        }
+                    ]
+                },
+                "change": {
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ],
+                    "on_entry": [
+                      "/scoreboard players random @s parry 1 10",
+                      "/execute @s[scores={parry=10}] ~~~ function parry"
+                    ]
+              }
+          }
+      },
+      "controller.animation.counterattack": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "hurting": "query.hurt_time"
+                        }
+                    ]
+                },
+                "hurting": {
+                    "transitions": [
+                        {
+                            "default" : "(1.0)"
+                        }
+                    ],
+                    "on_entry": [
+                      "/effect @s[scores={parry=10}] strength 1 2 true",
+                      "/execute @s[scores={parry=10}] ~~~ playsound lz.counterattack @a[r=16] ~~~ 100 0.9 100",
+                      "/execute @s[scores={parry=10}] ~~~ title @a[r=16] actionbar §cParry!",
+                      "/scoreboard players set @s parry 0"
+                    ]
+              }
+          }
+      }
+  }
+}

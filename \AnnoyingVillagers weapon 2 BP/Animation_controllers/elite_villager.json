@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+	  "controller.animation.elite_scout": {
+		"states": {
+		  "default": {
+			"transitions": [
+						{ "sneaking":"query.health > 110" }
+						]
+				},
+	  "sneaking": {
+		"on_entry": [
+		"/tag @s add elite_villager",
+		"/execute @s ~~~ function villager_say",
+		"/execute @s ~~~ function villager_armor"
+		]
+				}
+			}
+		}
+	}
+}

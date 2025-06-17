@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+	  "controller.animation.elite_scout2": {
+		"states": {
+		  "default": {
+			"transitions": [
+						{ "sneaking":"query.health < 20" }
+						]
+				},
+	  "sneaking": {
+		"on_entry": [
+		"/execute @s[tag=elite_villager] ~~~ summon lz:summon_villager_scout ~~1~",
+		"/effect @s[tag=elite_villager] strength 10 0 true"
+		]
+				}
+			}
+		},
+		"controller.animation.villagerfl": {
+		"states": {
+		  "default": {
+			"transitions": [
+						{ "sneaking":"query.health < 30" }
+						]
+				},
+	  "sneaking": {
+		"on_entry": [
+		"/summon fireworks_rocket",
+		"/event entity @s lz:fl"
+		]
+				}
+			}
+		}
+	}
+}

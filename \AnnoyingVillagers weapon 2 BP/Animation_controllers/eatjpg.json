@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+	  "controller.animation.eatjpg": {
+		"states": {
+		  "default": {
+			"transitions": [
+						{ "sneaking":"query.health < 60" }
+						]
+				},
+	  "sneaking": {
+		"on_entry": [
+		"/tag @s add entity_eat",
+		"/effect @s slowness 1 255 true",
+		"/playanimation @s animation.humanmodel.eat default 1.5"
+		]
+				}
+			}
+		}
+	}
+}

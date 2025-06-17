@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+	  "controller.animation.lz_warden": {
+		"states": {
+		  "default": {
+			"transitions": [
+						{ "sneaking":"query.health > 1" }
+						]
+				},
+	  "sneaking": {
+		"on_entry": [
+		"/event entity @s minecraft:spawn_emerging",
+		"/event entity @s lz:sonic_boom"
+		]
+				}
+			}
+		}
+	}
+}

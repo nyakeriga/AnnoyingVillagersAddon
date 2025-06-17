@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+	  "controller.animation.lz_dragon.die": {
+		"states": {
+		  "default": {
+			"transitions": [
+						{ "sneaking":"query.health < 1" }
+						]
+				},
+	  "sneaking": {
+		"on_entry": [
+		"/setblock ~~-1~ dragon_egg keep",
+		"/say player! You will die here!"
+		]
+				}
+			}
+		}
+	}
+}
